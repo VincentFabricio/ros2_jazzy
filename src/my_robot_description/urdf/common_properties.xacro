@@ -8,12 +8,12 @@
         <color rgba="1 0 0 1" />
     </material>
     
-    <xacro:macro name="box__collition_inertia" params="m x y z o_xyz o_rpy">
+    <xacro:macro name="box_collition_inertia" params="m x y z o_xyz o_rpy">
         <collision>
             <geometry>
                 <box size="${x} ${y} ${z}" />
             </geometry>
-            <origin xyz="0 0 ${z/2.0}" rpy="0 0 0" />
+            <origin xyz="0 0 ${z / 2.0}" rpy="0 0 0" />
         </collision>
         <inertial>
             <mass value="${m}"/>
@@ -27,12 +27,11 @@
 
     <xacro:macro name="cylinder_collition_inertia" params="m r l o_xyz o_rpy">
         <collision>
-            <geometry>
-                <sphere radius="${r}" />
-                    
-            </geometry>
-            <origin xyz="0.0 0.0 0.0" rpy= "0 0 0" />
-        </collision>
+                <geometry>
+                    <sphere radius="${r}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+            </collision>
         <inertial>
             <mass value="${m}"/>
             <origin xyz="${o_xyz}" rpy="${o_rpy}"/>
@@ -46,10 +45,9 @@
     <xacro:macro name="sphere_collition_inertia" params="m r o_xyz o_rpy">
         <collision>
             <geometry>
-                <sphere radius="${r}" />
-                
+                <sphere radius="${wheel_radius / 2.0}" />
             </geometry>
-            <origin xyz="0 0 0" rpy= "0 0 0" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
         <inertial>
             <mass value="${m}"/>
