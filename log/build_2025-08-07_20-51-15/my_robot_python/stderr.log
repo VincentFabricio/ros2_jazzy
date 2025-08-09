@@ -1,0 +1,5 @@
+  File "/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot.py", line 14
+    self.counter1 + =1
+                    ^
+SyntaxError: invalid syntax
+

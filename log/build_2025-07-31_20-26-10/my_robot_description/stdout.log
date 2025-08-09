@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/my_robot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/arm.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base_Vinc.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gz.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_arm.urdf.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/test.urdf
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display2.launch.py
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display2.launch.xml
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/my_arm_display.launch.xml
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/path.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/path.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.bash
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.zsh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/package.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/package.xml

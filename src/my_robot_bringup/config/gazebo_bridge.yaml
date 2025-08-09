@@ -1,3 +1,4 @@
+# https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge
 - ros_topic_name: "/clock"
   gz_topic_name: "/clock"
   ros_type_name: "rosgraph_msgs/msg/Clock"
@@ -21,3 +22,33 @@
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "gz.msgs.Twist"
   direction: ROS_TO_GZ
+
+- ros_topic_name: "/camera/camera_info"
+  gz_topic_name: "/camera/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "gz.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/camera/image_raw"
+  gz_topic_name: "/camera/image_raw"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/joint0/cmd_pos"
+  gz_topic_name: "/model/my_robot/joint/first_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/joint1/cmd_pos"
+  gz_topic_name: "/model/my_robot/joint/second_joint/0/cmd_pos"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+# - ros_topic_name: ""
+#   gz_topic_name: ""
+#   ros_type_name: ""
+#   gz_type_name: ""
+#   direction: ROS_TO_GZ
