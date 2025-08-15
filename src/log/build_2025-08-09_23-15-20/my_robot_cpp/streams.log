@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp -- -j8 -l8
+[0.052s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.369s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.407s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.730s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.920s] -- Configuring done (0.9s)
+[0.946s] -- Generating done (0.0s)
+[0.951s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp
+[1.024s] [100%] Built target my_robot_differential_cpp
+[1.037s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp -- -j8 -l8
+[1.049s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp
+[1.061s] -- Install configuration: ""
+[1.062s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/lib/my_robot_cpp/my_robot_differential_cpp
+[1.063s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_cpp
+[1.064s] -- Installing: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_cpp
+[1.064s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.sh
+[1.064s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.dsv
+[1.064s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/environment/path.sh
+[1.065s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/environment/path.dsv
+[1.065s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/local_setup.bash
+[1.066s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/local_setup.sh
+[1.066s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/local_setup.zsh
+[1.066s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/local_setup.dsv
+[1.066s] -- Installing: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/package.dsv
+[1.067s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/ament_index/resource_index/packages/my_robot_cpp
+[1.067s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig.cmake
+[1.067s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig-version.cmake
+[1.067s] -- Up-to-date: /home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp/share/my_robot_cpp/package.xml
+[1.069s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp

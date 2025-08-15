@@ -1,0 +1,18 @@
+[4.811s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_jazzy/build/my_robot_python/build --no-deps symlink_data
+[6.447s] running develop
+[7.458s] running egg_info
+[7.524s] writing my_robot_python.egg-info/PKG-INFO
+[7.525s] writing dependency_links to my_robot_python.egg-info/dependency_links.txt
+[7.528s] writing entry points to my_robot_python.egg-info/entry_points.txt
+[7.531s] writing requirements to my_robot_python.egg-info/requires.txt
+[7.533s] writing top-level names to my_robot_python.egg-info/top_level.txt
+[7.697s] reading manifest file 'my_robot_python.egg-info/SOURCES.txt'
+[7.701s] writing manifest file 'my_robot_python.egg-info/SOURCES.txt'
+[7.805s] running build_ext
+[7.805s] Creating /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my-robot-python.egg-link (link to .)
+[7.812s] Installing my_robot_j0_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[7.814s] Installing my_robot_j1_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[7.815s] 
+[7.816s] Installed /home/vincent-pc/ros2_jazzy/build/my_robot_python
+[7.818s] running symlink_data
+[7.933s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_jazzy/build/my_robot_python/build --no-deps symlink_data

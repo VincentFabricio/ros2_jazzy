@@ -1,0 +1,17 @@
+[0.020s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_cpp -- -j8 -l8
+[0.070s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.320s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.368s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.482s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.639s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.777s] -- Configuring done (0.7s)
+[0.796s] -- Generating done (0.0s)
+[0.801s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/my_robot_cpp
+[0.838s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o[0m
+[0.865s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o[0m

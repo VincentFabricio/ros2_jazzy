@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_robot_py = my_robot_python.my_robot:main"
+            "my_robot_j0_py = my_robot_python.my_robot_joint0:main",
+            "my_robot_j1_py = my_robot_python.my_robot_joint1:main",
         ],
     },
 )

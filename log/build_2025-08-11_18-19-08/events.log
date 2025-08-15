@@ -1,0 +1,676 @@
+[0.000000] (-) TimerEvent: {}
+[0.001017] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001487] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.001765] (-) JobUnselected: {'identifier': 'my_robot_python'}
+[0.001886] (my_robot_cpp) JobQueued: {'identifier': 'my_robot_cpp', 'dependencies': OrderedDict()}
+[0.001983] (my_robot_cpp) JobStarted: {'identifier': 'my_robot_cpp'}
+[0.029703] (my_robot_cpp) JobProgress: {'identifier': 'my_robot_cpp', 'progress': 'cmake'}
+[0.030884] (my_robot_cpp) JobProgress: {'identifier': 'my_robot_cpp', 'progress': 'build'}
+[0.032452] (my_robot_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp', '--', '-j8', '-l8'], 'cwd': '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2962-0-vincent-pc-Aspire-A315-57G_TIME38805', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vincent-pc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vincent-pc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2671', 'SYSTEMD_EXEC_PID': '2962', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4098', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vincent-pc', 'JOURNAL_STREAM': '9:18351', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vincent-pc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vincent-pc-Aspire-A315-57G:@/tmp/.ICE-unix/2908,unix/vincent-pc-Aspire-A315-57G:/tmp/.ICE-unix/2908', 'INVOCATION_ID': 'd4024b0688424e05ae0e686df079bf53', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4WK0A3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ab2c9d9e-e247-4c77-8592-b2e8e9243994', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy'}), 'shell': False}
+[0.099204] (-) TimerEvent: {}
+[0.199695] (-) TimerEvent: {}
+[0.228375] (my_robot_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o\x1b[0m\n'}
+[0.230505] (my_robot_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o\x1b[0m\n'}
+[0.300335] (-) TimerEvent: {}
+[0.400859] (-) TimerEvent: {}
+[0.501622] (-) TimerEvent: {}
+[0.602205] (-) TimerEvent: {}
+[0.703091] (-) TimerEvent: {}
+[0.803756] (-) TimerEvent: {}
+[0.904211] (-) TimerEvent: {}
+[1.004703] (-) TimerEvent: {}
+[1.107190] (-) TimerEvent: {}
+[1.207954] (-) TimerEvent: {}
+[1.309065] (-) TimerEvent: {}
+[1.409642] (-) TimerEvent: {}
+[1.510210] (-) TimerEvent: {}
+[1.610730] (-) TimerEvent: {}
+[1.711251] (-) TimerEvent: {}
+[1.811756] (-) TimerEvent: {}
+[1.912767] (-) TimerEvent: {}
+[2.013525] (-) TimerEvent: {}
+[2.114452] (-) TimerEvent: {}
+[2.215394] (-) TimerEvent: {}
+[2.316228] (-) TimerEvent: {}
+[2.416803] (-) TimerEvent: {}
+[2.517383] (-) TimerEvent: {}
+[2.617935] (-) TimerEvent: {}
+[2.718583] (-) TimerEvent: {}
+[2.819002] (-) TimerEvent: {}
+[2.919440] (-) TimerEvent: {}
+[3.019926] (-) TimerEvent: {}
+[3.120529] (-) TimerEvent: {}
+[3.220998] (-) TimerEvent: {}
+[3.322246] (-) TimerEvent: {}
+[3.422828] (-) TimerEvent: {}
+[3.523432] (-) TimerEvent: {}
+[3.623926] (-) TimerEvent: {}
+[3.725142] (-) TimerEvent: {}
+[3.825746] (-) TimerEvent: {}
+[3.926312] (-) TimerEvent: {}
+[4.026876] (-) TimerEvent: {}
+[4.127414] (-) TimerEvent: {}
+[4.228221] (-) TimerEvent: {}
+[4.328771] (-) TimerEvent: {}
+[4.429352] (-) TimerEvent: {}
+[4.530638] (-) TimerEvent: {}
+[4.631304] (-) TimerEvent: {}
+[4.732334] (-) TimerEvent: {}
+[4.832911] (-) TimerEvent: {}
+[4.933449] (-) TimerEvent: {}
+[5.033961] (-) TimerEvent: {}
+[5.134542] (-) TimerEvent: {}
+[5.235229] (-) TimerEvent: {}
+[5.335748] (-) TimerEvent: {}
+[5.436227] (-) TimerEvent: {}
+[5.536667] (-) TimerEvent: {}
+[5.637174] (-) TimerEvent: {}
+[5.737689] (-) TimerEvent: {}
+[5.838223] (-) TimerEvent: {}
+[5.938773] (-) TimerEvent: {}
+[6.039224] (-) TimerEvent: {}
+[6.139719] (-) TimerEvent: {}
+[6.240241] (-) TimerEvent: {}
+[6.340810] (-) TimerEvent: {}
+[6.441291] (-) TimerEvent: {}
+[6.541809] (-) TimerEvent: {}
+[6.642423] (-) TimerEvent: {}
+[6.743138] (-) TimerEvent: {}
+[6.844142] (-) TimerEvent: {}
+[6.944721] (-) TimerEvent: {}
+[7.045277] (-) TimerEvent: {}
+[7.145779] (-) TimerEvent: {}
+[7.246379] (-) TimerEvent: {}
+[7.346973] (-) TimerEvent: {}
+[7.447417] (-) TimerEvent: {}
+[7.547947] (-) TimerEvent: {}
+[7.648453] (-) TimerEvent: {}
+[7.748988] (-) TimerEvent: {}
+[7.849512] (-) TimerEvent: {}
+[7.950348] (-) TimerEvent: {}
+[8.050867] (-) TimerEvent: {}
+[8.151381] (-) TimerEvent: {}
+[8.162191] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyRobotNode::\x1b[01;32m\x1b[Ksubscriber_callback\x1b[m\x1b[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.164168] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[8.164997] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((\x1b[32m\x1b[Kmsg\x1b[m\x1b[K \x1b[01;31m\x1b[K==\x1b[m\x1b[K \x1b[34m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.166599] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[32m\x1b[K~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[8.167742] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[8.169583] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[Kconst char [7]\x1b[m\x1b[K\n'}
+[8.170809] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr {aka const std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}\x1b[m\x1b[K\n'}
+[8.171388] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:65\x1b[m\x1b[K,\n'}
+[8.172569] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[8.173502] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:1\x1b[m\x1b[K:\n'}
+[8.174314] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/allocator.h:237:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const allocator<_Tp1>&, const allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.175288] (my_robot_cpp) StderrLine: {'line': b'  237 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[8.175791] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.176253] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/allocator.h:237:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.176663] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.177046] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.177356] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.177647] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_tempbuf.h:62\x1b[m\x1b[K,\n'}
+[8.177986] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:66\x1b[m\x1b[K:\n'}
+[8.178302] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:812:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const pair<_T1, _T2>&, const pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.178613] (my_robot_cpp) StderrLine: {'line': b'  812 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[8.181804] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.182457] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_pair.h:812:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.182840] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.183458] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.183936] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.184201] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[8.184525] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_uninitialized.h:63\x1b[m\x1b[K,\n'}
+[8.184713] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:69\x1b[m\x1b[K:\n'}
+[8.184869] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.185092] (my_robot_cpp) StderrLine: {'line': b'  448 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[8.185267] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.185588] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.185836] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.186088] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.186274] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.186430] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.186708] (my_robot_cpp) StderrLine: {'line': b'  493 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[8.187006] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.187204] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:493:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.187365] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.187559] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.187846] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.188102] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.188300] (my_robot_cpp) StderrLine: {'line': b' 1678 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[8.188458] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.188626] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.188944] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.189243] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.189497] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.189726] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.190006] (my_robot_cpp) StderrLine: {'line': b' 1748 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[8.190311] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.190636] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.190805] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.191000] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.191245] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.191557] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[8.191857] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:78\x1b[m\x1b[K:\n'}
+[8.192055] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.192280] (my_robot_cpp) StderrLine: {'line': b' 1919 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[8.192599] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.192881] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.193103] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_UTypes ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.193286] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.193460] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.193758] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:829:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.194110] (my_robot_cpp) StderrLine: {'line': b'  829 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[8.194364] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.194529] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:829:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.194688] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.194848] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.195086] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.195393] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unique_ptr<_Tp, _Dp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.195711] (my_robot_cpp) StderrLine: {'line': b'  837 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[8.195919] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.196079] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.196235] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.196451] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.196756] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.197124] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:845:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.197315] (my_robot_cpp) StderrLine: {'line': b'  845 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[8.197473] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.197627] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:845:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.197866] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.198209] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.198508] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.198810] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/iosfwd:42\x1b[m\x1b[K,\n'}
+[8.199164] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[8.199462] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K:\n'}
+[8.199763] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/postypes.h:192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const fpos<_StateT>&, const fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.200124] (my_robot_cpp) StderrLine: {'line': b'  192 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[8.200468] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.200787] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/postypes.h:192:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.201136] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.201379] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.201564] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.201769] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K:\n'}
+[8.202075] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.202384] (my_robot_cpp) StderrLine: {'line': b' 1793 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[8.202715] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.203033] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.203336] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp2, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.203649] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.203956] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.204314] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __shared_ptr<_Tp, _Lp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.204625] (my_robot_cpp) StderrLine: {'line': b' 1799 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[8.204940] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.205251] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.205655] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"diffok"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.206128] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.206476] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.206801] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const __shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.207153] (my_robot_cpp) StderrLine: {'line': b' 1819 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[8.207453] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.207749] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.208073] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.208373] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.208678] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.209002] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.209399] (my_robot_cpp) StderrLine: {'line': b'  555 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[8.209698] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.210045] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.210398] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.210720] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.211133] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.211444] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:561:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const shared_ptr<_Tp>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.211755] (my_robot_cpp) StderrLine: {'line': b'  561 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[8.212115] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.212421] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:561:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.212703] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K"diffok"\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.213079] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.213393] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.213743] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:582:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.214116] (my_robot_cpp) StderrLine: {'line': b'  582 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[8.214325] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.214483] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:582:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.214652] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.214815] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.215007] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.215308] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:47\x1b[m\x1b[K,\n'}
+[8.215601] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/string:54\x1b[m\x1b[K,\n'}
+[8.215914] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18\x1b[m\x1b[K,\n'}
+[8.216210] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[8.216489] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.216783] (my_robot_cpp) StderrLine: {'line': b'  609 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[8.217145] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.217436] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.217762] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.218089] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.218375] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.218678] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:616:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.219069] (my_robot_cpp) StderrLine: {'line': b'  616 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[8.219446] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.219737] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:616:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.220061] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.220292] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.220669] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.221001] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:642:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.221266] (my_robot_cpp) StderrLine: {'line': b'  642 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[8.221578] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.221871] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/string_view:642:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.222088] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.222266] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.222428] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.222723] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3710:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.223054] (my_robot_cpp) StderrLine: {'line': b' 3710 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[8.223314] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.223474] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3710:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.223629] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.223792] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.224064] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.224359] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3727:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.224655] (my_robot_cpp) StderrLine: {'line': b' 3727 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[8.224862] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.225039] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3727:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.225197] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.225372] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.225529] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.225867] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3774:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.226173] (my_robot_cpp) StderrLine: {'line': b' 3774 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[8.226413] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.226587] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3774:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.226751] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.227052] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.227288] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.227523] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:66\x1b[m\x1b[K,\n'}
+[8.227703] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19\x1b[m\x1b[K:\n'}
+[8.227863] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:2040:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.228162] (my_robot_cpp) StderrLine: {'line': b' 2040 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[8.228492] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.228775] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:2040:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.229099] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.229388] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.229680] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.229991] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:12\x1b[m\x1b[K,\n'}
+[8.230282] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[8.230589] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[8.230866] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/array:297:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.231178] (my_robot_cpp) StderrLine: {'line': b'  297 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[8.231446] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.231625] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/array:297:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.231828] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.232038] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.232207] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.232434] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[8.232744] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[8.233078] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:46\x1b[m\x1b[K,\n'}
+[8.233253] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/istream:40\x1b[m\x1b[K,\n'}
+[8.233403] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/sstream:40\x1b[m\x1b[K,\n'}
+[8.233614] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:13\x1b[m\x1b[K,\n'}
+[8.233932] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9\x1b[m\x1b[K:\n'}
+[8.234170] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const istreambuf_iterator<_CharT, _Traits>&, const istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.234342] (my_robot_cpp) StderrLine: {'line': b'  234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[8.234503] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.234665] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.235014] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.235423] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.235635] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.235802] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/functional:59\x1b[m\x1b[K,\n'}
+[8.235990] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19\x1b[m\x1b[K,\n'}
+[8.236319] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[8.236568] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K:\n'}
+[8.236865] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:737:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const function<_Res(_ArgTypes ...)>&, nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.237159] (my_robot_cpp) StderrLine: {'line': b'  737 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[8.237425] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.237713] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:737:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.238096] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.238510] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.238951] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.239304] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:744:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullptr_t, const function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.239647] (my_robot_cpp) StderrLine: {'line': b'  744 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[8.240011] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.240306] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_function.h:744:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.240651] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.241009] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.241366] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.241788] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/unordered_map:41\x1b[m\x1b[K,\n'}
+[8.242130] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/functional:63\x1b[m\x1b[K:\n'}
+[8.242439] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.242754] (my_robot_cpp) StderrLine: {'line': b' 2143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[8.243063] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.243353] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.243676] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.244025] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.244336] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.244641] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.245015] (my_robot_cpp) StderrLine: {'line': b' 2157 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[8.245381] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.245723] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:2157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.246104] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.246515] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.246860] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.247186] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/unordered_set:41\x1b[m\x1b[K,\n'}
+[8.247499] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[8.247813] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24\x1b[m\x1b[K:\n'}
+[8.248128] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.248416] (my_robot_cpp) StderrLine: {'line': b' 1813 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[8.248582] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.248834] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.249164] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.249512] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.249801] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.250114] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1827:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.250413] (my_robot_cpp) StderrLine: {'line': b' 1827 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[8.250732] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.251061] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_set.h:1827:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.251339] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.251655] (-) TimerEvent: {}
+[8.251961] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.252323] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.252600] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/set:63\x1b[m\x1b[K,\n'}
+[8.252949] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[8.253257] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.253559] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[8.253906] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_set.h:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.254214] (my_robot_cpp) StderrLine: {'line': b'  987 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[8.254510] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.254814] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_set.h:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.255160] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.255510] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.255828] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.256619] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/set:64\x1b[m\x1b[K:\n'}
+[8.257009] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multiset.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.257347] (my_robot_cpp) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[8.257651] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.258056] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multiset.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.258349] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.258676] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.259097] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.259378] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/list:65\x1b[m\x1b[K,\n'}
+[8.259663] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[8.260023] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K:\n'}
+[8.260413] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_list.h:2123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.261189] (my_robot_cpp) StderrLine: {'line': b' 2123 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[8.261718] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.262380] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_list.h:2123:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.263178] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.263995] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.264619] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.265087] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/map:63\x1b[m\x1b[K,\n'}
+[8.265498] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K:\n'}
+[8.265989] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_map.h:1513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.266439] (my_robot_cpp) StderrLine: {'line': b' 1513 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[8.266812] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.267200] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_map.h:1513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.267540] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.267874] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.268380] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.268691] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/map:64\x1b[m\x1b[K:\n'}
+[8.269019] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.269324] (my_robot_cpp) StderrLine: {'line': b' 1134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[8.269562] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.269851] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.270466] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.270925] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.271305] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.271699] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[8.272055] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.272385] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.272676] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.273006] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.273198] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[8.273376] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K:\n'}
+[8.273577] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1236:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, const optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.273756] (my_robot_cpp) StderrLine: {'line': b' 1236 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[8.274064] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.274393] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1236:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.274699] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.275021] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.275198] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.275377] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1296:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.275550] (my_robot_cpp) StderrLine: {'line': b' 1296 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[8.275740] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.275993] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1296:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.276268] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.276560] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.276740] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.277096] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(nullopt_t, const optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.277337] (my_robot_cpp) StderrLine: {'line': b' 1307 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[8.277650] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.277937] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1307:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.278257] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.278548] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.278726] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.278907] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1364:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.279263] (my_robot_cpp) StderrLine: {'line': b' 1364 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[8.279524] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.279851] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1364:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.280101] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.280347] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.280690] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.281040] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1370:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const _Up&, const optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.281431] (my_robot_cpp) StderrLine: {'line': b' 1370 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[8.281648] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.281961] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/optional:1370:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.282261] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [7]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.282482] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.282637] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.282842] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:29\x1b[m\x1b[K:\n'}
+[8.283097] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1266:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const variant<_Types ...>&, const variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.283337] (my_robot_cpp) StderrLine: {'line': b' 1266 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[8.283558] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.283715] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1266:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.283958] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.284400] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.284733] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.284999] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/deque:66\x1b[m\x1b[K,\n'}
+[8.285188] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:18\x1b[m\x1b[K,\n'}
+[8.285431] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39\x1b[m\x1b[K:\n'}
+[8.285739] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_deque.h:2290:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.286074] (my_robot_cpp) StderrLine: {'line': b' 2290 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)\n'}
+[8.286331] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.286634] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_deque.h:2290:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.286912] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::deque<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.287242] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.287521] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.287815] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/queue:66\x1b[m\x1b[K,\n'}
+[8.288135] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:18\x1b[m\x1b[K,\n'}
+[8.288453] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:27\x1b[m\x1b[K,\n'}
+[8.288720] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:24\x1b[m\x1b[K:\n'}
+[8.289010] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_queue.h:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.289305] (my_robot_cpp) StderrLine: {'line': b'  380 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)\n'}
+[8.289595] (my_robot_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.289912] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_queue.h:380:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.290218] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::queue<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.290526] (my_robot_cpp) StderrLine: {'line': b'   23 |         if ((msg == \x1b[01;36m\x1b[K"diffok"\x1b[m\x1b[K) && (counter1 == 0))\n'}
+[8.290831] (my_robot_cpp) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.291127] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[8.291396] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K:\n'}
+[8.291691] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:449:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_code&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.292006] (my_robot_cpp) StderrLine: {'line': b'  449 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[8.292281] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.292594] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:449:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.292955] (my_robot_cpp) StderrLine: {'line': b'  449 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[8.293247] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.293518] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:465:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_code&, const error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.293785] (my_robot_cpp) StderrLine: {'line': b'  465 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[8.294068] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.294340] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:465:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.294556] (my_robot_cpp) StderrLine: {'line': b'  465 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[8.294712] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.294973] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:480:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_condition&, const error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.295253] (my_robot_cpp) StderrLine: {'line': b'  480 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[8.295531] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.295722] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:480:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.295959] (my_robot_cpp) StderrLine: {'line': b'  480 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[8.296268] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.296564] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:517:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(const error_condition&, const error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.296858] (my_robot_cpp) StderrLine: {'line': b'  517 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[8.297073] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.297250] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/system_error:517:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.297562] (my_robot_cpp) StderrLine: {'line': b'  517 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[8.297914] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.298237] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/future:51\x1b[m\x1b[K,\n'}
+[8.298449] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K:\n'}
+[8.298646] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_thread.h:324:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(thread::id, thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.298919] (my_robot_cpp) StderrLine: {'line': b'  324 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[8.299192] (my_robot_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.299378] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/std_thread.h:324:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.299672] (my_robot_cpp) StderrLine: {'line': b'  324 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[8.300032] (my_robot_cpp) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.300355] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1273:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::\x1b[01;32m\x1b[Koperator==\x1b[m\x1b[K(monostate, monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.300680] (my_robot_cpp) StderrLine: {'line': b' 1273 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[8.301003] (my_robot_cpp) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.301297] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/variant:1273:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.301508] (my_robot_cpp) StderrLine: {'line': b' 1273 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[8.301670] (my_robot_cpp) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.351887] (-) TimerEvent: {}
+[8.452431] (-) TimerEvent: {}
+[8.487748] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyRobotDifferential::\x1b[01;32m\x1b[Ksubscriber_callback_diff\x1b[m\x1b[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.488405] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.488781] (my_robot_cpp) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (msg == "diffy1")\n'}
+[8.489275] (my_robot_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.489581] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:28:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.489950] (my_robot_cpp) StderrLine: {'line': b'   28 | ->get_logger(), "Received: \'%s\'", msg-> data.c_str());\x1b[01;35m\x1b[K4\x1b[m\x1b[K\n'}
+[8.490316] (my_robot_cpp) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.490707] (my_robot_cpp) StderrLine: {'line': b'\n'}
+[8.491075] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyRobotDifferential::\x1b[01;32m\x1b[Ktimer_callback1\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.491450] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:37:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.491818] (my_robot_cpp) StderrLine: {'line': b'   37 |         if ((action_move ==1)&&(move_counter >=\x1b[01;31m\x1b[K)\x1b[m\x1b[K)\n'}
+[8.492205] (my_robot_cpp) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.493287] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.493996] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[8.494519] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[8.494929] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:1\x1b[m\x1b[K:\n'}
+[8.495305] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:58:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.495665] (my_robot_cpp) StderrLine: {'line': b'   58 |             \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.linear.x, msg.linear.y, msg.linear.z,\n'}
+[8.496019] (my_robot_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.496577] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:58:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.496922] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156\x1b[m\x1b[K,\n'}
+[8.497313] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[8.497651] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[8.497982] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.498305] (my_robot_cpp) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.498618] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.498974] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23\x1b[m\x1b[K,\n'}
+[8.499302] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267\x1b[m\x1b[K:\n'}
+[8.499640] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.500019] (my_robot_cpp) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.500444] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.500819] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.501202] (my_robot_cpp) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.501588] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.501993] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26\x1b[m\x1b[K,\n'}
+[8.502322] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[8.502651] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[8.502999] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[8.503296] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[8.503609] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[8.503998] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.504332] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.504665] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[8.505024] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[8.505334] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.505637] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.505946] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[8.506302] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.506608] (my_robot_cpp) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.506933] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.507255] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24\x1b[m\x1b[K,\n'}
+[8.507536] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[8.507842] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:2\x1b[m\x1b[K:\n'}
+[8.508174] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.508481] (my_robot_cpp) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.508768] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.509099] (my_robot_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[8.509443] (my_robot_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:3\x1b[m\x1b[K:\n'}
+[8.509734] (my_robot_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.510054] (my_robot_cpp) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.510360] (my_robot_cpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.552868] (-) TimerEvent: {}
+[8.653566] (-) TimerEvent: {}
+[8.754346] (-) TimerEvent: {}
+[8.855259] (-) TimerEvent: {}
+[8.955794] (-) TimerEvent: {}
+[9.056395] (-) TimerEvent: {}
+[9.156933] (-) TimerEvent: {}
+[9.257422] (-) TimerEvent: {}
+[9.358012] (-) TimerEvent: {}
+[9.458683] (-) TimerEvent: {}
+[9.559435] (-) TimerEvent: {}
+[9.659985] (-) TimerEvent: {}
+[9.760520] (-) TimerEvent: {}
+[9.860945] (-) TimerEvent: {}
+[9.961422] (-) TimerEvent: {}
+[10.062013] (-) TimerEvent: {}
+[10.162663] (-) TimerEvent: {}
+[10.263570] (-) TimerEvent: {}
+[10.363993] (-) TimerEvent: {}
+[10.464445] (-) TimerEvent: {}
+[10.565044] (-) TimerEvent: {}
+[10.665566] (-) TimerEvent: {}
+[10.766159] (-) TimerEvent: {}
+[10.866735] (-) TimerEvent: {}
+[10.967589] (-) TimerEvent: {}
+[11.068369] (-) TimerEvent: {}
+[11.168862] (-) TimerEvent: {}
+[11.269391] (-) TimerEvent: {}
+[11.369908] (-) TimerEvent: {}
+[11.470394] (-) TimerEvent: {}
+[11.571068] (-) TimerEvent: {}
+[11.671819] (-) TimerEvent: {}
+[11.772359] (-) TimerEvent: {}
+[11.872885] (-) TimerEvent: {}
+[11.973415] (-) TimerEvent: {}
+[12.073912] (-) TimerEvent: {}
+[12.175671] (-) TimerEvent: {}
+[12.276298] (-) TimerEvent: {}
+[12.377175] (-) TimerEvent: {}
+[12.477624] (-) TimerEvent: {}
+[12.578399] (-) TimerEvent: {}
+[12.679068] (-) TimerEvent: {}
+[12.779883] (-) TimerEvent: {}
+[12.880825] (-) TimerEvent: {}
+[12.981442] (-) TimerEvent: {}
+[13.082063] (-) TimerEvent: {}
+[13.182622] (-) TimerEvent: {}
+[13.283201] (-) TimerEvent: {}
+[13.383756] (-) TimerEvent: {}
+[13.484426] (-) TimerEvent: {}
+[13.585072] (-) TimerEvent: {}
+[13.685585] (-) TimerEvent: {}
+[13.786430] (-) TimerEvent: {}
+[13.886885] (-) TimerEvent: {}
+[13.987543] (-) TimerEvent: {}
+[14.088093] (-) TimerEvent: {}
+[14.188623] (-) TimerEvent: {}
+[14.292014] (-) TimerEvent: {}
+[14.392609] (-) TimerEvent: {}
+[14.493117] (-) TimerEvent: {}
+[14.594667] (-) TimerEvent: {}
+[14.695301] (-) TimerEvent: {}
+[14.795919] (-) TimerEvent: {}
+[14.896705] (-) TimerEvent: {}
+[14.997322] (-) TimerEvent: {}
+[15.097762] (-) TimerEvent: {}
+[15.198266] (-) TimerEvent: {}
+[15.298679] (-) TimerEvent: {}
+[15.399259] (-) TimerEvent: {}
+[15.499958] (-) TimerEvent: {}
+[15.600518] (-) TimerEvent: {}
+[15.701026] (-) TimerEvent: {}
+[15.801624] (-) TimerEvent: {}
+[15.902243] (-) TimerEvent: {}
+[16.002699] (-) TimerEvent: {}
+[16.026395] (my_robot_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_master_cpp.dir/build.make:76: CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o] Error 1\n'}
+[16.027015] (my_robot_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/my_robot_master_cpp.dir/all] Error 2\n'}
+[16.027343] (my_robot_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[16.102945] (-) TimerEvent: {}
+[16.203803] (-) TimerEvent: {}
+[16.305415] (-) TimerEvent: {}
+[16.406370] (-) TimerEvent: {}
+[16.506832] (-) TimerEvent: {}
+[16.607293] (-) TimerEvent: {}
+[16.707728] (-) TimerEvent: {}
+[16.808176] (-) TimerEvent: {}
+[16.881446] (my_robot_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_robot_differential_cpp.dir/build.make:76: CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o] Error 1\n'}
+[16.882617] (my_robot_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/my_robot_differential_cpp.dir/all] Error 2\n'}
+[16.883187] (my_robot_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.889028] (my_robot_cpp) CommandEnded: {'returncode': 2}
+[16.908807] (-) TimerEvent: {}
+[16.925166] (my_robot_cpp) JobEnded: {'identifier': 'my_robot_cpp', 'rc': 2}
+[16.936357] (-) EventReactorShutdown: {}

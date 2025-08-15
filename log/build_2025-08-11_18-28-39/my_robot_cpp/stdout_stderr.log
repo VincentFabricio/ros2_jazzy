@@ -1,0 +1,16 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o[0m
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:[m[K In member function ‘[01m[Kvoid MyRobotDifferential::[01;32m[Ksubscriber_callback_diff[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:29:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   29 |         [01;31m[Kif[m[K (msg == "diffy1")
+      |         [01;31m[K^~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:28:79:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   28 | ->get_logger(), "Received: '%s'", msg-> data.c_str());[01;35m[K4[m[K
+      |                                                       [01;35m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/my_robot_differential_cpp.dir/build.make:76: CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/my_robot_differential_cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable my_robot_master_cpp[0m
+[ 75%] Built target my_robot_master_cpp
+gmake: *** [Makefile:146: all] Error 2

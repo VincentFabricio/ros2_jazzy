@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/my_robot_differential_cpp" "/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/my_robot_master_cpp" "TARGETS" "my_robot_differential_cpp" "my_robot_master_cpp" "DESTINATION" "lib/my_robot_cpp")

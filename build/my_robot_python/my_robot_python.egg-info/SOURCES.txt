@@ -10,6 +10,8 @@ setup.py
 ../../build/my_robot_python/my_robot_python.egg-info/zip-safe
 my_robot_python/__init__.py
 my_robot_python/my_robot.py
+my_robot_python/my_robot_joint0.py
+my_robot_python/my_robot_joint1.py
 my_robot_python.egg-info/PKG-INFO
 my_robot_python.egg-info/SOURCES.txt
 my_robot_python.egg-info/dependency_links.txt

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250812-1901-Experimental"
+	Name="vincent-pc-Aspire-A315-57G"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="vincent-pc-Aspire-A315-57G"
+	OSRelease="6.14.0-27-generic"
+	OSVersion="#27~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 22 17:38:49 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="126"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="5722"
+	TotalPhysicalMemory="7715"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2100.04"
+	>
+	<Testing>
+		<StartDateTime>Aug 12 14:01 -05</StartDateTime>
+		<StartTestTime>1755025294</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 12 14:01 -05</EndDateTime>
+		<EndTestTime>1755025294</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

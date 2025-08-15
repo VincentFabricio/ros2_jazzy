@@ -1,0 +1,498 @@
+[0.035s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_cpp -- -j8 -l8
+[0.227s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o[0m
+[0.229s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o[0m
+[8.162s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:[m[K In member function ‘[01m[Kvoid MyRobotNode::[01;32m[Ksubscriber_callback[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.163s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst char [7][m[K’)
+[8.164s]    23 |         if (([32m[Kmsg[m[K [01;31m[K==[m[K [34m[K"diffok"[m[K) && (counter1 == 0))
+[8.165s]       |              [32m[K~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~[m[K
+[8.167s]       |              [32m[K|[m[K      [34m[K|[m[K
+[8.169s]       |              [32m[K|[m[K      [34m[Kconst char [7][m[K
+[8.169s]       |              [32m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr {aka const std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}[m[K
+[8.170s] In file included from [01m[K/usr/include/c++/13/memory:65[m[K,
+[8.171s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[8.172s]                  from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:1[m[K:
+[8.173s] [01m[K/usr/include/c++/13/bits/allocator.h:237:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::[01;32m[Koperator==[m[K(const allocator<_Tp1>&, const allocator<_T2>&)[m[K’
+[8.174s]   237 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[8.174s]       |     [01;36m[K^~~~~~~~[m[K
+[8.175s] [01m[K/usr/include/c++/13/bits/allocator.h:237:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.175s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[8.175s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.176s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.176s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:62[m[K,
+[8.176s]                  from [01m[K/usr/include/c++/13/memory:66[m[K:
+[8.177s] [01m[K/usr/include/c++/13/bits/stl_pair.h:812:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::[01;32m[Koperator==[m[K(const pair<_T1, _T2>&, const pair<_T1, _T2>&)[m[K’
+[8.178s]   812 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[8.180s]       |     [01;36m[K^~~~~~~~[m[K
+[8.181s] [01m[K/usr/include/c++/13/bits/stl_pair.h:812:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.181s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[8.182s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.182s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.182s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:67[m[K,
+[8.183s]                  from [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:63[m[K,
+[8.183s]                  from [01m[K/usr/include/c++/13/memory:69[m[K:
+[8.183s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::[01;32m[Koperator==[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)[m[K’
+[8.183s]   448 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[8.183s]       |     [01;36m[K^~~~~~~~[m[K
+[8.184s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.184s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[8.184s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.184s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.185s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:493:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::[01;32m[Koperator==[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[8.185s]   493 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[8.185s]       |     [01;36m[K^~~~~~~~[m[K
+[8.185s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:493:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.185s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[8.186s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.186s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.186s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::[01;32m[Koperator==[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[8.186s]  1678 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[8.187s]       |     [01;36m[K^~~~~~~~[m[K
+[8.187s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1678:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.187s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[8.187s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.188s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.188s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::[01;32m[Koperator==[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)[m[K’
+[8.188s]  1748 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[8.189s]       |     [01;36m[K^~~~~~~~[m[K
+[8.189s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1748:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.189s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[8.189s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.189s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.190s] In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:36[m[K,
+[8.190s]                  from [01m[K/usr/include/c++/13/memory:78[m[K:
+[8.190s] [01m[K/usr/include/c++/13/tuple:1919:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::[01;32m[Koperator==[m[K(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)[m[K’
+[8.190s]  1919 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[8.191s]       |     [01;36m[K^~~~~~~~[m[K
+[8.191s] [01m[K/usr/include/c++/13/tuple:1919:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.191s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_UTypes ...>[m[K’
+[8.191s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.192s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.192s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:829:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::[01;32m[Koperator==[m[K(const unique_ptr<_Tp, _Dp>&, const unique_ptr<_Up, _Ep>&)[m[K’
+[8.192s]   829 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[8.192s]       |     [01;36m[K^~~~~~~~[m[K
+[8.193s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:829:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.193s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[8.193s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.193s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.194s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:837:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::[01;32m[Koperator==[m[K(const unique_ptr<_Tp, _Dp>&, nullptr_t)[m[K’
+[8.194s]   837 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[8.194s]       |     [01;36m[K^~~~~~~~[m[K
+[8.194s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:837:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.194s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[8.195s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.195s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.195s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:845:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const unique_ptr<_Tp, _Dp>&)[m[K’
+[8.195s]   845 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[8.196s]       |     [01;36m[K^~~~~~~~[m[K
+[8.196s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:845:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.196s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.196s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.197s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.197s] In file included from [01m[K/usr/include/c++/13/iosfwd:42[m[K,
+[8.197s]                  from [01m[K/usr/include/c++/13/bits/shared_ptr.h:52[m[K,
+[8.198s]                  from [01m[K/usr/include/c++/13/memory:80[m[K:
+[8.198s] [01m[K/usr/include/c++/13/bits/postypes.h:192:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::[01;32m[Koperator==[m[K(const fpos<_StateT>&, const fpos<_StateT>&)[m[K’
+[8.198s]   192 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[8.199s]       |     [01;36m[K^~~~~~~~[m[K
+[8.199s] [01m[K/usr/include/c++/13/bits/postypes.h:192:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.199s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[8.199s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.200s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.200s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K:
+[8.200s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(const __shared_ptr<_Tp1, _Lp>&, const __shared_ptr<_Tp2, _Lp>&)[m[K’
+[8.201s]  1793 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[8.201s]       |     [01;36m[K^~~~~~~~[m[K
+[8.201s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1793:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.202s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp2, _Lp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.202s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.202s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.203s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(const __shared_ptr<_Tp, _Lp>&, nullptr_t)[m[K’
+[8.203s]  1799 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[8.203s]       |     [01;36m[K^~~~~~~~[m[K
+[8.204s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1799:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.204s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"diffok"[m[K’ (type ‘[01m[Kconst char [7][m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+[8.204s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.205s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.205s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const __shared_ptr<_Tp, _Lp>&)[m[K’
+[8.205s]  1819 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[8.206s]       |     [01;36m[K^~~~~~~~[m[K
+[8.206s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1819:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.206s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.207s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.207s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.207s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:555:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::[01;32m[Koperator==[m[K(const shared_ptr<_Tp>&, const shared_ptr<_Tp>&)[m[K’
+[8.208s]   555 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[8.208s]       |     [01;36m[K^~~~~~~~[m[K
+[8.208s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:555:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.209s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.209s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.209s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.210s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:561:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::[01;32m[Koperator==[m[K(const shared_ptr<_Tp>&, nullptr_t)[m[K’
+[8.210s]   561 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[8.210s]       |     [01;36m[K^~~~~~~~[m[K
+[8.211s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:561:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.211s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"diffok"[m[K’ (type ‘[01m[Kconst char [7][m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+[8.211s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.212s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.212s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:582:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::[01;32m[Koperator==[m[K(nullptr_t, const shared_ptr<_Tp>&)[m[K’
+[8.212s]   582 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[8.212s]       |     [01;36m[K^~~~~~~~[m[K
+[8.213s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:582:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.213s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.213s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.213s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.213s] In file included from [01m[K/usr/include/c++/13/bits/basic_string.h:47[m[K,
+[8.214s]                  from [01m[K/usr/include/c++/13/string:54[m[K,
+[8.214s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+[8.214s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[8.215s] [01m[K/usr/include/c++/13/string_view:609:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(basic_string_view<_CharT, _Traits>, basic_string_view<_CharT, _Traits>)[m[K’
+[8.215s]   609 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[8.215s]       |     [01;36m[K^~~~~~~~[m[K
+[8.216s] [01m[K/usr/include/c++/13/string_view:609:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.216s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[8.216s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.217s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.217s] [01m[K/usr/include/c++/13/string_view:616:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(basic_string_view<_CharT, _Traits>, __type_identity_t<basic_string_view<_CharT, _Traits> >)[m[K’
+[8.217s]   616 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[8.218s]       |     [01;36m[K^~~~~~~~[m[K
+[8.218s] [01m[K/usr/include/c++/13/string_view:616:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.218s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[8.219s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.219s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.219s] [01m[K/usr/include/c++/13/string_view:642:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::[01;32m[Koperator==[m[K(__type_identity_t<basic_string_view<_CharT, _Traits> >, basic_string_view<_CharT, _Traits>)[m[K’
+[8.219s]   642 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[8.220s]       |     [01;36m[K^~~~~~~~[m[K
+[8.220s] [01m[K/usr/include/c++/13/string_view:642:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.220s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kconst char*[m[K’
+[8.220s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.221s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.221s] [01m[K/usr/include/c++/13/bits/basic_string.h:3710:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[8.221s]  3710 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[8.221s]       |     [01;36m[K^~~~~~~~[m[K
+[8.222s] [01m[K/usr/include/c++/13/bits/basic_string.h:3710:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.222s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[8.222s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.222s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.223s] [01m[K/usr/include/c++/13/bits/basic_string.h:3727:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[8.223s]  3727 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[8.223s]       |     [01;36m[K^~~~~~~~[m[K
+[8.223s] [01m[K/usr/include/c++/13/bits/basic_string.h:3727:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.223s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[8.223s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.224s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.224s] [01m[K/usr/include/c++/13/bits/basic_string.h:3774:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::[01;32m[Koperator==[m[K(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[8.224s]  3774 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[8.225s]       |     [01;36m[K^~~~~~~~[m[K
+[8.225s] [01m[K/usr/include/c++/13/bits/basic_string.h:3774:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.225s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’
+[8.225s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.225s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.226s] In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+[8.226s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:19[m[K:
+[8.226s] [01m[K/usr/include/c++/13/bits/stl_vector.h:2040:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)[m[K’
+[8.226s]  2040 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[8.227s]       |     [01;36m[K^~~~~~~~[m[K
+[8.227s] [01m[K/usr/include/c++/13/bits/stl_vector.h:2040:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.227s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[8.228s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.228s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.228s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:12[m[K,
+[8.228s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[8.229s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[8.229s] [01m[K/usr/include/c++/13/array:297:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::[01;32m[Koperator==[m[K(const array<_Tp, _Nm>&, const array<_Tp, _Nm>&)[m[K’
+[8.229s]   297 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[8.230s]       |     [01;36m[K^~~~~~~~[m[K
+[8.230s] [01m[K/usr/include/c++/13/array:297:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.230s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[8.230s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.230s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.231s] In file included from [01m[K/usr/include/c++/13/bits/locale_facets.h:48[m[K,
+[8.231s]                  from [01m[K/usr/include/c++/13/bits/basic_ios.h:37[m[K,
+[8.231s]                  from [01m[K/usr/include/c++/13/ios:46[m[K,
+[8.231s]                  from [01m[K/usr/include/c++/13/istream:40[m[K,
+[8.232s]                  from [01m[K/usr/include/c++/13/sstream:40[m[K,
+[8.232s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:13[m[K,
+[8.232s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9[m[K:
+[8.232s] [01m[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::[01;32m[Koperator==[m[K(const istreambuf_iterator<_CharT, _Traits>&, const istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[8.232s]   234 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[8.233s]       |     [01;36m[K^~~~~~~~[m[K
+[8.233s] [01m[K/usr/include/c++/13/bits/streambuf_iterator.h:234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.233s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[8.234s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.234s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.234s] In file included from [01m[K/usr/include/c++/13/functional:59[m[K,
+[8.234s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[8.234s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[8.235s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[8.235s] [01m[K/usr/include/c++/13/bits/std_function.h:737:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::[01;32m[Koperator==[m[K(const function<_Res(_ArgTypes ...)>&, nullptr_t)[m[K’
+[8.235s]   737 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[8.236s]       |     [01;36m[K^~~~~~~~[m[K
+[8.236s] [01m[K/usr/include/c++/13/bits/std_function.h:737:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.236s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[8.237s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.237s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.238s] [01m[K/usr/include/c++/13/bits/std_function.h:744:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::[01;32m[Koperator==[m[K(nullptr_t, const function<_Res(_ArgTypes ...)>&)[m[K’
+[8.238s]   744 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[8.238s]       |     [01;36m[K^~~~~~~~[m[K
+[8.239s] [01m[K/usr/include/c++/13/bits/std_function.h:744:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.239s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.239s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.240s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.240s] In file included from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+[8.240s]                  from [01m[K/usr/include/c++/13/functional:63[m[K:
+[8.241s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[8.241s]  2143 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[8.241s]       |     [01;36m[K^~~~~~~~[m[K
+[8.242s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.242s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[8.242s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.243s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.243s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[8.243s]  2157 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[8.244s]       |     [01;36m[K^~~~~~~~[m[K
+[8.244s] [01m[K/usr/include/c++/13/bits/unordered_map.h:2157:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.244s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[8.245s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.245s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.245s] In file included from [01m[K/usr/include/c++/13/unordered_set:41[m[K,
+[8.246s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[8.246s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:24[m[K:
+[8.246s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1813:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[8.247s]  1813 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[8.247s]       |     [01;36m[K^~~~~~~~[m[K
+[8.247s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1813:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.247s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[8.248s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.248s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.248s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1827:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::[01;32m[Koperator==[m[K(const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[8.249s]  1827 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[8.249s]       |     [01;36m[K^~~~~~~~[m[K
+[8.249s] [01m[K/usr/include/c++/13/bits/unordered_set.h:1827:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.250s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[8.250s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.250s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.251s] In file included from [01m[K/usr/include/c++/13/set:63[m[K,
+[8.251s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[8.251s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.252s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[8.252s] [01m[K/usr/include/c++/13/bits/stl_set.h:987:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const set<_Key, _Compare, _Allocator>&, const set<_Key, _Compare, _Allocator>&)[m[K’
+[8.252s]   987 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[8.253s]       |     [01;36m[K^~~~~~~~[m[K
+[8.253s] [01m[K/usr/include/c++/13/bits/stl_set.h:987:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.253s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[8.254s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.254s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.255s] In file included from [01m[K/usr/include/c++/13/set:64[m[K:
+[8.255s] [01m[K/usr/include/c++/13/bits/stl_multiset.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const multiset<_Key, _Compare, _Allocator>&, const multiset<_Key, _Compare, _Allocator>&)[m[K’
+[8.256s]   973 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[8.256s]       |     [01;36m[K^~~~~~~~[m[K
+[8.256s] [01m[K/usr/include/c++/13/bits/stl_multiset.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.257s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[8.257s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.257s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.258s] In file included from [01m[K/usr/include/c++/13/list:65[m[K,
+[8.258s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[8.258s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K:
+[8.259s] [01m[K/usr/include/c++/13/bits/stl_list.h:2123:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const __cxx11::list<_Tp, _Alloc>&, const __cxx11::list<_Tp, _Alloc>&)[m[K’
+[8.260s]  2123 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[8.260s]       |     [01;36m[K^~~~~~~~[m[K
+[8.261s] [01m[K/usr/include/c++/13/bits/stl_list.h:2123:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.262s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[8.262s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.263s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.263s] In file included from [01m[K/usr/include/c++/13/map:63[m[K,
+[8.264s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:24[m[K:
+[8.264s] [01m[K/usr/include/c++/13/bits/stl_map.h:1513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const map<_Key, _Tp, _Compare, _Allocator>&, const map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[8.265s]  1513 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[8.265s]       |     [01;36m[K^~~~~~~~[m[K
+[8.265s] [01m[K/usr/include/c++/13/bits/stl_map.h:1513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.266s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[8.266s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.267s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.267s] In file included from [01m[K/usr/include/c++/13/map:64[m[K:
+[8.267s] [01m[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::[01;32m[Koperator==[m[K(const multimap<_Key, _Tp, _Compare, _Allocator>&, const multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[8.267s]  1134 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[8.268s]       |     [01;36m[K^~~~~~~~[m[K
+[8.268s] [01m[K/usr/include/c++/13/bits/stl_multimap.h:1134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.269s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[8.269s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.270s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.270s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[8.270s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.271s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.271s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.271s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.271s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[8.272s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K:
+[8.272s] [01m[K/usr/include/c++/13/optional:1236:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::[01;32m[Koperator==[m[K(const optional<_Tp>&, const optional<_Up>&)[m[K’
+[8.272s]  1236 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[8.272s]       |     [01;36m[K^~~~~~~~[m[K
+[8.273s] [01m[K/usr/include/c++/13/optional:1236:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.273s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[8.273s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.273s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.273s] [01m[K/usr/include/c++/13/optional:1296:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::[01;32m[Koperator==[m[K(const optional<_Tp>&, nullopt_t)[m[K’
+[8.274s]  1296 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[8.274s]       |     [01;36m[K^~~~~~~~[m[K
+[8.274s] [01m[K/usr/include/c++/13/optional:1296:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.274s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[8.275s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.275s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.275s] [01m[K/usr/include/c++/13/optional:1307:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::[01;32m[Koperator==[m[K(nullopt_t, const optional<_Tp>&)[m[K’
+[8.276s]  1307 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[8.276s]       |     [01;36m[K^~~~~~~~[m[K
+[8.276s] [01m[K/usr/include/c++/13/optional:1307:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.276s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.277s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.277s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.277s] [01m[K/usr/include/c++/13/optional:1364:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::[01;32m[Koperator==[m[K(const optional<_Tp>&, const _Up&)[m[K’
+[8.277s]  1364 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[8.278s]       |     [01;36m[K^~~~~~~~[m[K
+[8.278s] [01m[K/usr/include/c++/13/optional:1364:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.278s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[8.279s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.279s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.279s] [01m[K/usr/include/c++/13/optional:1370:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::[01;32m[Koperator==[m[K(const _Up&, const optional<_Tp>&)[m[K’
+[8.280s]  1370 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[8.280s]       |     [01;36m[K^~~~~~~~[m[K
+[8.280s] [01m[K/usr/include/c++/13/optional:1370:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.280s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kconst char [7][m[K’
+[8.281s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.281s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.281s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:29[m[K:
+[8.281s] [01m[K/usr/include/c++/13/variant:1266:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::[01;32m[Koperator==[m[K(const variant<_Types ...>&, const variant<_Types ...>&)[m[K’
+[8.281s]  1266 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[8.282s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.282s] [01m[K/usr/include/c++/13/variant:1266:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.282s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[8.283s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.283s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.283s] In file included from [01m[K/usr/include/c++/13/deque:66[m[K,
+[8.283s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:18[m[K,
+[8.284s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39[m[K:
+[8.284s] [01m[K/usr/include/c++/13/bits/stl_deque.h:2290:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::[01;32m[Koperator==[m[K(const deque<_Tp, _Alloc>&, const deque<_Tp, _Alloc>&)[m[K’
+[8.284s]  2290 |     [01;36m[Koperator[m[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+[8.285s]       |     [01;36m[K^~~~~~~~[m[K
+[8.285s] [01m[K/usr/include/c++/13/bits/stl_deque.h:2290:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.285s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+[8.285s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.286s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.286s] In file included from [01m[K/usr/include/c++/13/queue:66[m[K,
+[8.286s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:18[m[K,
+[8.287s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:27[m[K,
+[8.287s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:24[m[K:
+[8.287s] [01m[K/usr/include/c++/13/bits/stl_queue.h:380:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::[01;32m[Koperator==[m[K(const queue<_Tp, _Seq>&, const queue<_Tp, _Seq>&)[m[K’
+[8.287s]   380 |     [01;36m[Koperator[m[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+[8.288s]       |     [01;36m[K^~~~~~~~[m[K
+[8.288s] [01m[K/usr/include/c++/13/bits/stl_queue.h:380:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.288s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master.cpp:23:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} is not derived from ‘[01m[Kconst std::queue<_Tp, _Seq>[m[K’
+[8.289s]    23 |         if ((msg == [01;36m[K"diffok"[m[K) && (counter1 == 0))
+[8.289s]       |                     [01;36m[K^~~~~~~~[m[K
+[8.289s] In file included from [01m[K/usr/include/c++/13/bits/ios_base.h:46[m[K,
+[8.290s]                  from [01m[K/usr/include/c++/13/ios:44[m[K:
+[8.290s] [01m[K/usr/include/c++/13/system_error:449:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_code&, const error_code&)[m[K’
+[8.290s]   449 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[8.290s]       |   [01;36m[K^~~~~~~~[m[K
+[8.291s] [01m[K/usr/include/c++/13/system_error:449:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[8.291s]   449 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[8.291s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.292s] [01m[K/usr/include/c++/13/system_error:465:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_code&, const error_condition&)[m[K’
+[8.292s]   465 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[8.292s]       |   [01;36m[K^~~~~~~~[m[K
+[8.292s] [01m[K/usr/include/c++/13/system_error:465:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[8.293s]   465 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[8.293s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.293s] [01m[K/usr/include/c++/13/system_error:480:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_condition&, const error_condition&)[m[K’
+[8.293s]   480 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[8.294s]       |   [01;36m[K^~~~~~~~[m[K
+[8.294s] [01m[K/usr/include/c++/13/system_error:480:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[8.294s]   480 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[8.294s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.295s] [01m[K/usr/include/c++/13/system_error:517:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(const error_condition&, const error_code&)[m[K’
+[8.295s]   517 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[8.295s]       |   [01;36m[K^~~~~~~~[m[K
+[8.295s] [01m[K/usr/include/c++/13/system_error:517:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[8.296s]   517 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[8.296s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.296s] In file included from [01m[K/usr/include/c++/13/future:51[m[K,
+[8.297s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:18[m[K:
+[8.297s] [01m[K/usr/include/c++/13/bits/std_thread.h:324:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::[01;32m[Koperator==[m[K(thread::id, thread::id)[m[K’
+[8.297s]   324 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[8.297s]       |   [01;36m[K^~~~~~~~[m[K
+[8.298s] [01m[K/usr/include/c++/13/bits/std_thread.h:324:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[8.298s]   324 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[8.298s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[8.299s] [01m[K/usr/include/c++/13/variant:1273:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::[01;32m[Koperator==[m[K(monostate, monostate)[m[K’
+[8.299s]  1273 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[8.299s]       |                  [01;36m[K^~~~~~~~[m[K
+[8.299s] [01m[K/usr/include/c++/13/variant:1273:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[8.300s]  1273 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[8.300s]       |                             [01;36m[K^~~~~~~~~[m[K
+[8.486s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:[m[K In member function ‘[01m[Kvoid MyRobotDifferential::[01;32m[Ksubscriber_callback_diff[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.487s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:29:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[8.487s]    29 |         [01;31m[Kif[m[K (msg == "diffy1")
+[8.487s]       |         [01;31m[K^~[m[K
+[8.488s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:28:79:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[8.488s]    28 | ->get_logger(), "Received: '%s'", msg-> data.c_str());[01;35m[K4[m[K
+[8.489s]       |                                                       [01;35m[K^[m[K
+[8.489s] 
+[8.489s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:[m[K In member function ‘[01m[Kvoid MyRobotDifferential::[01;32m[Ktimer_callback1[m[K()[m[K’:
+[8.490s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:37:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[8.490s]    37 |         if ((action_move ==1)&&(move_counter >=[01;31m[K)[m[K)
+[8.490s]       |                                                [01;31m[K^[m[K
+[8.492s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.492s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[8.493s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[8.493s]                  from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:1[m[K:
+[8.494s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[8.494s]    58 |             [01;31m[Kmsg[m[K.linear.x, msg.linear.y, msg.linear.z,
+[8.494s]       |             [01;31m[K^~~[m[K
+[8.495s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:58:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[8.495s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+[8.496s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[8.496s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[8.496s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[8.497s]    30 | namespace [01;36m[Kmsg[m[K
+[8.497s]       |           [01;36m[K^~~[m[K
+[8.497s] In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+[8.498s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[8.498s] [01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[8.498s]    30 | namespace [01;36m[Kmsg[m[K
+[8.499s]       |           [01;36m[K^~~[m[K
+[8.499s] [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[8.499s]    34 | namespace [01;36m[Kmsg[m[K
+[8.500s]       |           [01;36m[K^~~[m[K
+[8.500s] In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+[8.501s]                  from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[8.501s]                  from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[8.501s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[8.502s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[8.502s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[8.502s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.503s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.503s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[8.503s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[8.504s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.504s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.504s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[8.505s] [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[8.505s]    30 | namespace [01;36m[Kmsg[m[K
+[8.505s]       |           [01;36m[K^~~[m[K
+[8.505s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24[m[K,
+[8.506s]                  from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[8.506s]                  from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:2[m[K:
+[8.506s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[8.507s]    30 | namespace [01;36m[Kmsg[m[K
+[8.507s]       |           [01;36m[K^~~[m[K
+[8.507s] In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[8.508s]                  from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential.cpp:3[m[K:
+[8.508s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[8.508s]    30 | namespace [01;36m[Kmsg[m[K
+[8.509s]       |           [01;36m[K^~~[m[K
+[16.025s] gmake[2]: *** [CMakeFiles/my_robot_master_cpp.dir/build.make:76: CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.o] Error 1
+[16.025s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/my_robot_master_cpp.dir/all] Error 2
+[16.026s] gmake[1]: *** Waiting for unfinished jobs....
+[16.880s] gmake[2]: *** [CMakeFiles/my_robot_differential_cpp.dir/build.make:76: CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.o] Error 1
+[16.881s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/my_robot_differential_cpp.dir/all] Error 2
+[16.881s] gmake: *** [Makefile:146: all] Error 2
+[16.888s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_cpp -- -j8 -l8

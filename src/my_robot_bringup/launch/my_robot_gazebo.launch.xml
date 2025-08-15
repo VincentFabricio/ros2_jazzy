@@ -23,4 +23,9 @@
     <node pkg="rviz2" exec="rviz2" output="screen" 
         args="$(find-pkg-share my_robot_description)/rviz/rviz_config.rviz" />
     
+    <node pkg="my_robot_cpp" exec="my_robot_master_cpp"/>
+    <node pkg="my_robot_cpp" exec="my_robot_differential_cpp" />
+    <node pkg="my_robot_python" exec="my_robot_j0_py" />
+    <node pkg="my_robot_python" exec="my_robot_j1_py" />
+    
 </launch>
