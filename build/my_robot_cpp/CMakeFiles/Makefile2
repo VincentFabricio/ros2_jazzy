@@ -65,6 +65,10 @@ CMAKE_BINARY_DIR = /home/vincent-pc/ros2_jazzy/build/my_robot_cpp
 # The main recursive "all" target.
 all: CMakeFiles/my_robot_differential_cpp.dir/all
 all: CMakeFiles/my_robot_master_cpp.dir/all
+all: CMakeFiles/led_panel_cpp.dir/all
+all: CMakeFiles/battery_cpp.dir/all
+all: CMakeFiles/master_srv_cpp.dir/all
+all: CMakeFiles/differential_node_srv.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +80,10 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_robot_cpp_uninstall.dir/clean
 clean: CMakeFiles/my_robot_differential_cpp.dir/clean
 clean: CMakeFiles/my_robot_master_cpp.dir/clean
+clean: CMakeFiles/led_panel_cpp.dir/clean
+clean: CMakeFiles/battery_cpp.dir/clean
+clean: CMakeFiles/master_srv_cpp.dir/clean
+clean: CMakeFiles/differential_node_srv.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +145,7 @@ CMakeFiles/my_robot_cpp_uninstall.dir/clean:
 CMakeFiles/my_robot_differential_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_differential_cpp.dir/build.make CMakeFiles/my_robot_differential_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_differential_cpp.dir/build.make CMakeFiles/my_robot_differential_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=1,2 "Built target my_robot_differential_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=9,10 "Built target my_robot_differential_cpp"
 .PHONY : CMakeFiles/my_robot_differential_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +171,7 @@ CMakeFiles/my_robot_differential_cpp.dir/clean:
 CMakeFiles/my_robot_master_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_master_cpp.dir/build.make CMakeFiles/my_robot_master_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_master_cpp.dir/build.make CMakeFiles/my_robot_master_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=3,4 "Built target my_robot_master_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=11,12 "Built target my_robot_master_cpp"
 .PHONY : CMakeFiles/my_robot_master_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +189,110 @@ my_robot_master_cpp: CMakeFiles/my_robot_master_cpp.dir/rule
 CMakeFiles/my_robot_master_cpp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_master_cpp.dir/build.make CMakeFiles/my_robot_master_cpp.dir/clean
 .PHONY : CMakeFiles/my_robot_master_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/led_panel_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/led_panel_cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=5,6 "Built target led_panel_cpp"
+.PHONY : CMakeFiles/led_panel_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/led_panel_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/led_panel_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/led_panel_cpp.dir/rule
+
+# Convenience name for target.
+led_panel_cpp: CMakeFiles/led_panel_cpp.dir/rule
+.PHONY : led_panel_cpp
+
+# clean rule for target.
+CMakeFiles/led_panel_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/clean
+.PHONY : CMakeFiles/led_panel_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/battery_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/battery_cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=1,2 "Built target battery_cpp"
+.PHONY : CMakeFiles/battery_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/battery_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/battery_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/battery_cpp.dir/rule
+
+# Convenience name for target.
+battery_cpp: CMakeFiles/battery_cpp.dir/rule
+.PHONY : battery_cpp
+
+# clean rule for target.
+CMakeFiles/battery_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/clean
+.PHONY : CMakeFiles/battery_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/master_srv_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/master_srv_cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=7,8 "Built target master_srv_cpp"
+.PHONY : CMakeFiles/master_srv_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/master_srv_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/master_srv_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/master_srv_cpp.dir/rule
+
+# Convenience name for target.
+master_srv_cpp: CMakeFiles/master_srv_cpp.dir/rule
+.PHONY : master_srv_cpp
+
+# clean rule for target.
+CMakeFiles/master_srv_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/clean
+.PHONY : CMakeFiles/master_srv_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/differential_node_srv.dir
+
+# All Build rule for target.
+CMakeFiles/differential_node_srv.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles --progress-num=3,4 "Built target differential_node_srv"
+.PHONY : CMakeFiles/differential_node_srv.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/differential_node_srv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/differential_node_srv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vincent-pc/ros2_jazzy/build/my_robot_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/differential_node_srv.dir/rule
+
+# Convenience name for target.
+differential_node_srv: CMakeFiles/differential_node_srv.dir/rule
+.PHONY : differential_node_srv
+
+# clean rule for target.
+CMakeFiles/differential_node_srv.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/clean
+.PHONY : CMakeFiles/differential_node_srv.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

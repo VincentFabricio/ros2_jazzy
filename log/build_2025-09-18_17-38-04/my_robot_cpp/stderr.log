@@ -1,0 +1,62 @@
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:[m[K In member function ‘[01m[Kvoid MyRobotMasterNode::[01;32m[Ksrv_callback_actions[m[K(std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:70:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   70 |         auto actions = request->[01;31m[Kactions[m[K;
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:72:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   72 |         if (request->[01;31m[Kactions[m[K == "j0ok")
+      |                      [01;31m[K^~~~~~~[m[K
+      |                      [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:77:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   77 |         else if (request->[01;31m[Kactions[m[K == "j1ok")
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:82:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   82 |         else if (request->[01;31m[Kactions[m[K == "diffok")
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:88:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   88 |         if ((request->[01;31m[Kactions[m[K == "j0off") || (request->actions == "j1off") || (request->actions == "diffoff1"))
+      |                       [01;31m[K^~~~~~~[m[K
+      |                       [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:88:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   88 |         if ((request->actions == "j0off") || (request->[01;31m[Kactions[m[K == "j1off") || (request->actions == "diffoff1"))
+      |                                                        [01;31m[K^~~~~~~[m[K
+      |                                                        [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:88:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   88 |         if ((request->actions == "j0off") || (request->actions == "j1off") || (request->[01;31m[Kactions[m[K == "diffoff1"))
+      |                                                                                         [01;31m[K^~~~~~~[m[K
+      |                                                                                         [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:92:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+   92 |         else if (request->[01;31m[Kactions[m[K == "diffoff2")
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:[m[K In member function ‘[01m[Kvoid MyRobotMasterNode::[01;32m[KcallActions[m[K(std::string)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:116:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+  116 |         request -> [01;31m[Kactions[m[K = actions;
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:[m[K In member function ‘[01m[Kvoid DifferencialNodeSrv::[01;32m[Ksrv_callback_actions[m[K(std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:117:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+  117 |         auto actions = request->[01;31m[Kactions[m[K;
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:119:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+  119 |         if (request->[01;31m[Kactions[m[K == "diffon1")
+      |                      [01;31m[K^~~~~~~[m[K
+      |                      [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:124:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+  124 |         else if (request->[01;31m[Kactions[m[K == "diffon2")
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kaction[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:[m[K In member function ‘[01m[Kvoid DifferencialNodeSrv::[01;32m[Kcall_actions[m[K(std::string)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_differential_srv.cpp:146:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kactions[m[K’; did you mean ‘[01m[Kaction[m[K’?
+  146 |         request -> [01;31m[Kactions[m[K = actions;
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [32m[Kaction[m[K
+gmake[2]: *** [CMakeFiles/master_srv_cpp.dir/build.make:76: CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/master_srv_cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/differential_node_srv.dir/build.make:76: CMakeFiles/differential_node_srv.dir/src/my_robot_differential_srv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/differential_node_srv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

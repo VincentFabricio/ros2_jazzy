@@ -1,0 +1,12 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/MyRobotState.msg",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/MyRobotDifferential.msg",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/MyRobotJoint0.msg",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/MyRobotJoint1.msg",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/LedStateArray.msg",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/MyRobotSrv.srv",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}

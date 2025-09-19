@@ -223,6 +223,85 @@ my_robot_master_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_master_cpp.dir/build.make CMakeFiles/my_robot_master_cpp.dir/build
 .PHONY : my_robot_master_cpp/fast
 
+#=============================================================================
+# Target rules for targets named led_panel_cpp
+
+# Build rule for target.
+led_panel_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 led_panel_cpp
+.PHONY : led_panel_cpp
+
+# fast build rule for target.
+led_panel_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/build
+.PHONY : led_panel_cpp/fast
+
+#=============================================================================
+# Target rules for targets named battery_cpp
+
+# Build rule for target.
+battery_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_cpp
+.PHONY : battery_cpp
+
+# fast build rule for target.
+battery_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/build
+.PHONY : battery_cpp/fast
+
+#=============================================================================
+# Target rules for targets named master_srv_cpp
+
+# Build rule for target.
+master_srv_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 master_srv_cpp
+.PHONY : master_srv_cpp
+
+# fast build rule for target.
+master_srv_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/build
+.PHONY : master_srv_cpp/fast
+
+#=============================================================================
+# Target rules for targets named differential_node_srv
+
+# Build rule for target.
+differential_node_srv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 differential_node_srv
+.PHONY : differential_node_srv
+
+# fast build rule for target.
+differential_node_srv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/build
+.PHONY : differential_node_srv/fast
+
+src/led_panel.o: src/led_panel.cpp.o
+.PHONY : src/led_panel.o
+
+# target to build an object file
+src/led_panel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/src/led_panel.cpp.o
+.PHONY : src/led_panel.cpp.o
+
+src/led_panel.i: src/led_panel.cpp.i
+.PHONY : src/led_panel.i
+
+# target to preprocess a source file
+src/led_panel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/src/led_panel.cpp.i
+.PHONY : src/led_panel.cpp.i
+
+src/led_panel.s: src/led_panel.cpp.s
+.PHONY : src/led_panel.s
+
+# target to generate assembly for a file
+src/led_panel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/led_panel_cpp.dir/build.make CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_cpp.dir/build.make CMakeFiles/battery_cpp.dir/src/led_panel.cpp.s
+.PHONY : src/led_panel.cpp.s
+
 src/my_robot_differential.o: src/my_robot_differential.cpp.o
 .PHONY : src/my_robot_differential.o
 
@@ -246,6 +325,30 @@ src/my_robot_differential.s: src/my_robot_differential.cpp.s
 src/my_robot_differential.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_differential_cpp.dir/build.make CMakeFiles/my_robot_differential_cpp.dir/src/my_robot_differential.cpp.s
 .PHONY : src/my_robot_differential.cpp.s
+
+src/my_robot_differential_srv.o: src/my_robot_differential_srv.cpp.o
+.PHONY : src/my_robot_differential_srv.o
+
+# target to build an object file
+src/my_robot_differential_srv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/src/my_robot_differential_srv.cpp.o
+.PHONY : src/my_robot_differential_srv.cpp.o
+
+src/my_robot_differential_srv.i: src/my_robot_differential_srv.cpp.i
+.PHONY : src/my_robot_differential_srv.i
+
+# target to preprocess a source file
+src/my_robot_differential_srv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/src/my_robot_differential_srv.cpp.i
+.PHONY : src/my_robot_differential_srv.cpp.i
+
+src/my_robot_differential_srv.s: src/my_robot_differential_srv.cpp.s
+.PHONY : src/my_robot_differential_srv.s
+
+# target to generate assembly for a file
+src/my_robot_differential_srv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/differential_node_srv.dir/build.make CMakeFiles/differential_node_srv.dir/src/my_robot_differential_srv.cpp.s
+.PHONY : src/my_robot_differential_srv.cpp.s
 
 src/my_robot_master.o: src/my_robot_master.cpp.o
 .PHONY : src/my_robot_master.o
@@ -271,6 +374,30 @@ src/my_robot_master.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_master_cpp.dir/build.make CMakeFiles/my_robot_master_cpp.dir/src/my_robot_master.cpp.s
 .PHONY : src/my_robot_master.cpp.s
 
+src/my_robot_master_srv.o: src/my_robot_master_srv.cpp.o
+.PHONY : src/my_robot_master_srv.o
+
+# target to build an object file
+src/my_robot_master_srv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.o
+.PHONY : src/my_robot_master_srv.cpp.o
+
+src/my_robot_master_srv.i: src/my_robot_master_srv.cpp.i
+.PHONY : src/my_robot_master_srv.i
+
+# target to preprocess a source file
+src/my_robot_master_srv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.i
+.PHONY : src/my_robot_master_srv.cpp.i
+
+src/my_robot_master_srv.s: src/my_robot_master_srv.cpp.s
+.PHONY : src/my_robot_master_srv.s
+
+# target to generate assembly for a file
+src/my_robot_master_srv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_srv_cpp.dir/build.make CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.s
+.PHONY : src/my_robot_master_srv.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +413,27 @@ help:
 	@echo "... test"
 	@echo "... my_robot_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... battery_cpp"
+	@echo "... differential_node_srv"
+	@echo "... led_panel_cpp"
+	@echo "... master_srv_cpp"
 	@echo "... my_robot_differential_cpp"
 	@echo "... my_robot_master_cpp"
+	@echo "... src/led_panel.o"
+	@echo "... src/led_panel.i"
+	@echo "... src/led_panel.s"
 	@echo "... src/my_robot_differential.o"
 	@echo "... src/my_robot_differential.i"
 	@echo "... src/my_robot_differential.s"
+	@echo "... src/my_robot_differential_srv.o"
+	@echo "... src/my_robot_differential_srv.i"
+	@echo "... src/my_robot_differential_srv.s"
 	@echo "... src/my_robot_master.o"
 	@echo "... src/my_robot_master.i"
 	@echo "... src/my_robot_master.s"
+	@echo "... src/my_robot_master_srv.o"
+	@echo "... src/my_robot_master_srv.i"
+	@echo "... src/my_robot_master_srv.s"
 .PHONY : help
 
 

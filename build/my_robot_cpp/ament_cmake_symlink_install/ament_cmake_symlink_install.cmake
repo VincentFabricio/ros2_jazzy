@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "my_robot_differential_cpp" "my_robot_master_cpp" "DESTINATION" "lib/my_robot_cpp")
+# install("TARGETS" "my_robot_differential_cpp" "my_robot_master_cpp" "led_panel_cpp" "battery_cpp" "master_srv_cpp" "differential_node_srv" "DESTINATION" "lib/my_robot_cpp")
 include("/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

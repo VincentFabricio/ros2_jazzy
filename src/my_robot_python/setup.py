@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             "my_robot_j0_py = my_robot_python.my_robot_joint0:main",
             "my_robot_j1_py = my_robot_python.my_robot_joint1:main",
+            "joint0_srv_py  = my_robot_python.my_robot_joint0_srv:main",
+            "joint1_srv_py  = my_robot_python.my_robot_joint1_srv:main"
         ],
     },
 )

@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/my_robot_joint0.h

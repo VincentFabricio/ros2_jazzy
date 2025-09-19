@@ -1,0 +1,37 @@
+[ 16%] Built target my_robot_master_cpp
+[ 33%] Built target my_robot_differential_cpp
+[ 41%] [32mBuilding CXX object CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/battery_cpp.dir/src/led_panel.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/differential_node_srv.dir/src/my_robot_differential_srv.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable master_srv_cpp[0m
+[ 75%] Built target master_srv_cpp
+[ 83%] [32m[1mLinking CXX executable led_panel_cpp[0m
+[ 91%] [32m[1mLinking CXX executable battery_cpp[0m
+[ 91%] Built target led_panel_cpp
+[ 91%] Built target battery_cpp
+[100%] [32m[1mLinking CXX executable differential_node_srv[0m
+[100%] Built target differential_node_srv
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/my_robot_differential_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/my_robot_master_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/led_panel_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/battery_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/master_srv_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/lib/my_robot_cpp/differential_node_srv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/environment/path.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/environment/path.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/local_setup.bash
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/local_setup.sh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/local_setup.zsh
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/local_setup.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/package.dsv
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/ament_index/resource_index/packages/my_robot_cpp
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig.cmake
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig-version.cmake
+-- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_cpp/share/my_robot_cpp/package.xml

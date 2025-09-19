@@ -1,0 +1,29 @@
+[0.068s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_cpp -- -j8 -l8
+[0.322s] [ 16%] Built target my_robot_differential_cpp
+[0.427s] [ 33%] Built target differential_node_srv
+[0.544s] [ 41%] [32mBuilding CXX object CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.o[0m
+[9.858s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.859s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[9.859s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[9.859s]                  from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:1[m[K:
+[9.859s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:[m[K In member function ‘[01m[Kvoid MyRobotMasterNode::[01;32m[Ksrv_callback_actions[m[K(std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Response_<std::allocator<void> > >)[m[K’:
+[9.860s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:75:103:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kpos1[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[9.860s]    75 | f", actions.c_str(), pos1.[01;31m[Kc_str[m[K(), vel1.c_str(), pos2.c_str(), vel2.c_str());
+[9.860s]       |                           [01;31m[K^~~~~[m[K
+[9.860s] 
+[9.860s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:75:117:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kvel1[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[9.861s]    75 | str(), pos1.c_str(), vel1.[01;31m[Kc_str[m[K(), pos2.c_str(), vel2.c_str());
+[9.861s]       |                           [01;31m[K^~~~~[m[K
+[9.861s] 
+[9.861s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:75:131:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kpos2[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[9.862s]    75 | str(), vel1.c_str(), pos2.[01;31m[Kc_str[m[K(), vel2.c_str());
+[9.862s]       |                           [01;31m[K^~~~~[m[K
+[9.863s] 
+[9.863s] [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:75:145:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kvel2[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[9.864s]    75 | c_str(), pos2.c_str(), vel2.[01;31m[Kc_str[m[K());
+[9.864s]       |                             [01;31m[K^~~~~[m[K
+[9.865s] 
+[13.991s] gmake[2]: *** [CMakeFiles/master_srv_cpp.dir/build.make:76: CMakeFiles/master_srv_cpp.dir/src/my_robot_master_srv.cpp.o] Error 1
+[13.992s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/master_srv_cpp.dir/all] Error 2
+[13.993s] gmake: *** [Makefile:146: all] Error 2
+[14.000s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_cpp' returned '2': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_cpp -- -j8 -l8
