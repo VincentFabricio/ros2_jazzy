@@ -31,6 +31,13 @@ class MyRobotJoint1Node(Node):
         self.derivative = 0.0
         self.u_signal = 0.0
         self.set_postion = math.pi/4
+        self.state_position = 0.0
+
+        ## SS with Integral
+        self.Kc = 2.69999999999999
+        self.K1 = -1.277099999999993
+        self.K2 = -0.35899999999999893
+        self.x3 = 0.0
 
         self.publisher1 = self.create_publisher(Float64, '/joint1/cmd_pos', 10)
         self.timer1 = self.create_timer(0.1, self.timer_callback_joint1)
@@ -59,16 +66,24 @@ class MyRobotJoint1Node(Node):
                 self.direction = -1
                 self.counter1 +=1
 
-            self.joint1 += self.direction * 0.1
+            self.joint1 += self.direction * 0.2
             # self.get_logger().info('Joint1: ' + str(self.joint1))
             # self.get_logger().info('Counter: ' + str(self.counter1))
+
+            # PID
+            # self.set_postion = self.joint1
+            # self.error = self.set_postion - self.arm1_pos
+            # self.integral = self.error * 0.1
+            # self.derivative = (self.error - self.d_error)/0.1
+
+            # self.u_signal = self.Kp * self.error + self.Ki * self.integral + self.Kd * self.derivative
+            # self.d_error = self.error
+
+            # SS with integral
             self.set_postion = self.joint1
             self.error = self.set_postion - self.arm1_pos
-            self.integral = self.error * 0.1
-            self.derivative = (self.error - self.d_error)/0.1
-
-            self.u_signal = self.Kp * self.error + self.Ki * self.integral + self.Kd * self.derivative
-            self.d_error = self.error
+            self.x3 = self.error * 0.1
+            self.u_signal = self.Kc * self.x3 + self.K1*self.arm1_pos + self.K2*self.arm1_vel
 
             if self.u_signal > math.pi/2:
                 self.joint1 = math.pi/2
@@ -76,13 +91,27 @@ class MyRobotJoint1Node(Node):
                 self.joint1 = 0.0
             else:
                 self.joint1 = self.u_signal
+
+
         elif self.start_joint1 == 2:
-            self.error = self.set_postion - self.arm1_pos
-            self.integral = self.error * 0.1
-            self.derivative = (self.error - self.d_error)/0.1
+            # PID
+            # self.error = self.set_postion - self.arm1_pos
+            # self.integral = self.error * 0.1
+            # self.derivative = (self.error - self.d_error)/0.1
 
-            self.u_signal = self.Kp * self.error + self.Ki * self.integral + self.Kd * self.derivative
-            self.d_error = self.error
+            # self.u_signal = self.Kp * self.error + self.Ki * self.integral + self.Kd * self.derivative
+            # self.d_error = self.error
+
+            if self.state_position == 1:
+                self.set_postion = math.pi/2
+            elif self.state_position == 2:
+                self.set_postion = math.pi/4
+            elif self.state_position == 3:
+                self.set_postion = 0.0
+            # SS with integral
+            self.error = self.set_postion - self.arm1_pos
+            self.x3 = self.error * 0.1
+            self.u_signal = self.Kc * self.x3 + self.K1*self.arm1_pos + self.K2*self.arm1_vel
 
             if self.u_signal > math.pi/2:
                 self.joint1 = math.pi/2
@@ -90,6 +119,7 @@ class MyRobotJoint1Node(Node):
                 self.joint1 = 0.0
             else:
                 self.joint1 = self.u_signal
+            self.counter1 += 3
             # self.get_logger().info( "Joint1: " + str(self.joint1))
             # self.get_logger().info( "Error: " + str(self.error))
 
@@ -102,7 +132,7 @@ class MyRobotJoint1Node(Node):
 
         self.call_srv_client2('j1', self.arm1_pos, self.arm1_vel)
 
-        if self.counter1 == 10:
+        if self.counter1 == 10 or self.counter1 == 45:
             self.start_joint1 = 3
             self.counter1 = 0
             self.call_srv_client2("j1off", 0.0, 0.0)
@@ -136,7 +166,11 @@ class MyRobotJoint1Node(Node):
         response.success = True
         # self.get_logger().info('Recived: ' + str(actions))
         if request.actions == "j1on":
-            self.start_joint1 = 1
+            self.start_joint1 = 2
+            self.state_position += 1
+
+            if self.state_position == 4:
+                self.state_position = 0
         return response
  
 def main(args=None):

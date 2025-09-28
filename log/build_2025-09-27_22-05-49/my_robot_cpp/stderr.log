@@ -1,0 +1,41 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:1[m[K:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:[m[K In member function ‘[01m[Kvoid MyRobotMasterNode::[01;32m[Ksrv_callback_actions[m[K(std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  102 | _INFO(this->get_logger(), [01;35m[K"States: %.2f, %.2f, %.2f"[m[K, [32m[Kj0[m[K, j1, diff);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~[m[K
+      |                                                       [32m[K|[m[K
+      |                                                       [32m[Kint[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  102 | get_logger(), "States: [01;36m[K%.2f[m[K, %.2f, %.2f", j0, j1, diff);
+      |                        [01;36m[K~~~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Kdouble[m[K
+      |                        [32m[K%.2d[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  102 | _INFO(this->get_logger(), [01;35m[K"States: %.2f, %.2f, %.2f"[m[K, j0, [32m[Kj1[m[K, diff);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      [32m[K~~[m[K
+      |                                                           [32m[K|[m[K
+      |                                                           [32m[Kint[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  102 | gger(), "States: %.2f, [01;36m[K%.2f[m[K, %.2f", j0, j1, diff);
+      |                        [01;36m[K~~~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Kdouble[m[K
+      |                        [32m[K%.2d[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  102 | _INFO(this->get_logger(), [01;35m[K"States: %.2f, %.2f, %.2f"[m[K, j0, j1, [32m[Kdiff[m[K);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K          [32m[K~~~~[m[K
+      |                                                               [32m[K|[m[K
+      |                                                               [32m[Kint[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  102 | , "States: %.2f, %.2f, [01;36m[K%.2f[m[K", j0, j1, diff);
+      |                        [01;36m[K~~~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Kdouble[m[K
+      |                        [32m[K%.2d[m[K

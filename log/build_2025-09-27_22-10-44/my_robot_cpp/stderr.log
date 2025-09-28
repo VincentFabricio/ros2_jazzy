@@ -1,0 +1,29 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:1[m[K:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:[m[K In member function ‘[01m[Kvoid MyRobotMasterNode::[01;32m[Ksrv_callback_actions[m[K(std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Request_<std::allocator<void> > >, std::shared_ptr<my_robot_interfaces::srv::MyRobotSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  102 | _INFO(this->get_logger(), [01;35m[K"States: %d, %d, %d, %d, %d"[m[K, j0, j1, diff, [32m[Kcounter1[m[K, action_move);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                [32m[K~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Kint64_t {aka long int}[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  102 | (), "States: %d, %d, %d, [01;36m[K%d[m[K, %d", j0, j1, diff, counter1, action_move);
+      |                          [01;36m[K~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Kint[m[K
+      |                          [32m[K%ld[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  102 | _INFO(this->get_logger(), [01;35m[K"States: %d, %d, %d, %d, %d"[m[K, j0, j1, diff, counter1, [32m[Kaction_move[m[K);
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          [32m[K~~~~~~~~~~~[m[K
+      |                                                                                 [32m[K|[m[K
+      |                                                                                 [32m[Kint64_t {aka long int}[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/my_robot_cpp/src/my_robot_master_srv.cpp:102:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  102 | "States: %d, %d, %d, %d, [01;36m[K%d[m[K", j0, j1, diff, counter1, action_move);
+      |                          [01;36m[K~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Kint[m[K
+      |                          [32m[K%ld[m[K

@@ -32,29 +32,36 @@ private:
     {
         if ((j0 == 1) && (j1 == 1) && (diff == 1))
         {
-            if ((counter1 == 0) && (action_move == 1))
+            if ((counter1 == 0))
             {
                 callActions("j0on");
                 counter1 ++;
                 action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "j0on");
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
             }
             else if ((counter1 == 1) && (action_move == 1))
             {
                 callActions("j1on");
                 counter1 ++;
                 action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "j1on");
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
             }
             else if ((counter1 == 2) && (action_move == 1))
             {
                 callActions("diffon1");
                 counter1 ++;
                 action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "diffon1");
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
             }
             else if ((counter1 == 3) && (action_move == 1))
             {
                 callActions("diffon2");
                 counter1 ++;
                 action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
             }
             
             

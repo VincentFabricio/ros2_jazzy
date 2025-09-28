@@ -43,12 +43,12 @@ private:
 
         if ((start_var == 1) && (action_move == 1))
         {
-            set_velocity = 0.25;
-            error = set_velocity - (left_vel+right_vel)/2;
-            integral = error * 0.1;
-            derivative = (error - d_error)/0.1;
-            u_signal = Kp*error + Ki*integral + Kd*derivative;
-            d_error = error;
+            // set_velocity = 0.25;
+            // error = set_velocity - (left_vel+right_vel)/2;
+            // integral = error * 0.1;
+            // derivative = (error - d_error)/0.1;
+            // u_signal = Kp*error + Ki*integral + Kd*derivative;
+            // d_error = error;
             // msg.linear.x = u_signal;
             msg.linear.x = 0.25;
             publisher1 -> publish(msg);
