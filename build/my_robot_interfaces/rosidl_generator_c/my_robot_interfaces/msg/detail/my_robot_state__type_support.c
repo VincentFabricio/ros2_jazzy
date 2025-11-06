@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "my_robot_interfaces/msg/detail/my_robot_state__functions.h"
+#include "my_robot_interfaces/msg/detail/my_robot_state__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/my_robot_state__struct.h"
-#include "my_robot_interfaces/msg/detail/my_robot_state__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

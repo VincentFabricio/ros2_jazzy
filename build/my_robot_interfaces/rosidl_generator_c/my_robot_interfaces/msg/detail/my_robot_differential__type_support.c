@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/msg/detail/my_robot_differential__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/my_robot_differential__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/msg/detail/my_robot_differential__struct.h"
 #include "my_robot_interfaces/msg/detail/my_robot_differential__functions.h"
 
 #ifdef __cplusplus

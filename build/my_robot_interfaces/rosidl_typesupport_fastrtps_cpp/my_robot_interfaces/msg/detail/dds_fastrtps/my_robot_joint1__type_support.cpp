@@ -52,7 +52,7 @@ cdr_deserialize(
   cdr >> ros_message.my_robot_joint1;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 
 size_t

@@ -56,7 +56,7 @@ cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 
 size_t

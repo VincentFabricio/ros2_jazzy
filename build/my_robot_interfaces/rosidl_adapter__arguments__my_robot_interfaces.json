@@ -7,6 +7,7 @@
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/MyRobotJoint1.msg",
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:msg/LedStateArray.msg",
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/MyRobotSrv.srv",
-    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/SetLed.srv"
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/SetLed.srv",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:action/CountUntil.action"
   ]
 }
