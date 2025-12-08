@@ -1,0 +1,20 @@
+{
+  "package_name": "my_robot_interfaces",
+  "output_dir": "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
+  "idl_tuples": [
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotState.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotDifferential.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotJoint0.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotJoint1.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/MyRobotSrv.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

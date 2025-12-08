@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_actions_py
+robot_actions_py/__init__.py
+robot_actions_py.egg-info/PKG-INFO
+robot_actions_py.egg-info/SOURCES.txt
+robot_actions_py.egg-info/dependency_links.txt
+robot_actions_py.egg-info/requires.txt
+robot_actions_py.egg-info/top_level.txt
+robot_actions_py.egg-info/zip-safe

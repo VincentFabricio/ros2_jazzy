@@ -27,6 +27,7 @@ setup(
             "count_until_server_py          = actions_py.count_until_server:main",
             "count_until_client_py          = actions_py.count_until_client:main",
             "count_until_server_policy_py   = actions_py.count_until_server_policy:main",
+            "count_until_server_policy_queue_py   = actions_py.count_until_server_policy_20:main",
         ],
     },
 )

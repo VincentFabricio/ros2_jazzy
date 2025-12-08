@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/my_robot_state__traits.hpp

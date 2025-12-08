@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6f70b942d78ac54bfa6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "actions_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "actions_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions_cpp_uninstall-e6f246ac9f9141465468.json",
+					"name" : "actions_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_client_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_client_cpp-c62bf1c09a4f4099e9ea.json",
+					"name" : "count_until_client_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_cpp-37e714648d7b8f384929.json",
+					"name" : "count_until_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_policy1_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_policy1_cpp-38dcfb7f2a6c441b8334.json",
+					"name" : "count_until_server_policy1_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_policy_queue_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_policy_queue_cpp-a2ae82366346c5518d27.json",
+					"name" : "count_until_server_policy_queue_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06db1fc8a9fd44b4478a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_jazzy/src/build/actions_cpp",
+		"source" : "/home/vincent-pc/ros2_jazzy/src/actions_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

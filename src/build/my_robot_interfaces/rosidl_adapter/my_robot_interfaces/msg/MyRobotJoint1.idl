@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_interfaces/msg/MyRobotJoint1.msg
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module msg {
+    struct MyRobotJoint1 {
+      double my_robot_joint1;
+    };
+  };
+};

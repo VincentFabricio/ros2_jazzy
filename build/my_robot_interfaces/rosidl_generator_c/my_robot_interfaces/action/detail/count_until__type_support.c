@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/action/detail/count_until__functions.h"
-#include "my_robot_interfaces/action/detail/count_until__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/action/detail/count_until__functions.h"
 #include "my_robot_interfaces/action/detail/count_until__struct.h"
+#include "my_robot_interfaces/action/detail/count_until__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

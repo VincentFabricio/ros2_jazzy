@@ -1,0 +1,8 @@
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotState.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotDifferential.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotJoint0.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/MyRobotJoint1.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/MyRobotSrv.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl

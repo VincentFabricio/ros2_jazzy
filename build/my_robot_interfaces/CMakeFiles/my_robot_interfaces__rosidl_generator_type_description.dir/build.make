@@ -74,6 +74,7 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_genera
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/MyRobotSrv.json
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
+CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json
 
 rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
@@ -85,6 +86,7 @@ rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: ros
 rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: rosidl_adapter/my_robot_interfaces/srv/MyRobotSrv.idl
 rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: rosidl_adapter/my_robot_interfaces/srv/SetLed.idl
 rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: rosidl_adapter/my_robot_interfaces/action/CountUntil.idl
+rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json: rosidl_adapter/my_robot_interfaces/action/MoveRobot.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description__arguments.json
 
@@ -109,8 +111,12 @@ rosidl_generator_type_description/my_robot_interfaces/srv/SetLed.json: rosidl_ge
 rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json: rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
 
+rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json: rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotState.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json
+
 my_robot_interfaces__rosidl_generator_type_description: CMakeFiles/my_robot_interfaces__rosidl_generator_type_description
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
+my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/msg/LedStateArray.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotDifferential.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotJoint0.json

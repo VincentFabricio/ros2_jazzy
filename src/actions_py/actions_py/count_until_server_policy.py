@@ -32,20 +32,20 @@ class CountUntilServerNode(Node):
         self.get_logger().info('Received a goal')
 
         # Policy: refuse new goal if current goal still active
-        # with self.goal_lock_:
-        #     if self.goal_handle_ is not None and self.goal_handle_.is_active:
-        #         self.get_logger().warn("A goal is already active, rejecting new goal")
-        #         return GoalResponse.REJECT
+        with self.goal_lock_:
+            if self.goal_handle_ is not None and self.goal_handle_.is_active:
+                self.get_logger().warn("A goal is already active, rejecting new goal")
+                return GoalResponse.REJECT
 
         if goal_request.target_number <= 0:
             self.get_logger().info('Rejecting the goal')
             return GoalResponse.REJECT
         
         # New Policy: preempt existing goal whan receiving new goal
-        with self.goal_lock_:
-            if self.goal_handle_ is not None and self.goal_handle_.is_active:
-                self.get_logger().warn('Abort current goal and accept new goal')
-                self.goal_handle_.abort()
+        # with self.goal_lock_:
+        #     if self.goal_handle_ is not None and self.goal_handle_.is_active:
+        #         self.get_logger().warn('Abort current goal and accept new goal')
+        #         self.goal_handle_.abort()
 
         self.get_logger().info('Accepting the goal')
         return GoalResponse.ACCEPT

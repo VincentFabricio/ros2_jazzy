@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/my_robot_srv__struct.h

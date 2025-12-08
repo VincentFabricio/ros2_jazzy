@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/ament_cmake_core/my_robot_interfacesConfig-version.cmake
