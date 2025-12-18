@@ -1,12 +1,19 @@
 # Goal
-string actions
 float64 pos1
 float64 vel1
 float64 pos2
 float64 vel2
+float64 j_pos0
+float64 j_vel0
+float64 j_pos1
+float64 j_vel1
+float64 g_left_pos
+float64 g_left_vel
+float64 g_right_pos
+float64 g_right_vel
 ---
 # Result
 bool success
 ---
 # Feedback
-float64 mov
+float64 pos1

@@ -23,10 +23,30 @@
 
     <gazebo>
         <plugin
+            filename="gz-sim-joint-position-controller-system"
+            name="gz::sim::systems::JointPositionController" >
+            <joint_name>gripper_left_joint</joint_name>
+            <p_gain>3.0</p_gain>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin
+            filename="gz-sim-joint-position-controller-system"
+            name="gz::sim::systems::JointPositionController" >
+            <joint_name>gripper_right_joint</joint_name>
+            <p_gain>3.0</p_gain>
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin
             filename="gz-sim-joint-state-publisher-system"
             name="gz::sim::systems::JointStatePublisher">
             <joint_name>first_joint</joint_name>
             <joint_name>second_joint</joint_name>
+            <joint_name>gripper_left_joint</joint_name>
+            <joint_name>gripper_right_joint</joint_name>
         </plugin>
     </gazebo>
 

@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/srv/detail/my_robot_srv__type_support.h"
-#include "my_robot_interfaces/srv/detail/my_robot_srv__struct.h"
 #include "my_robot_interfaces/srv/detail/my_robot_srv__functions.h"
+#include "my_robot_interfaces/srv/detail/my_robot_srv__struct.h"
 
 #ifdef __cplusplus
 extern "C"

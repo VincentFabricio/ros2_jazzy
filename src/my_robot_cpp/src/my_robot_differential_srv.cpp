@@ -53,7 +53,7 @@ private:
             msg.linear.x = 0.25;
             publisher1 -> publish(msg);
             move_counter ++;
-            if (move_counter >= 10)
+            if (move_counter >= 40)
             {
                 action_move = 0;
                 move_counter = 0;
@@ -73,7 +73,7 @@ private:
             msg.angular.z = 0.25;
             publisher1 -> publish(msg);
             move_counter ++;
-            if (move_counter >= 10)
+            if (move_counter >= 5)
             {
                 action_move = 0;
                 move_counter = 0;
@@ -83,10 +83,68 @@ private:
                 publisher1 -> publish(msg);
                 call_actions("diffoff2", 0.0, 0.0, 0.0, 0.0);
             }
+            
+        }
+        else if ((start_var == 1) && (action_move == 3))
+        {
+            // set_velocity = 0.25;
+            // error = set_velocity - (left_vel+right_vel)/2;
+            // integral = error * 0.1;
+            // derivative = (error - d_error)/0.1;
+            // u_signal = Kp*error + Ki*integral + Kd*derivative;
+            // d_error = error;
+            // msg.linear.x = u_signal;
+            msg.linear.x = 0.25;
+            publisher1 -> publish(msg);
+            move_counter ++;
+            if (move_counter >= 20)
+            {
+                action_move = 0;
+                move_counter = 0;
+                // Enviar mensaje
+                msg.linear.x = 0.0;
+                publisher1 -> publish(msg);
+                call_actions("diffoff3", 0.0, 0.0, 0.0, 0.0);
+            }
+            
+        }
+        else if ((start_var == 1) && (action_move == 4))
+        {
+            msg.linear.x = 0.25;
+            msg.angular.z = -0.25;
+            publisher1 -> publish(msg);
+            move_counter ++;
+            if (move_counter >= 5)
+            {
+                action_move = 0;
+                move_counter = 0;
+                // Mensaje
+                msg.linear.x = 0.0;
+                msg.angular.z = 0.0;
+                publisher1 -> publish(msg);
+                call_actions("diffoff4", 0.0, 0.0, 0.0, 0.0);
+            }
             // RCLCPP_INFO(this->get_logger(), 
             //     "Linear: x=%.2f, y=%.2f, z=%.2f | Angular: x=%.2f, y=%.2f, z=%.2f",    
             //     msg.linear.x, msg.linear.y, msg.linear.z,
             //     msg.angular.x, msg.angular.y, msg.angular.z);
+            
+        }
+        else if ((start_var == 1) && (action_move == 5))
+        {
+            msg.linear.x = 0.25;
+            publisher1 -> publish(msg);
+            move_counter ++;
+            if (move_counter >= 5)
+            {
+                action_move = 0;
+                move_counter = 0;
+                // Enviar mensaje
+                msg.linear.x = 0.0;
+                publisher1 -> publish(msg);
+                call_actions("diffoff5", 0.0, 0.0, 0.0, 0.0);
+            }
+            
             
         }
         call_actions("diff", left_pos, left_vel, right_pos, right_vel);
@@ -127,7 +185,18 @@ private:
         {
             action_move = 2;
         }
-        
+        else if (request->actions == "diffon3")
+        {
+            action_move = 3;
+        }
+        else if (request->actions == "diffon4")
+        {
+            action_move = 4;
+        }
+        else if (request->actions == "diffon5")
+        {
+            action_move = 5;
+        }
         
         if (!actions.empty())
         {

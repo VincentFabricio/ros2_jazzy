@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+        'move_robot_server_py           = robot_actions_py.move_robot_server:main',
+        'move_robot_client_py           = robot_actions_py.move_robot_client:main',
+        'move_robot_server_policy_py    = robot_actions_py.move_robot_server_policy:main'
         ],
     },
 )

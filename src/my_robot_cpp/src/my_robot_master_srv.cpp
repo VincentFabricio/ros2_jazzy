@@ -63,6 +63,27 @@ private:
                 action_move = 0;
                 RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
             }
+            else if ((counter1 == 4) && (action_move == 1))
+            {
+                callActions("diffon3");
+                counter1 ++;
+                action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
+            }
+            else if ((counter1 == 5) && (action_move == 1))
+            {
+                callActions("diffon4");
+                counter1 ++;
+                action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
+            }
+            else if ((counter1 == 6) && (action_move == 1))
+            {
+                callActions("diffon5");
+                counter1 ++;
+                action_move = 0;
+                RCLCPP_INFO(this->get_logger(), "States: %d, %d, %d, %ld, %ld", j0, j1, diff, counter1, action_move);
+            }
             
             
         }
@@ -96,11 +117,12 @@ private:
             RCLCPP_INFO(this->get_logger(), "DIFFOK");
         }
 
-        if ((request->actions == "j0off") || (request->actions == "j1off") || (request->actions == "diffoff1"))
+        if ((request->actions == "j0off") || (request->actions == "j1off") || (request->actions == "diffoff1")
+             || (request->actions == "diffoff2") || (request->actions == "diffoff3") || (request->actions == "diffoff4"))
         {
             action_move = 1;
         }
-        else if (request->actions == "diffoff2")
+        else if (request->actions == "diffoff5")
         {
             action_move = 1;
             counter1 = 0;
