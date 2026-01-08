@@ -1,0 +1,74 @@
+[0.038s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/final_project': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib:/home/vincent-pc/ros2_jazzy/install/components_cpp/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/final_project -- -j8 -l8
+[0.118s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.810s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.906s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.929s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.151s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.154s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.448s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.565s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.627s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.703s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.731s] -- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.786s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.036s] -- Configuring done (1.9s)
+[2.062s] -- Generating done (0.0s)
+[2.070s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/final_project
+[2.128s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o[0m
+[4.957s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:12:45:[m[K [01;31m[Kerror: [m[K‘[01m[KserverGoalHandle[m[K’ in namespace ‘[01m[Krclcpp_action[m[K’ does not name a template type; did you mean ‘[01m[KServerGoalHandle[m[K’?
+[4.957s]    12 | TurtleGoalHandle = rclcpp_action::[01;31m[KserverGoalHandle[m[K<MoveTurtle>;
+[4.957s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.957s]       |                                   [32m[KServerGoalHandle[m[K
+[4.981s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:68:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+[4.981s]    68 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+[4.981s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.981s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:68:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.981s]    68 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+[4.981s]       |                                   [01;31m[K^[m[K
+[4.981s] 
+[4.995s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:76:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+[4.995s]    76 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+[4.995s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.995s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:76:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.996s]    76 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+[4.996s]       |                                   [01;31m[K^[m[K
+[4.996s] 
+[5.010s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+[5.010s]    82 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+[5.010s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.011s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:82:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.011s]    82 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+[5.011s]       |                                   [01;31m[K^[m[K
+[5.011s] 
+[5.055s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:[m[K In constructor ‘[01m[KTurtleController::[01;32m[KTurtleController[m[K()[m[K’:
+[5.056s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccepted_callback[m[K’ is not a member of ‘[01m[KTurtleController[m[K’
+[5.056s]    37 |      std::bind(&TurtleController::[01;31m[Kaccepted_callback[m[K, this, _1),
+[5.056s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.056s] 
+[5.065s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kexecute_goal[m[K(int)[m[K’:
+[5.065s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:84:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.065s]    84 | double linear_vel_x  = goal_handle[01;31m[K->[m[Kget_goal()->linear_vel_x;
+[5.065s]       |                                   [01;31m[K^~[m[K
+[5.065s] 
+[5.065s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:85:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.065s]    85 | double linear_vel_y  = goal_handle[01;31m[K->[m[Kget_goal()->linear_vel_y;
+[5.066s]       |                                   [01;31m[K^~[m[K
+[5.066s] 
+[5.066s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:86:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.066s]    86 | double angular_vel_z = goal_handle[01;31m[K->[m[Kget_goal()->angular_vel_z;
+[5.066s]       |                                   [01;31m[K^~[m[K
+[5.066s] 
+[5.066s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:87:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.066s]    87 | int duration_sec     = goal_handle[01;31m[K->[m[Kget_goal()->duration_sec;
+[5.066s]       |                                   [01;31m[K^~[m[K
+[5.066s] 
+[5.067s] [01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:105:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.068s]   105 |                 goal_handle[01;31m[K->[m[Ksucceed(result);
+[5.068s]       |                            [01;31m[K^~[m[K
+[6.987s] gmake[2]: *** [CMakeFiles/turtle_controller_cpp.dir/build.make:76: CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o] Error 1
+[6.987s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller_cpp.dir/all] Error 2
+[6.987s] gmake: *** [Makefile:146: all] Error 2
+[6.989s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/final_project' returned '2': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib:/home/vincent-pc/ros2_jazzy/install/components_cpp/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/final_project -- -j8 -l8

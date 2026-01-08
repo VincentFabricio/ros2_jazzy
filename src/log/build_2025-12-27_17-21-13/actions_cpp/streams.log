@@ -1,0 +1,61 @@
+[0.048s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/actions_cpp -- -j8 -l8
+[0.464s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.493s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.564s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.582s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.779s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.094s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.182s] -- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.238s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.497s] -- Configuring done (1.4s)
+[1.590s] -- Generating done (0.1s)
+[1.603s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/src/build/actions_cpp
+[1.686s] [  8%] [32mBuilding CXX object CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o[0m
+[1.699s] [ 16%] [32mBuilding CXX object CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o[0m
+[1.736s] [ 25%] [32mBuilding CXX object CMakeFiles/count_until_server_policy1_cpp.dir/src/count_until_server_policy_reject.cpp.o[0m
+[1.745s] [ 33%] [32mBuilding CXX object CMakeFiles/count_until_server_cpp.dir/src/count_until_server.cpp.o[0m
+[1.745s] [ 41%] [32mBuilding CXX object CMakeFiles/count_until_client_cpp.dir/src/count_until_client.cpp.o[0m
+[1.764s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_server_policy_queue_cpp.dir/src/count_until_server_policy_queue.cpp.o[0m
+[17.942s] [ 58%] [32m[1mLinking CXX executable count_until_server_cpp[0m
+[18.868s] [ 66%] [32m[1mLinking CXX executable count_until_server_policy_queue_cpp[0m
+[18.879s] [ 66%] Built target count_until_server_cpp
+[19.346s] [ 75%] [32m[1mLinking CXX executable count_until_client_cpp[0m
+[19.745s] [ 75%] Built target count_until_server_policy_queue_cpp
+[19.848s] [ 83%] [32m[1mLinking CXX executable move_robot_server_cpp[0m
+[19.932s] [ 83%] Built target count_until_client_cpp
+[20.243s] [ 91%] [32m[1mLinking CXX executable count_until_server_policy1_cpp[0m
+[20.365s] [ 91%] Built target move_robot_server_cpp
+[20.709s] [ 91%] Built target count_until_server_policy1_cpp
+[26.314s] [100%] [32m[1mLinking CXX executable move_robot_client_cpp[0m
+[26.788s] [100%] Built target move_robot_client_cpp
+[26.803s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/actions_cpp -- -j8 -l8
+[26.805s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/actions_cpp
+[26.817s] -- Install configuration: ""
+[26.817s] -- Execute custom install script
+[26.818s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_server_cpp
+[26.818s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_client_cpp
+[26.818s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_server_policy1_cpp
+[26.818s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_server_policy_queue_cpp
+[26.818s] -- Symlinking: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//move_robot_server_cpp
+[26.831s] -- Symlinking: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//move_robot_client_cpp
+[26.843s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[26.843s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[26.843s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/environment/path.sh
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/local_setup.bash
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/local_setup.sh
+[26.844s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[26.845s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[26.845s] -- Symlinking: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/package.dsv
+[26.857s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[26.857s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[26.857s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[26.858s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/package.xml
+[26.860s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/actions_cpp

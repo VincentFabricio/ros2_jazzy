@@ -1,0 +1,28 @@
+from launch import LaunchDescription
+from launch_ros.actions import LifecycleNode
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    ld = LaunchDescription()
+
+    node_name = "my_number_publisher_py"
+
+    number_node = LifecycleNode(
+        package= "lifecycle_py",
+        executable="number_publisher_py",
+        name=node_name,
+        namespace=""
+    )
+
+    lifecycle_node_manager = Node(
+        package= "lifecycle_py",
+        executable="lifecycle_node_manager_py",
+        parameters=[
+            {"managed_node_name": node_name}
+        ]
+    )
+
+    ld.add_action(number_node)
+    ld.add_action(lifecycle_node_manager)
+
+    return ld

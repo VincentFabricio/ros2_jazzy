@@ -1,0 +1,53 @@
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:12:45:[m[K [01;31m[Kerror: [m[K‘[01m[KserverGoalHandle[m[K’ in namespace ‘[01m[Krclcpp_action[m[K’ does not name a template type; did you mean ‘[01m[KServerGoalHandle[m[K’?
+   12 | TurtleGoalHandle = rclcpp_action::[01;31m[KserverGoalHandle[m[K<MoveTurtle>;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KServerGoalHandle[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:68:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+   68 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:68:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+      |                                   [01;31m[K^[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:76:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+   76 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:76:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   76 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+      |                                   [01;31m[K^[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:82:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveTurtleGoalHandle[m[K’ was not declared in this scope
+   82 |         const std::shared_ptr<[01;31m[KMoveTurtleGoalHandle[m[K> goal_handle)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:82:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 | d::shared_ptr<MoveTurtleGoalHandle[01;31m[K>[m[K goal_handle)
+      |                                   [01;31m[K^[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:[m[K In constructor ‘[01m[KTurtleController::[01;32m[KTurtleController[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccepted_callback[m[K’ is not a member of ‘[01m[KTurtleController[m[K’
+   37 |      std::bind(&TurtleController::[01;31m[Kaccepted_callback[m[K, this, _1),
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kexecute_goal[m[K(int)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:84:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   84 | double linear_vel_x  = goal_handle[01;31m[K->[m[Kget_goal()->linear_vel_x;
+      |                                   [01;31m[K^~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:85:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   85 | double linear_vel_y  = goal_handle[01;31m[K->[m[Kget_goal()->linear_vel_y;
+      |                                   [01;31m[K^~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:86:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   86 | double angular_vel_z = goal_handle[01;31m[K->[m[Kget_goal()->angular_vel_z;
+      |                                   [01;31m[K^~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:87:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   87 | int duration_sec     = goal_handle[01;31m[K->[m[Kget_goal()->duration_sec;
+      |                                   [01;31m[K^~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:105:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  105 |                 goal_handle[01;31m[K->[m[Ksucceed(result);
+      |                            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/turtle_controller_cpp.dir/build.make:76: CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

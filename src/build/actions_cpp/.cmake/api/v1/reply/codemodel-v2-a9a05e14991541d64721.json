@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6f70b942d78ac54bfa6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "actions_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "actions_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-actions_cpp_uninstall-e6f246ac9f9141465468.json",
+					"name" : "actions_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_client_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_client_cpp-3807b9736bed37b75179.json",
+					"name" : "count_until_client_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_cpp-9fdac54c682d358d2f60.json",
+					"name" : "count_until_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_policy1_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_policy1_cpp-2f5a9c51d99228bcab1b.json",
+					"name" : "count_until_server_policy1_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_until_server_policy_queue_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_until_server_policy_queue_cpp-ff402deeffffabedef16.json",
+					"name" : "count_until_server_policy_queue_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_robot_client_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_robot_client_cpp-ab02a2564a52e11eb2b7.json",
+					"name" : "move_robot_client_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_robot_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_robot_server_cpp-5d00ed439e80404f4922.json",
+					"name" : "move_robot_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06db1fc8a9fd44b4478a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_jazzy/src/build/actions_cpp",
+		"source" : "/home/vincent-pc/ros2_jazzy/src/actions_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

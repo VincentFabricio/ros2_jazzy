@@ -249,6 +249,32 @@ count_until_client_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client_cpp.dir/build.make CMakeFiles/count_until_client_cpp.dir/build
 .PHONY : count_until_client_cpp/fast
 
+#=============================================================================
+# Target rules for targets named move_robot_server_cpp
+
+# Build rule for target.
+move_robot_server_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_server_cpp
+.PHONY : move_robot_server_cpp
+
+# fast build rule for target.
+move_robot_server_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_cpp.dir/build.make CMakeFiles/move_robot_server_cpp.dir/build
+.PHONY : move_robot_server_cpp/fast
+
+#=============================================================================
+# Target rules for targets named move_robot_client_cpp
+
+# Build rule for target.
+move_robot_client_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_client_cpp
+.PHONY : move_robot_client_cpp
+
+# fast build rule for target.
+move_robot_client_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client_cpp.dir/build.make CMakeFiles/move_robot_client_cpp.dir/build
+.PHONY : move_robot_client_cpp/fast
+
 src/count_until_client.o: src/count_until_client.cpp.o
 .PHONY : src/count_until_client.o
 
@@ -345,6 +371,54 @@ src/count_until_server_policy_reject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_server_policy1_cpp.dir/build.make CMakeFiles/count_until_server_policy1_cpp.dir/src/count_until_server_policy_reject.cpp.s
 .PHONY : src/count_until_server_policy_reject.cpp.s
 
+src/move_robot_client.o: src/move_robot_client.cpp.o
+.PHONY : src/move_robot_client.o
+
+# target to build an object file
+src/move_robot_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client_cpp.dir/build.make CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o
+.PHONY : src/move_robot_client.cpp.o
+
+src/move_robot_client.i: src/move_robot_client.cpp.i
+.PHONY : src/move_robot_client.i
+
+# target to preprocess a source file
+src/move_robot_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client_cpp.dir/build.make CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.i
+.PHONY : src/move_robot_client.cpp.i
+
+src/move_robot_client.s: src/move_robot_client.cpp.s
+.PHONY : src/move_robot_client.s
+
+# target to generate assembly for a file
+src/move_robot_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client_cpp.dir/build.make CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.s
+.PHONY : src/move_robot_client.cpp.s
+
+src/move_robot_server.o: src/move_robot_server.cpp.o
+.PHONY : src/move_robot_server.o
+
+# target to build an object file
+src/move_robot_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_cpp.dir/build.make CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o
+.PHONY : src/move_robot_server.cpp.o
+
+src/move_robot_server.i: src/move_robot_server.cpp.i
+.PHONY : src/move_robot_server.i
+
+# target to preprocess a source file
+src/move_robot_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_cpp.dir/build.make CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.i
+.PHONY : src/move_robot_server.cpp.i
+
+src/move_robot_server.s: src/move_robot_server.cpp.s
+.PHONY : src/move_robot_server.s
+
+# target to generate assembly for a file
+src/move_robot_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_cpp.dir/build.make CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.s
+.PHONY : src/move_robot_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -364,6 +438,8 @@ help:
 	@echo "... count_until_server_cpp"
 	@echo "... count_until_server_policy1_cpp"
 	@echo "... count_until_server_policy_queue_cpp"
+	@echo "... move_robot_client_cpp"
+	@echo "... move_robot_server_cpp"
 	@echo "... src/count_until_client.o"
 	@echo "... src/count_until_client.i"
 	@echo "... src/count_until_client.s"
@@ -376,6 +452,12 @@ help:
 	@echo "... src/count_until_server_policy_reject.o"
 	@echo "... src/count_until_server_policy_reject.i"
 	@echo "... src/count_until_server_policy_reject.s"
+	@echo "... src/move_robot_client.o"
+	@echo "... src/move_robot_client.i"
+	@echo "... src/move_robot_client.s"
+	@echo "... src/move_robot_server.o"
+	@echo "... src/move_robot_server.i"
+	@echo "... src/move_robot_server.s"
 .PHONY : help
 
 

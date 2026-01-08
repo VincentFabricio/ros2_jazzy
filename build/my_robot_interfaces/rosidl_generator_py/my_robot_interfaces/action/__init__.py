@@ -12,3 +12,10 @@ from my_robot_interfaces.action._move_robot import MoveRobot_GetResult_Response 
 from my_robot_interfaces.action._move_robot import MoveRobot_SendGoal_Event  # noqa: F401
 from my_robot_interfaces.action._move_robot import MoveRobot_SendGoal_Request  # noqa: F401
 from my_robot_interfaces.action._move_robot import MoveRobot_SendGoal_Response  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_GetResult_Event  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_GetResult_Request  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_GetResult_Response  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_SendGoal_Event  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_SendGoal_Request  # noqa: F401
+from my_robot_interfaces.action._move_turtle import MoveTurtle_SendGoal_Response  # noqa: F401

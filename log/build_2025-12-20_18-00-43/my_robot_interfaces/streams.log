@@ -1,0 +1,25 @@
+[0.025s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces
+[0.042s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.071s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.167s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.177s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.689s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.798s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.223s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.250s] -- Configuring done (1.2s)
+[1.302s] -- Generating done (0.0s)
+[1.317s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/my_robot_interfaces
+[1.327s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces
+[1.327s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_interfaces -- -j8 -l8
+[1.379s] failed to create symbolic link '/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/ament_cmake_python/my_robot_interfaces/my_robot_interfaces' because existing path cannot be removed: Is a directory
+[1.380s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[1.380s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces] Error 1
+[1.380s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/all] Error 2
+[1.380s] gmake[1]: *** Waiting for unfinished jobs....
+[1.381s] gmake: *** [Makefile:146: all] Error 2
+[1.382s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_interfaces -- -j8 -l8

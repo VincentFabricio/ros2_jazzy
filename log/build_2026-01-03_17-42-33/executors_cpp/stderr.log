@@ -1,0 +1,8 @@
+[01m[K/home/vincent-pc/ros2_jazzy/src/executors_cpp/src/single_threaded_executor.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/executors_cpp/src/single_threaded_executor.cpp:91:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode2[m[K’?
+   91 |     rclcpp::spin([01;31m[Knode[m[K);
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Knode2[m[K
+gmake[2]: *** [CMakeFiles/single_threaded_executor_node_cpp.dir/build.make:76: CMakeFiles/single_threaded_executor_node_cpp.dir/src/single_threaded_executor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/single_threaded_executor_node_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

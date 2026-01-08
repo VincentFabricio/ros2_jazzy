@@ -1,0 +1,60 @@
+[3.408s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/actions_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/actions_py/build
+[4.285s] running develop
+[4.892s] Removing /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions-py.egg-link (link to .)
+[5.031s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/actions_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/actions_py/build
+[5.031s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/actions_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/actions_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/actions_py/install.log --single-version-externally-managed install_data --force
+[5.805s] running egg_info
+[5.856s] writing ../build/actions_py/actions_py.egg-info/PKG-INFO
+[5.857s] writing dependency_links to ../build/actions_py/actions_py.egg-info/dependency_links.txt
+[5.858s] writing entry points to ../build/actions_py/actions_py.egg-info/entry_points.txt
+[5.859s] writing requirements to ../build/actions_py/actions_py.egg-info/requires.txt
+[5.860s] writing top-level names to ../build/actions_py/actions_py.egg-info/top_level.txt
+[5.963s] reading manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[5.966s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[5.966s] running build
+[5.966s] running build_py
+[5.968s] creating /home/vincent-pc/ros2_jazzy/src/build/actions_py/build
+[5.968s] creating /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib
+[5.970s] creating /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.970s] copying actions_py/move_robot_server_policy.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.970s] copying actions_py/count_until_client.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.970s] copying actions_py/move_robot_client.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.971s] copying actions_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.971s] copying actions_py/count_until_server_policy_20.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.971s] copying actions_py/count_until_server.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.971s] copying actions_py/move_robot_server.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.971s] copying actions_py/count_until_server_policy.py -> /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py
+[5.972s] running install
+[5.986s] running install_lib
+[6.033s] creating /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.034s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/move_robot_server_policy.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.034s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.034s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/move_robot_client.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.037s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.038s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/count_until_server_policy_20.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.038s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.038s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/move_robot_server.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.038s] copying /home/vincent-pc/ros2_jazzy/src/build/actions_py/build/lib/actions_py/count_until_server_policy.py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py
+[6.038s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/move_robot_server_policy.py to move_robot_server_policy.cpython-312.pyc
+[6.040s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/count_until_client.py to count_until_client.cpython-312.pyc
+[6.042s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/move_robot_client.py to move_robot_client.cpython-312.pyc
+[6.048s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/__init__.py to __init__.cpython-312.pyc
+[6.048s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/count_until_server_policy_20.py to count_until_server_policy_20.cpython-312.pyc
+[6.049s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/count_until_server.py to count_until_server.cpython-312.pyc
+[6.052s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/move_robot_server.py to move_robot_server.cpython-312.pyc
+[6.052s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py/count_until_server_policy.py to count_until_server_policy.cpython-312.pyc
+[6.054s] running install_data
+[6.055s] copying resource/actions_py -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/share/ament_index/resource_index/packages
+[6.055s] copying package.xml -> /home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py
+[6.055s] running install_egg_info
+[6.128s] Copying ../build/actions_py/actions_py.egg-info to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions_py-0.0.0-py3.12.egg-info
+[6.131s] running install_scripts
+[6.718s] Installing count_until_client_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.718s] Installing count_until_server_policy_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.719s] Installing count_until_server_policy_queue_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.720s] Installing count_until_server_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.722s] Installing move_robot_client_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.722s] Installing move_robot_server_policy_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.723s] Installing move_robot_server_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[6.723s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/src/build/actions_py/install.log'
+[6.887s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/actions_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/actions_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/actions_py/install.log --single-version-externally-managed install_data --force

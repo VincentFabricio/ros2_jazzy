@@ -1,0 +1,14 @@
+[01m[K/home/vincent-pc/ros2_jazzy/src/components_cpp/src/node1.cpp:[m[K In constructor ‘[01m[KNode1::[01;32m[KNode1[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/components_cpp/src/node1.cpp:7:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadedExecutorNode[m[K’ has not been declared
+    7 |         std::bind(&[01;31m[KSingleThreadedExecutorNode[m[K::callBackTimer1, this));
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/components_cpp/src/node1.cpp:10:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadedExecutorNode[m[K’ has not been declared
+   10 |         std::bind(&[01;31m[KSingleThreadedExecutorNode[m[K::callBackTimer2, this));
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/components_cpp/src/node1.cpp:13:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSingleThreadedExecutorNode[m[K’ has not been declared
+   13 |         std::bind(&[01;31m[KSingleThreadedExecutorNode[m[K::callBackTimer3, this));
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:90: CMakeFiles/manual_composition.dir/src/node1.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/manual_composition.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

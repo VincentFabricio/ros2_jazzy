@@ -1,0 +1,8 @@
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:[m[K In constructor ‘[01m[KTurtleController::[01;32m[KTurtleController[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/final_project/src/turtlesim_controller.cpp:37:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccepted_callback[m[K’ is not a member of ‘[01m[KTurtleController[m[K’
+   37 |      std::bind(&TurtleController::[01;31m[Kaccepted_callback[m[K, this, _1),
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/turtle_controller_cpp.dir/build.make:76: CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

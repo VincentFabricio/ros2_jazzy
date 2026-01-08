@@ -8,7 +8,7 @@
             filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController" >
             <joint_name>first_joint</joint_name>
-            <p_gain>5.0</p_gain>
+            <p_gain>10.0</p_gain>
         </plugin>
     </gazebo>
 
@@ -17,7 +17,7 @@
             filename="gz-sim-joint-position-controller-system"
             name="gz::sim::systems::JointPositionController" >
             <joint_name>second_joint</joint_name>
-            <p_gain>3.0</p_gain>
+            <p_gain>6.0</p_gain>
         </plugin>
     </gazebo>
 

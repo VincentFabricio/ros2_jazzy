@@ -340,6 +340,9 @@ ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_inte
 # install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json" "DESTINATION" "share/my_robot_interfaces/action")
 ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json" "DESTINATION" "share/my_robot_interfaces/action")
 
+# install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/action/MoveTurtle.json" "DESTINATION" "share/my_robot_interfaces/action")
+ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/action/MoveTurtle.json" "DESTINATION" "share/my_robot_interfaces/action")
+
 # install(DIRECTORY "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/" "DESTINATION" "include/my_robot_interfaces/my_robot_interfaces" "PATTERN" "*.h")
 ament_cmake_symlink_install_directory("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" DIRECTORY "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/" "DESTINATION" "include/my_robot_interfaces/my_robot_interfaces" "PATTERN" "*.h")
 
@@ -412,6 +415,9 @@ ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_inte
 # install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveRobot.idl" "DESTINATION" "share/my_robot_interfaces/action")
 ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveRobot.idl" "DESTINATION" "share/my_robot_interfaces/action")
 
+# install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveTurtle.idl" "DESTINATION" "share/my_robot_interfaces/action")
+ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveTurtle.idl" "DESTINATION" "share/my_robot_interfaces/action")
+
 # install(FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/msg/MyRobotState.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/msg/MyRobotState.msg" "DESTINATION" "share/my_robot_interfaces/msg")
 
@@ -438,6 +444,9 @@ ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_inte
 
 # install(FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/action/MoveRobot.action" "DESTINATION" "share/my_robot_interfaces/action")
 ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/action/MoveRobot.action" "DESTINATION" "share/my_robot_interfaces/action")
+
+# install(FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/action/MoveTurtle.action" "DESTINATION" "share/my_robot_interfaces/action")
+ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/action/MoveTurtle.action" "DESTINATION" "share/my_robot_interfaces/action")
 
 # install(FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces" FILES "/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

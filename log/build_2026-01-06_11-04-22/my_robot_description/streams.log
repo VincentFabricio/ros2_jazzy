@@ -1,0 +1,48 @@
+[0.046s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/install/my_robot_description
+[0.646s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.883s] -- Configuring done (0.8s)
+[0.891s] -- Generating done (0.0s)
+[0.894s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/my_robot_description
+[1.241s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/install/my_robot_description
+[1.244s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_description -- -j8 -l8
+[1.325s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/my_robot_description -- -j8 -l8
+[1.363s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/build/my_robot_description
+[1.382s] -- Install configuration: ""
+[1.385s] -- Execute custom install script
+[1.386s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/arm.xacro
+[1.386s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/arm_frames.gv
+[1.390s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/arm_frames.pdf
+[1.390s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/arm_gazebo.xacro
+[1.390s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
+[1.392s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[1.392s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[1.393s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base_Vinc.xacro
+[1.394s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gz.xacro
+[1.395s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_arm.urdf.xacro
+[1.395s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[1.395s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[1.397s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//urdf/test.urdf
+[1.397s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[1.398s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[1.398s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display2.launch.py
+[1.398s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/display2.launch.xml
+[1.398s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//launch/my_arm_display.launch.xml
+[1.398s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description//rviz/urdf_config2.rviz
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.399s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/path.sh
+[1.400s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[1.400s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.bash
+[1.401s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.sh
+[1.402s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[1.402s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.402s] -- Symlinking: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/package.dsv
+[1.419s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.420s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.422s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.423s] -- Up-to-date symlink: /home/vincent-pc/ros2_jazzy/install/my_robot_description/share/my_robot_description/package.xml
+[1.427s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/build/my_robot_description

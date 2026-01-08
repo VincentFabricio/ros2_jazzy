@@ -28,6 +28,9 @@ setup(
             "count_until_client_py          = actions_py.count_until_client:main",
             "count_until_server_policy_py   = actions_py.count_until_server_policy:main",
             "count_until_server_policy_queue_py   = actions_py.count_until_server_policy_20:main",
+            'move_robot_server_py           = actions_py.move_robot_server:main',
+            'move_robot_client_py           = actions_py.move_robot_client:main',
+            'move_robot_server_policy_py    = actions_py.move_robot_server_policy:main'
         ],
     },
 )

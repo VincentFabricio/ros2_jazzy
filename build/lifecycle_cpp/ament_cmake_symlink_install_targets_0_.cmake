@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/vincent-pc/ros2_jazzy/build/lifecycle_cpp/number_publisher_cpp" "/home/vincent-pc/ros2_jazzy/build/lifecycle_cpp/move_robot_lifecycle_server_cpp" "TARGETS" "number_publisher_cpp" "move_robot_lifecycle_server_cpp" "DESTINATION" "lib/lifecycle_cpp")

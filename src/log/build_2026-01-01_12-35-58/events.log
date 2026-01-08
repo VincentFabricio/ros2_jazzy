@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (-) JobUnselected: {'identifier': 'actions_cpp'}
+[0.000275] (-) JobUnselected: {'identifier': 'actions_py'}
+[0.000292] (-) JobUnselected: {'identifier': 'executors_cpp'}
+[0.000348] (-) JobUnselected: {'identifier': 'executors_py'}
+[0.000397] (-) JobUnselected: {'identifier': 'lifecycle_cpp'}
+[0.000411] (-) JobUnselected: {'identifier': 'lifecycle_py'}
+[0.000422] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000432] (-) JobUnselected: {'identifier': 'my_robot_cpp'}
+[0.000489] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000676] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000688] (-) JobUnselected: {'identifier': 'my_robot_python'}
+[0.000699] (-) JobUnselected: {'identifier': 'robot_cpp'}
+[0.000709] (-) JobUnselected: {'identifier': 'robot_py'}
+[0.000720] (-) EventReactorShutdown: {}

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json"
   "rosidl_generator_type_description/my_robot_interfaces/action/MoveRobot.json"
+  "rosidl_generator_type_description/my_robot_interfaces/action/MoveTurtle.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/LedStateArray.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotDifferential.json"
   "rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotJoint0.json"

@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/jazzy/include/std_msgs"
+                "/opt/ros/jazzy/include/std_msgs",
+                "/home/vincent-pc/ros2_jazzy/src/components_cpp/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

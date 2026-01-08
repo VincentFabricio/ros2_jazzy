@@ -1,0 +1,43 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/actions_cpp
+[ 10%] [32mBuilding CXX object CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o[0m
+[ 30%] Built target count_until_server_cpp
+[ 50%] Built target count_until_client_cpp
+[ 70%] Built target count_until_server_policy1_cpp
+[ 90%] Built target count_until_server_policy_queue_cpp
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:169:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+  169 |     [01;31m[Krclcpp[m[K:CallbackGroup::SharedPtr cb_group_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In constructor ‘[01m[KMoveRobotServerNode::[01;32m[KMoveRobotServerNode[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_group_[m[K’ was not declared in this scope
+   15 |         [01;31m[Kcb_group_[m[K this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::[01;32m[Kexcecute_goal[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:105:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  105 |                 [01;31m[K}[m[K
+      |                 [01;31m[K^[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:105:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope; did you mean ‘[01m[Kloo_rate[m[K’?
+  164 |         [01;31m[Kloop_rate[m[K.sleep();
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kloo_rate[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:183:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ is not a class, namespace, or enumeration
+  183 |     [01;31m[Kexecutor[m[K::spin(node);
+      |     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_server_cpp.dir/build.make:76: CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_server_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

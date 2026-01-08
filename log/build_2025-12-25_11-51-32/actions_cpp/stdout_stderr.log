@@ -1,0 +1,31 @@
+[ 16%] Built target count_until_server_cpp
+[ 33%] Built target count_until_server_policy_queue_cpp
+[ 50%] Built target count_until_server_policy1_cpp
+[ 66%] Built target count_until_client_cpp
+[ 83%] Built target move_robot_server_cpp
+[ 91%] [32mBuilding CXX object CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o[0m
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::[01;32m[Ksend_goal[m[K(int, int)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:31:58:[m[K [01;31m[Kerror: [m[K‘[01m[KSendGoalOption[m[K’ is not a member of ‘[01m[Krclcpp_action::Client<my_robot_interfaces::action::MoveRobot>[m[K’
+   31 |         auto options = rclcpp_action::Client<MoveRobot>::[01;31m[KSendGoalOption[m[K():
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:33:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_result_callback[m[K’ is not a member of ‘[01m[KMoveRobotClientNode[m[K’
+   33 |         options.result_callback = std::bind(&MoveRobotClientNode::[01;31m[Kgoal_result_callback[m[K, this, _1);
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::[01;32m[Kgoal_response_callback[m[K(const rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot>::SharedPtr&)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:53:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   53 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::[01;32m[Kcancel_goal[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:94:62:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot>::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot> >[m[K’} to ‘[01m[Krclcpp_action::Client<my_robot_interfaces::action::MoveRobot>::CancelCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >)>[m[K’}
+   94 |             this->move_robot_client_->async_cancel_all_goals([01;31m[Kgoal_handle_[m[K);
+      |                                                              [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                              [01;31m[K|[m[K
+      |                                                              [01;31m[Krclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot>::SharedPtr {aka std::shared_ptr<rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot> >}[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp:565:41:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename ActionT::Impl::CancelGoalService::Response::SharedPtr> rclcpp_action::Client<ActionT>::[01;32m[Kasync_cancel_all_goals[m[K(CancelCallback) [35m[K[with ActionT = my_robot_interfaces::action::MoveRobot; typename ActionT::Impl::CancelGoalService::Response::SharedPtr = std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >; typename ActionT::Impl::CancelGoalService::Response = action_msgs::srv::CancelGoal_Response_<std::allocator<void> >; typename ActionT::Impl::CancelGoalService = action_msgs::srv::CancelGoal; typename ActionT::Impl = my_robot_interfaces::action::MoveRobot::Impl; CancelCallback = std::function<void(std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > >)>][m[K[m[K’
+  565 |   async_cancel_all_goals([01;36m[KCancelCallback cancel_callback = nullptr[m[K)
+      |                          [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_client_cpp.dir/build.make:76: CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/move_robot_client_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

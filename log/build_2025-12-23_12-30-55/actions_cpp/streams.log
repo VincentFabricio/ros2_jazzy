@@ -1,0 +1,45 @@
+[0.019s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/actions_cpp': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/actions_py:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/actions_cpp -- -j8 -l8
+[0.283s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.306s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.318s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.521s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.523s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.725s] -- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.866s] -- Configuring done (0.8s)
+[0.898s] -- Generating done (0.0s)
+[0.911s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/actions_cpp
+[0.972s] [ 10%] [32mBuilding CXX object CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o[0m
+[0.979s] [ 30%] Built target count_until_server_cpp
+[0.981s] [ 50%] Built target count_until_client_cpp
+[0.983s] [ 70%] Built target count_until_server_policy1_cpp
+[0.984s] [ 90%] Built target count_until_server_policy_queue_cpp
+[3.629s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:169:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[3.630s]   169 |     [01;31m[Krclcpp[m[K:CallbackGroup::SharedPtr cb_group_;
+[3.630s]       |     [01;31m[K^~~~~~[m[K
+[3.641s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In constructor ‘[01m[KMoveRobotServerNode::[01;32m[KMoveRobotServerNode[m[K()[m[K’:
+[3.641s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_group_[m[K’ was not declared in this scope
+[3.641s]    15 |         [01;31m[Kcb_group_[m[K this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
+[3.641s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.661s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::[01;32m[Kexcecute_goal[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[3.661s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:105:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[3.662s]   105 |                 [01;31m[K}[m[K
+[3.662s]       |                 [01;31m[K^[m[K
+[3.662s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:105:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.670s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope; did you mean ‘[01m[Kloo_rate[m[K’?
+[3.671s]   164 |         [01;31m[Kloop_rate[m[K.sleep();
+[3.671s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.671s]       |         [32m[Kloo_rate[m[K
+[3.674s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.674s] [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:183:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ is not a class, namespace, or enumeration
+[3.674s]   183 |     [01;31m[Kexecutor[m[K::spin(node);
+[3.674s]       |     [01;31m[K^~~~~~~~[m[K
+[4.437s] gmake[2]: *** [CMakeFiles/move_robot_server_cpp.dir/build.make:76: CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o] Error 1
+[4.437s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_server_cpp.dir/all] Error 2
+[4.437s] gmake: *** [Makefile:146: all] Error 2
+[4.439s] Invoked command in '/home/vincent-pc/ros2_jazzy/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/actions_py:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/build/actions_cpp -- -j8 -l8

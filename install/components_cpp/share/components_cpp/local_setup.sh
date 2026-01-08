@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/build/components_cpp/ament_cmake_environment_hooks/local_setup.sh

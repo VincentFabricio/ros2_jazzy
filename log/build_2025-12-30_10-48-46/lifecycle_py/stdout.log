@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lifecycle_py.egg-info/PKG-INFO
+writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+writing entry points to lifecycle_py.egg-info/entry_points.txt
+writing requirements to lifecycle_py.egg-info/requires.txt
+writing top-level names to lifecycle_py.egg-info/top_level.txt
+reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/python3.12/site-packages/lifecycle-py.egg-link (link to .)
+Installing lifecycle_node_manager_py script to /home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/lifecycle_py
+Installing number_publisher_py script to /home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/lifecycle_py
+
+Installed /home/vincent-pc/ros2_jazzy/build/lifecycle_py
+running symlink_data

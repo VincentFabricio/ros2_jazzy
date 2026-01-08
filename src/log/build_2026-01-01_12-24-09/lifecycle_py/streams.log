@@ -1,0 +1,48 @@
+[3.773s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build
+[4.596s] running develop
+[5.067s] Removing /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle-py.egg-link (link to .)
+[5.160s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build
+[5.165s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/install.log --single-version-externally-managed install_data --force
+[5.847s] running egg_info
+[5.899s] writing ../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[5.900s] writing dependency_links to ../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[5.902s] writing entry points to ../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[5.902s] writing requirements to ../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[5.902s] writing top-level names to ../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[5.988s] reading manifest file '../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[5.991s] writing manifest file '../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[5.993s] running build
+[5.993s] running build_py
+[5.993s] creating /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build
+[5.993s] creating /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib
+[5.994s] creating /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.994s] copying lifecycle_py/number_publisher.py -> /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.994s] copying lifecycle_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.994s] copying lifecycle_py/lifecycle_node_manager.py -> /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.994s] copying lifecycle_py/move_robot_lifecycle_server.py -> /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.995s] copying lifecycle_py/move_robot_lifecycle_startup.py -> /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py
+[5.995s] running install
+[6.006s] running install_lib
+[6.051s] creating /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.051s] copying /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.052s] copying /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.052s] copying /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py/lifecycle_node_manager.py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.052s] copying /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py/move_robot_lifecycle_server.py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.053s] copying /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build/lib/lifecycle_py/move_robot_lifecycle_startup.py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[6.057s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-312.pyc
+[6.059s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/__init__.py to __init__.cpython-312.pyc
+[6.059s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/lifecycle_node_manager.py to lifecycle_node_manager.cpython-312.pyc
+[6.059s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/move_robot_lifecycle_server.py to move_robot_lifecycle_server.cpython-312.pyc
+[6.063s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/move_robot_lifecycle_startup.py to move_robot_lifecycle_startup.cpython-312.pyc
+[6.063s] running install_data
+[6.064s] copying resource/lifecycle_py -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/ament_index/resource_index/packages
+[6.064s] copying package.xml -> /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py
+[6.065s] running install_egg_info
+[6.135s] Copying ../build/lifecycle_py/lifecycle_py.egg-info to /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py-0.0.0-py3.12.egg-info
+[6.141s] running install_scripts
+[6.735s] Installing lifecycle_node_manager_py script to /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/lifecycle_py
+[6.735s] Installing move_robot_lifecycle_server_py script to /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/lifecycle_py
+[6.735s] Installing move_robot_lifecycle_startup_py script to /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/lifecycle_py
+[6.740s] Installing number_publisher_py script to /home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/lifecycle_py
+[6.744s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/install.log'
+[6.850s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/install.log --single-version-externally-managed install_data --force

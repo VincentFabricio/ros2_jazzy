@@ -1,0 +1,31 @@
+[0.722s] Invoking command in '/home/vincent-pc/ros2_jazzy/build/robot_cpp': CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/build/actions_py:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/robot_cpp -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/install/robot_cpp
+[0.872s] -- The C compiler identification is GNU 13.3.0
+[1.019s] -- The CXX compiler identification is GNU 13.3.0
+[1.072s] -- Detecting C compiler ABI info
+[1.379s] -- Detecting C compiler ABI info - done
+[1.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.415s] -- Detecting C compile features
+[1.417s] -- Detecting C compile features - done
+[1.451s] -- Detecting CXX compiler ABI info
+[1.704s] -- Detecting CXX compiler ABI info - done
+[1.723s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.723s] -- Detecting CXX compile features
+[1.725s] -- Detecting CXX compile features - done
+[1.745s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.049s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.230s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.307s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.339s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.522s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.528s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.683s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.828s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.868s] -- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[2.929s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.043s] -- Configuring done (2.3s)
+[3.082s] -- Generating done (0.0s)
+[3.091s] -- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/robot_cpp

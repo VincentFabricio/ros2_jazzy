@@ -9,7 +9,8 @@
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStateArray.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/MyRobotSrv.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl",
-    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl"
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveRobot.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",

@@ -2,6 +2,8 @@
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_client_cpp
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_server_policy1_cpp
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//count_until_server_policy_queue_cpp
+/home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//move_robot_server_cpp
+/home/vincent-pc/ros2_jazzy/src/install/actions_cpp/lib/actions_cpp//move_robot_client_cpp
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
 /home/vincent-pc/ros2_jazzy/src/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh

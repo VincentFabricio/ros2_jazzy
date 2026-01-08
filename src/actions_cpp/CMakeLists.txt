@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(my_robot_interfaces REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 add_executable(count_until_server_cpp src/count_until_server.cpp)
 ament_target_dependencies(count_until_server_cpp rclcpp rclcpp_action my_robot_interfaces)
@@ -23,12 +24,19 @@ ament_target_dependencies(count_until_server_policy_queue_cpp rclcpp rclcpp_acti
 add_executable(count_until_client_cpp src/count_until_client.cpp)
 ament_target_dependencies(count_until_client_cpp rclcpp rclcpp_action my_robot_interfaces)
 
+add_executable(move_robot_server_cpp src/move_robot_server.cpp)
+ament_target_dependencies(move_robot_server_cpp rclcpp rclcpp_action my_robot_interfaces)
+
+add_executable(move_robot_client_cpp src/move_robot_client.cpp)
+ament_target_dependencies(move_robot_client_cpp rclcpp rclcpp_action my_robot_interfaces example_interfaces)
 
 install(TARGETS
   count_until_server_cpp
   count_until_client_cpp
   count_until_server_policy1_cpp
   count_until_server_policy_queue_cpp
+  move_robot_server_cpp
+  move_robot_client_cpp
   DESTINATION lib/${PROJECT_NAME}/
 )
 ament_package()

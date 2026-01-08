@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "count_until_server_cpp" "count_until_client_cpp" "count_until_server_policy1_cpp" "count_until_server_policy_queue_cpp" "DESTINATION" "lib/actions_cpp/")
+# install("TARGETS" "count_until_server_cpp" "count_until_client_cpp" "count_until_server_policy1_cpp" "count_until_server_policy_queue_cpp" "move_robot_server_cpp" "move_robot_client_cpp" "DESTINATION" "lib/actions_cpp/")
 include("/home/vincent-pc/ros2_jazzy/build/actions_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/vincent-pc/ros2_jazzy/build/actions_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/actions_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

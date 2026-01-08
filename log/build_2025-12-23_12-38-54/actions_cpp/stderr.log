@@ -1,0 +1,40 @@
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In constructor ‘[01m[KMoveRobotServerNode::[01;32m[KMoveRobotServerNode[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:16:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<MoveRobot>(MoveRobotServerNode*, const char [11], std::_Bind_helper<false, rclcpp_action::GoalResponse (MoveRobotServerNode::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const my_robot_interfaces::action::MoveRobot_Goal_<std::allocator<void> > >), MoveRobotServerNode*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MoveRobotServerNode::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >), MoveRobotServerNode*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MoveRobotServerNode::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >), MoveRobotServerNode*, const std::_Placeholder<1>&>::type, rcl_action_server_options_t, rclcpp::CallbackGroup::SharedPtr&)[m[K’
+   16 |         move_robot_server_ = [01;31m[Krclcpp_action::create_client<MoveRobot>([m[K
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   17 | [01;31m[K            this,[m[K
+      |             [01;31m[K~~~~~[m[K                                                    
+   18 | [01;31m[K            "move_robot",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                                            
+   19 | [01;31m[K            std::bind(&MoveRobotServerNode::goal_callback, this, _1, _2),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   20 | [01;31m[K            std::bind(&MoveRobotServerNode::cancel_callback, this, _1),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   21 | [01;31m[K            std::bind(&MoveRobotServerNode::handle_accepted_callback, this, _1),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   22 | [01;31m[K            rcl_action_server_get_default_options(),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+   23 | [01;31m[K            cb_group_[m[K
+      |             [01;31m[K~~~~~~~~~[m[K                                                
+   24 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                            
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_client[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&) [35m[K[with ActionT = my_robot_interfaces::action::MoveRobot; typename Client<ActionT>::SharedPtr = std::shared_ptr<Client<my_robot_interfaces::action::MoveRobot> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeGraphInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>; rcl_action_client_options_t = rcl_action_client_options_s][m[K[m[K’
+   44 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:45:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMoveRobotServerNode*[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   45 |   [01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_base_interface[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_client[m[K(NodeT, const std::string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+  105 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 7 provided
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::[01;32m[Kexcecute_goal[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_server.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope; did you mean ‘[01m[Kloo_rate[m[K’?
+  164 |         [01;31m[Kloop_rate[m[K.sleep();
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kloo_rate[m[K
+gmake[2]: *** [CMakeFiles/move_robot_server_cpp.dir/build.make:76: CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_server_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

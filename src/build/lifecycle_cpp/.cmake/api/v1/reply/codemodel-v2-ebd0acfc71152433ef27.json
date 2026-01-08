@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be115a126c88df4b9ad0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lifecycle_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_cpp_uninstall-337d9b0b44b4a60ae5db.json",
+					"name" : "lifecycle_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_robot_lifecycle_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_robot_lifecycle_server_cpp-46e4cf41d85555e82a6c.json",
+					"name" : "move_robot_lifecycle_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_publisher_cpp-b800bb8ec37066ee5321.json",
+					"name" : "number_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1a5cf7d7643b0e724a64.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_jazzy/src/build/lifecycle_cpp",
+		"source" : "/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

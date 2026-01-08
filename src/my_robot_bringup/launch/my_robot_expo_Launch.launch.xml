@@ -1,6 +1,5 @@
 <launch>
 
-    
     <node pkg="my_robot_cpp" exec="master_srv_cpp"/>
     <node pkg="my_robot_python" exec="joint0_srv_py" />
     <node pkg="my_robot_python" exec="joint1_srv_py" />

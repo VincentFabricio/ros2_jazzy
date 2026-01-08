@@ -1,0 +1,23 @@
+[2.724s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/actions_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/actions_py/build --no-deps symlink_data
+[5.231s] running develop
+[6.778s] running egg_info
+[6.963s] writing actions_py.egg-info/PKG-INFO
+[6.963s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[6.964s] writing entry points to actions_py.egg-info/entry_points.txt
+[6.964s] writing requirements to actions_py.egg-info/requires.txt
+[6.968s] writing top-level names to actions_py.egg-info/top_level.txt
+[7.420s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[7.432s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[7.632s] running build_ext
+[7.632s] Creating /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages/actions-py.egg-link (link to .)
+[7.644s] Installing count_until_client_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.646s] Installing count_until_server_policy_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.649s] Installing count_until_server_policy_queue_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.651s] Installing count_until_server_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.653s] Installing move_robot_client_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.658s] Installing move_robot_server_policy_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.659s] Installing move_robot_server_py script to /home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/actions_py
+[7.659s] 
+[7.659s] Installed /home/vincent-pc/ros2_jazzy/src/build/actions_py
+[7.662s] running symlink_data
+[7.916s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/actions_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_jazzy/src/build/actions_py/build --no-deps symlink_data

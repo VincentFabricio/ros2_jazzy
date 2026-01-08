@@ -1,0 +1,5 @@
+[console_scripts]
+lifecycle_node_manager_py = lifecycle_py.lifecycle_node_manager:main
+move_robot_lifecycle_server_py = lifecycle_py.move_robot_lifecycle_server:main
+move_robot_lifecycle_startup_py = lifecycle_py.move_robot_lifecycle_startup:main
+number_publisher_py = lifecycle_py.number_publisher:main
