@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/msg/detail/my_robot_joint1__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/my_robot_joint1__type_support.h"
+#include "my_robot_interfaces/msg/detail/my_robot_joint1__struct.h"
 #include "my_robot_interfaces/msg/detail/my_robot_joint1__functions.h"
 
 #ifdef __cplusplus

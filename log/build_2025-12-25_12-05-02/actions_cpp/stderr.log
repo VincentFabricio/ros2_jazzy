@@ -1,8 +1,0 @@
-[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::[01;32m[Kcancel_goal[m[K()[m[K’:
-[01m[K/home/vincent-pc/ros2_jazzy/src/actions_cpp/src/move_robot_client.cpp:93:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rclcpp_action::Client<my_robot_interfaces::action::MoveRobot>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp_action::Client<my_robot_interfaces::action::MoveRobot>[m[K’ {aka ‘[01m[Kclass rclcpp_action::Client<my_robot_interfaces::action::MoveRobot>[m[K’} has no member named ‘[01m[Kasync_cancel_all_goal[m[K’; did you mean ‘[01m[Kasync_cancel_all_goals[m[K’?
-   93 |             this->move_robot_client_->[01;31m[Kasync_cancel_all_goal[m[K(goal_handle_);
-      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
-      |                                       [32m[Kasync_cancel_all_goals[m[K
-gmake[2]: *** [CMakeFiles/move_robot_client_cpp.dir/build.make:76: CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/move_robot_client_cpp.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

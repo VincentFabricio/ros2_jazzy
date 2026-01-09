@@ -1,1 +1,10 @@
-/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/action/MoveRobot.action
+# Goal
+int64 position # m
+int64 velocity # m/2
+---
+# Result
+int64 position
+string message
+---
+# Feedback
+int64 current_position

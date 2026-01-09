@@ -1,1 +1,105 @@
-/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/my_robot_srv__struct.h
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from my_robot_interfaces:srv/MyRobotSrv.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "my_robot_interfaces/srv/my_robot_srv.h"
+
+
+#ifndef MY_ROBOT_INTERFACES__SRV__DETAIL__MY_ROBOT_SRV__STRUCT_H_
+#define MY_ROBOT_INTERFACES__SRV__DETAIL__MY_ROBOT_SRV__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'actions'
+#include "rosidl_runtime_c/string.h"
+
+/// Struct defined in srv/MyRobotSrv in the package my_robot_interfaces.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Request
+{
+  rosidl_runtime_c__String actions;
+  double pos1;
+  double vel1;
+  double pos2;
+  double vel2;
+} my_robot_interfaces__srv__MyRobotSrv_Request;
+
+// Struct for a sequence of my_robot_interfaces__srv__MyRobotSrv_Request.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Request__Sequence
+{
+  my_robot_interfaces__srv__MyRobotSrv_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} my_robot_interfaces__srv__MyRobotSrv_Request__Sequence;
+
+// Constants defined in the message
+
+/// Struct defined in srv/MyRobotSrv in the package my_robot_interfaces.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Response
+{
+  bool success;
+} my_robot_interfaces__srv__MyRobotSrv_Response;
+
+// Struct for a sequence of my_robot_interfaces__srv__MyRobotSrv_Response.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Response__Sequence
+{
+  my_robot_interfaces__srv__MyRobotSrv_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} my_robot_interfaces__srv__MyRobotSrv_Response__Sequence;
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'info'
+#include "service_msgs/msg/detail/service_event_info__struct.h"
+
+// constants for array fields with an upper bound
+// request
+enum
+{
+  my_robot_interfaces__srv__MyRobotSrv_Event__request__MAX_SIZE = 1
+};
+// response
+enum
+{
+  my_robot_interfaces__srv__MyRobotSrv_Event__response__MAX_SIZE = 1
+};
+
+/// Struct defined in srv/MyRobotSrv in the package my_robot_interfaces.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Event
+{
+  service_msgs__msg__ServiceEventInfo info;
+  my_robot_interfaces__srv__MyRobotSrv_Request__Sequence request;
+  my_robot_interfaces__srv__MyRobotSrv_Response__Sequence response;
+} my_robot_interfaces__srv__MyRobotSrv_Event;
+
+// Struct for a sequence of my_robot_interfaces__srv__MyRobotSrv_Event.
+typedef struct my_robot_interfaces__srv__MyRobotSrv_Event__Sequence
+{
+  my_robot_interfaces__srv__MyRobotSrv_Event * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} my_robot_interfaces__srv__MyRobotSrv_Event__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // MY_ROBOT_INTERFACES__SRV__DETAIL__MY_ROBOT_SRV__STRUCT_H_

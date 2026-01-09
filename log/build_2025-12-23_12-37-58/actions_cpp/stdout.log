@@ -1,5 +1,0 @@
-[ 40%] Built target count_until_server_policy1_cpp
-[ 40%] Built target count_until_client_cpp
-[ 60%] Built target count_until_server_cpp
-[ 80%] Built target count_until_server_policy_queue_cpp
-[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o[0m

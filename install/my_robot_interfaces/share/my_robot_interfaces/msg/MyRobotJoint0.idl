@@ -1,1 +1,12 @@
-/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/MyRobotJoint0.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_interfaces/msg/MyRobotJoint0.msg
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module msg {
+    struct MyRobotJoint0 {
+      double my_robot_joint0;
+    };
+  };
+};

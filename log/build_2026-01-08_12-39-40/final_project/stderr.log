@@ -1,0 +1,22 @@
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvirtual LifecycleCallbackReturn TurtleController::[01;32m[Kon_cleanup[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtleController[m[K’ has no member named ‘[01m[Kundeclare_parametar[m[K’; did you mean ‘[01m[Kundeclare_parameter[m[K’?
+   68 |         this->[01;31m[Kundeclare_parametar[m[K("turtle_name");
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kundeclare_parameter[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvirtual LifecycleCallbackReturn TurtleController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:91:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kprevious_state[m[K’ was not declared in this scope; did you mean ‘[01m[Kprevoius_state[m[K’?
+   91 | ifecycle::LifecycleNode::on_deactivate([01;31m[Kprevious_state[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                        [32m[Kprevoius_state[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:88:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevoius_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   88 | ctivate([01;35m[Kconst rclcpp_lifecycle::State &prevoius_state[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvirtual LifecycleCallbackReturn TurtleController::[01;32m[Kon_shutdown[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:99:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtleController[m[K’ has no member named ‘[01m[Kundeclare_parametar[m[K’; did you mean ‘[01m[Kundeclare_parameter[m[K’?
+   99 |         this->[01;31m[Kundeclare_parametar[m[K("turtle_name");
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kundeclare_parameter[m[K
+gmake[2]: *** [CMakeFiles/turtle_controller_cpp.dir/build.make:76: CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/turtle_controller_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

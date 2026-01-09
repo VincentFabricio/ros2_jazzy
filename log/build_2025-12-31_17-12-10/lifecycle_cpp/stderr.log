@@ -1,8 +1,0 @@
-[01m[K/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp/src/move_robot_lifecycle_server.cpp:[m[K In member function ‘[01m[Kvirtual LifecycleCallbackReturn MoveRobotLifecycleServerNode::[01;32m[Kon_shutdown[m[K(const rclcpp_lifecycle::State&)[m[K’:
-[01m[K/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp/src/move_robot_lifecycle_server.cpp:84:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MoveRobotLifecycleServerNode[m[K’ has no member named ‘[01m[Kundeclare_paramenter[m[K’; did you mean ‘[01m[Kundeclare_parameter[m[K’?
-   84 |         this->[01;31m[Kundeclare_paramenter[m[K("robot_name");
-      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
-      |               [32m[Kundeclare_parameter[m[K
-gmake[2]: *** [CMakeFiles/move_robot_lifecycle_server_cpp.dir/build.make:76: CMakeFiles/move_robot_lifecycle_server_cpp.dir/src/move_robot_lifecycle_server.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_robot_lifecycle_server_cpp.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

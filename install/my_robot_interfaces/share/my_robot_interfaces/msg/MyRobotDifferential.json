@@ -1,1 +1,26 @@
-/home/vincent-pc/ros2_jazzy/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/MyRobotDifferential.json
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/msg/MyRobotDifferential",
+      "fields": [
+        {
+          "name": "differential_robot",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/msg/MyRobotDifferential",
+      "hash_string": "RIHS01_9106c359910f5e7b7553700a637ce3437bbca8677d9e5a2a75feafa659b57fc1"
+    }
+  ]
+}

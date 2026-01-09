@@ -1,6 +1,11 @@
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/uninstall.dir
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/final_project_uninstall.dir
+/home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/turtle_controller_component.dir
+/home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/turtlebot3_controller_component.dir
+/home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/move_turtle_client_cpp.dir
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/turtle_controller_cpp.dir
+/home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/turtle_controller_node_cpp.dir
+/home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/turtle_controller_action_cpp.dir
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/test.dir
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/edit_cache.dir
 /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/rebuild_cache.dir

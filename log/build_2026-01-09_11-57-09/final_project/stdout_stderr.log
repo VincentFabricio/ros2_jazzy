@@ -1,0 +1,35 @@
+[ 16%] Built target turtle_controller_component
+[ 33%] Built target turtlebot3_controller_component
+[ 50%] Built target turtle_controller_cpp
+[ 66%] Built target turtle_controller_action_cpp
+[ 75%] [32mBuilding CXX object CMakeFiles/move_turtle_client_cpp.dir/src/move_turtle_client.cpp.o[0m
+[ 91%] Built target turtle_controller_node_cpp
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:90:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   90 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:10:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   10 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:[m[K In constructor ‘[01m[KMoveTurtleClient::[01;32m[KMoveTurtleClient[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_turtle_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KMoveTurtleClient[m[K’?
+   14 |         [01;31m[Kmove_turtle_client_[m[K = rclcpp_action::create_client<MoveTurtle>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KMoveTurtleClient[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:[m[K In member function ‘[01m[Kvoid MoveTurtleClient::[01;32m[Ksend_goal[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_turtle_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KMoveTurtleClient[m[K’?
+   20 |         [01;31m[Kmove_turtle_client_[m[K->wait_for_action_server();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KMoveTurtleClient[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:34:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_result_callback[m[K’ is not a member of ‘[01m[KMoveTurtleClient[m[K’
+   34 |         options.result_callback = std::bind(&MoveTurtleClient::[01;31m[Kgoal_result_callback[m[K, this, _1);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:57:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   57 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:[m[K At global scope:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:90:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   90 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/move_turtle_client_cpp.dir/build.make:76: CMakeFiles/move_turtle_client_cpp.dir/src/move_turtle_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/move_turtle_client_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

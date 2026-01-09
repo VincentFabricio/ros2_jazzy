@@ -1,1 +1,1 @@
-/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/msg/MyRobotJoint0.msg
+float64 my_robot_joint0

@@ -1,1 +1,1 @@
-/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/msg/MyRobotState.msg
+string msg_state

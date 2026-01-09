@@ -1,0 +1,2 @@
+turtle_controller::TurtleController;lib/libturtle_controller_component.so
+turtlebot3_controller::TurtleBotController;lib/libturtlebot3_controller_component.so

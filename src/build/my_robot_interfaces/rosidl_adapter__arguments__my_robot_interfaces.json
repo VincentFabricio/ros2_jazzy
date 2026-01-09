@@ -9,6 +9,7 @@
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/MyRobotSrv.srv",
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:srv/SetLed.srv",
     "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:action/CountUntil.action",
-    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:action/MoveRobot.action"
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:action/MoveRobot.action",
+    "/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces:action/MoveTurtle.action"
   ]
 }

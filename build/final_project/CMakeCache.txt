@@ -359,7 +359,7 @@ final_project_BINARY_DIR:STATIC=/home/vincent-pc/ros2_jazzy/build/final_project
 final_project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-final_project_SOURCE_DIR:STATIC=/home/vincent-pc/ros2_jazzy/final_project
+final_project_SOURCE_DIR:STATIC=/home/vincent-pc/ros2_jazzy/src/final_project
 
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/jazzy/lib/foonathan_memory/cmake
@@ -496,6 +496,12 @@ std_msgs_DIR:PATH=/opt/ros/jazzy/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
+//Dependencies for the target
+turtle_controller_component_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;rclcpp_action::rclcpp_action;general;rclcpp_lifecycle::rclcpp_lifecycle;general;turtlesim::turtlesim__rosidl_generator_c;general;turtlesim::turtlesim__rosidl_typesupport_fastrtps_c;general;turtlesim::turtlesim__rosidl_typesupport_fastrtps_cpp;general;turtlesim::turtlesim__rosidl_typesupport_introspection_c;general;turtlesim::turtlesim__rosidl_typesupport_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_cpp;general;turtlesim::turtlesim__rosidl_typesupport_cpp;general;turtlesim::turtlesim__rosidl_generator_py;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;my_robot_interfaces::my_robot_interfaces__rosidl_generator_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_fastrtps_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_introspection_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_fastrtps_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_introspection_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_generator_py;
+
+//Dependencies for the target
+turtlebot3_controller_component_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;rclcpp_action::rclcpp_action;general;rclcpp_lifecycle::rclcpp_lifecycle;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;my_robot_interfaces::my_robot_interfaces__rosidl_generator_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_fastrtps_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_introspection_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_c;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_fastrtps_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_introspection_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_typesupport_cpp;general;my_robot_interfaces::my_robot_interfaces__rosidl_generator_py;
+
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/jazzy/share/turtlesim/cmake
 
@@ -590,7 +596,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/vincent-pc/ros2_jazzy/final_project
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/vincent-pc/ros2_jazzy/src/final_project
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

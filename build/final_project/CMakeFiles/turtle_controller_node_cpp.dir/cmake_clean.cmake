@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_controller_node_cpp.dir/src/turtlesim_controller_step1.cpp.o"
+  "CMakeFiles/turtle_controller_node_cpp.dir/src/turtlesim_controller_step1.cpp.o.d"
+  "turtle_controller_node_cpp"
+  "turtle_controller_node_cpp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtle_controller_node_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

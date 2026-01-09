@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e911e60d63e02fe94e75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "final_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "final_project_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-final_project_uninstall-7db4076eecc7a97e64d0.json",
+					"name" : "final_project_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_turtle_client_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_turtle_client_cpp-9e06329a6b968f8ca515.json",
+					"name" : "move_turtle_client_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_controller_action_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_controller_action_cpp-b6d8073fd69edec8e4df.json",
+					"name" : "turtle_controller_action_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_controller_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_controller_component-643a5df54a324652a245.json",
+					"name" : "turtle_controller_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_controller_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_controller_cpp-ccb8fa0659c996b99698.json",
+					"name" : "turtle_controller_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_controller_node_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_controller_node_cpp-a55baec51e448929c776.json",
+					"name" : "turtle_controller_node_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_controller_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_controller_component-3aa802e22b9f2814cecb.json",
+					"name" : "turtlebot3_controller_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-174d0535cb16a65193ab.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_jazzy/build/final_project",
+		"source" : "/home/vincent-pc/ros2_jazzy/src/final_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

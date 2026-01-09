@@ -1,0 +1,1 @@
+/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/move_turtle__rosidl_typesupport_introspection_cpp.hpp

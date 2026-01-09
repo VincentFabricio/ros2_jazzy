@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/action/detail/move_robot__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/action/detail/move_robot__struct.h"
 #include "my_robot_interfaces/action/detail/move_robot__functions.h"
 #include "my_robot_interfaces/action/detail/move_robot__type_support.h"
 

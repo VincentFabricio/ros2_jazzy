@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vincent-pc/ros2_jazzy/src/build/final_project
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller_step1.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_controller_cpp[0m
+[100%] Built target turtle_controller_cpp
+-- Install configuration: ""
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/lib/final_project/turtle_controller_cpp
+-- Set non-toolchain portion of runtime path of "/home/vincent-pc/ros2_jazzy/src/install/final_project/lib/final_project/turtle_controller_cpp" to ""
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/environment/ament_prefix_path.sh
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/environment/path.sh
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/environment/path.dsv
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/local_setup.bash
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/local_setup.sh
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/local_setup.zsh
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/local_setup.dsv
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.dsv
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/ament_index/resource_index/packages/final_project
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+-- Installing: /home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.xml

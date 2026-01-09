@@ -1,1 +1,4 @@
-/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces/srv/SetLed.srv
+int64 led_number
+int64 state
+---
+bool success

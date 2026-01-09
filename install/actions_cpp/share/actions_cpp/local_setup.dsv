@@ -1,1 +1,2 @@
-/home/vincent-pc/ros2_jazzy/build/actions_cpp/ament_cmake_environment_hooks/local_setup.dsv
+source;share/actions_cpp/environment/ament_prefix_path.sh
+source;share/actions_cpp/environment/path.sh

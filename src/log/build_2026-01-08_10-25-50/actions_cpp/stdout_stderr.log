@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Configuring done (1.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/vincent-pc/ros2_jazzy/src/build/actions_cpp
+[  8%] [32mBuilding CXX object CMakeFiles/move_robot_client_cpp.dir/src/move_robot_client.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/count_until_server_policy_queue_cpp.dir/src/count_until_server_policy_queue.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/move_robot_server_cpp.dir/src/move_robot_server.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/count_until_client_cpp.dir/src/count_until_client.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/count_until_server_cpp.dir/src/count_until_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/count_until_server_policy1_cpp.dir/src/count_until_server_policy_reject.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable move_robot_server_cpp[0m
+[ 58%] Built target move_robot_server_cpp
+[ 66%] [32m[1mLinking CXX executable count_until_server_policy_queue_cpp[0m
+[ 66%] Built target count_until_server_policy_queue_cpp
+[ 75%] [32m[1mLinking CXX executable count_until_server_cpp[0m
+[ 75%] Built target count_until_server_cpp
+[ 83%] [32m[1mLinking CXX executable count_until_server_policy1_cpp[0m
+[ 83%] Built target count_until_server_policy1_cpp
+[ 91%] [32m[1mLinking CXX executable count_until_client_cpp[0m
+[ 91%] Built target count_until_client_cpp
+[100%] [32m[1mLinking CXX executable move_robot_client_cpp[0m
+[100%] Built target move_robot_client_cpp

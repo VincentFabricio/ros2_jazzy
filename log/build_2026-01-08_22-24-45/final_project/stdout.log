@@ -1,0 +1,5 @@
+[ 20%] Built target turtle_controller_component
+[ 40%] Built target turtle_controller_action_cpp
+[ 60%] Built target turtle_controller_node_cpp
+[ 80%] Built target turtle_controller_cpp
+[ 90%] [32mBuilding CXX object CMakeFiles/turtlebot3_controller_component.dir/src/turtlebot3_controller.cpp.o[0m

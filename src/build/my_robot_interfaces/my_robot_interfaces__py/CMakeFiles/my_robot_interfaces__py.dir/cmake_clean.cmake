@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c"
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_robot.py"
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_robot_s.c"
+  "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_turtle.py"
+  "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/action/_move_turtle_s.c"
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/__init__.py"
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array.py"
   "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_led_state_array_s.c"

@@ -11,7 +11,8 @@
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/MyRobotSrv.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/CountUntil.idl",
-    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveRobot.idl"
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveRobot.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/MoveTurtle.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -39,6 +40,7 @@
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/CountUntil.idl",
     "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveRobot.idl",
+    "/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/MoveTurtle.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",

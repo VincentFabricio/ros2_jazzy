@@ -1,0 +1,40 @@
+[4.453s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/executors_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/executors_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/executors_py/install.log --single-version-externally-managed install_data
+[6.416s] running egg_info
+[6.505s] writing ../build/executors_py/executors_py.egg-info/PKG-INFO
+[6.505s] writing dependency_links to ../build/executors_py/executors_py.egg-info/dependency_links.txt
+[6.506s] writing entry points to ../build/executors_py/executors_py.egg-info/entry_points.txt
+[6.506s] writing requirements to ../build/executors_py/executors_py.egg-info/requires.txt
+[6.506s] writing top-level names to ../build/executors_py/executors_py.egg-info/top_level.txt
+[6.696s] reading manifest file '../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[6.704s] writing manifest file '../build/executors_py/executors_py.egg-info/SOURCES.txt'
+[6.704s] running build
+[6.704s] running build_py
+[6.704s] copying executors_py/number_publisher.py -> /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py
+[6.704s] copying executors_py/multi_threaded_executor.py -> /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py
+[6.704s] copying executors_py/several_single_nodes_executor.py -> /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py
+[6.705s] copying executors_py/single_threaded_executor.py -> /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py
+[6.705s] copying executors_py/several_multi_nodes_executor.py -> /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py
+[6.706s] running install
+[6.747s] running install_lib
+[6.914s] copying /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py/number_publisher.py -> /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py
+[6.915s] copying /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py/multi_threaded_executor.py -> /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py
+[6.916s] copying /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py/several_single_nodes_executor.py -> /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py
+[6.916s] copying /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py/single_threaded_executor.py -> /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py
+[6.923s] copying /home/vincent-pc/ros2_jazzy/src/build/executors_py/build/lib/executors_py/several_multi_nodes_executor.py -> /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py
+[6.924s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py/number_publisher.py to number_publisher.cpython-312.pyc
+[6.933s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py/multi_threaded_executor.py to multi_threaded_executor.cpython-312.pyc
+[6.940s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py/several_single_nodes_executor.py to several_single_nodes_executor.cpython-312.pyc
+[6.942s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py/single_threaded_executor.py to single_threaded_executor.cpython-312.pyc
+[6.951s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py/several_multi_nodes_executor.py to several_multi_nodes_executor.cpython-312.pyc
+[6.951s] running install_data
+[6.962s] running install_egg_info
+[7.204s] removing '/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py-0.0.0-py3.12.egg-info' (and everything under it)
+[7.204s] Copying ../build/executors_py/executors_py.egg-info to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages/executors_py-0.0.0-py3.12.egg-info
+[7.218s] running install_scripts
+[8.570s] Installing multi_threaded_executor_py script to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/executors_py
+[8.577s] Installing number_publisher_py script to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/executors_py
+[8.577s] Installing several_multi_nodes_executor_py script to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/executors_py
+[8.581s] Installing several_single_nodes_executor_py script to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/executors_py
+[8.581s] Installing single_threaded_executor_py script to /home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/executors_py
+[8.581s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/src/build/executors_py/install.log'
+[8.797s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/executors_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/executors_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/executors_py/install.log --single-version-externally-managed install_data

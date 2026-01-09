@@ -1,0 +1,716 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c5410c95c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c5410df5cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c5410df5cd0>>, mixin_verb=('build',))
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vincent-pc/ros2_jazzy/src'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'actions_cpp' with type 'ros.ament_cmake' and name 'actions_cpp'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'actions_py' with type 'ros.ament_python' and name 'actions_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(components_cpp) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'components_cpp' with type 'ros.ament_cmake' and name 'components_cpp'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(components_py) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'components_py' with type 'ros.ament_python' and name 'components_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_cpp) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'executors_cpp' with type 'ros.ament_cmake' and name 'executors_cpp'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(executors_py) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'executors_py' with type 'ros.ament_python' and name 'executors_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(final_project) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'final_project' with type 'ros.ament_cmake' and name 'final_project'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_cpp) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'lifecycle_cpp' with type 'ros.ament_cmake' and name 'lifecycle_cpp'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(lifecycle_py) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'lifecycle_py' with type 'ros.ament_python' and name 'lifecycle_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_cpp) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_cpp' with type 'ros.ament_cmake' and name 'my_robot_cpp'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_python) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_python' with type 'ros.ament_python' and name 'my_robot_python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(robot_cpp) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_cpp' with type 'ros.ament_cmake' and name 'robot_cpp'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(robot_py) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_py' with type 'ros.ament_python' and name 'robot_py'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/vincent-pc/ros2_jazzy/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/jazzy
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'my_robot_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/my_robot_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/my_robot_python', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'robot_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'robot_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/robot_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/robot_py', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/robot_py', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'actions_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/actions_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/actions_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'actions_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/actions_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/actions_py', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/actions_py', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'components_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/components_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/components_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/components_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'components_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'components_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/components_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/components_py', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/components_py', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'executors_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'executors_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/executors_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/executors_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/executors_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'executors_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'executors_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/executors_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/executors_py', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/executors_py', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'final_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'final_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/final_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/final_project', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/final_project', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'lifecycle_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'lifecycle_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/lifecycle_py', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'my_robot_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/my_robot_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/my_robot_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'robot_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'robot_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/robot_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/robot_cpp', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/robot_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vincent-pc/ros2_jazzy/src/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vincent-pc/ros2_jazzy/src/install/my_robot_bringup', 'merge_install': False, 'path': '/home/vincent-pc/ros2_jazzy/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/my_robot_interfaces'
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/my_robot_description' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/my_robot_description'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/my_robot_python' with build type 'ament_python'
+[0.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_python', 'ament_prefix_path')
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/ament_prefix_path.ps1'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/ament_prefix_path.dsv'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/ament_prefix_path.sh'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/robot_py' with build type 'ament_python'
+[0.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_py', 'ament_prefix_path')
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/ament_prefix_path.ps1'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/ament_prefix_path.dsv'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/ament_prefix_path.sh'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces -- -j8 -l8
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_description -- -j8 -l8
+[0.509s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/my_robot_python'
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.729s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/robot_py'
+[0.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_description -- -j8 -l8
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_description
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_description
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description' for CMake module files
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description' for CMake config files
+[0.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/bin'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/lib/python3.12/site-packages'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.sh'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.bash'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description' for CMake module files
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description' for CMake config files
+[0.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/bin'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/lib/python3.12/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/bin'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/src/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/src/build/my_robot_python/install.log --single-version-externally-managed install_data
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/robot_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/robot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/robot_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/robot_py/install.log --single-version-externally-managed install_data
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python' for CMake module files
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python' for CMake config files
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/lib'
+[2.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/src/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/src/build/my_robot_python/install.log --single-version-externally-managed install_data
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/bin'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/lib/pkgconfig/my_robot_python.pc'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/lib/python3.12/site-packages'
+[2.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_python', 'pythonpath')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/pythonpath.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/pythonpath.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/hook/pythonpath.sh'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/bin'
+[2.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_python)
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/package.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/package.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/package.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/package.bash'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/my_robot_python/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/my_robot_python/share/colcon-core/packages/my_robot_python)
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py' for CMake module files
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/robot_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/robot_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/robot_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/robot_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/robot_py/install.log --single-version-externally-managed install_data
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py' for CMake config files
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py/lib'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py/bin'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py/lib/pkgconfig/robot_py.pc'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py/lib/python3.12/site-packages'
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_py', 'pythonpath')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/pythonpath.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/pythonpath.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/hook/pythonpath.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/robot_py/bin'
+[2.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_py)
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/package.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/package.bash'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/robot_py/package.zsh'
+[2.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/robot_py/share/colcon-core/packages/robot_py)
+[17.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces -- -j8 -l8
+[17.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces
+[17.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[17.989s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces' for CMake module files
+[17.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vincent-pc/ros2_jazzy/src/build/my_robot_interfaces
+[17.991s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces' for CMake config files
+[17.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[17.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[17.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[17.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[17.995s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib'
+[17.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[17.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[17.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[17.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[17.996s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/bin'
+[17.997s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[17.997s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages'
+[17.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[17.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[17.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[17.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[17.999s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/bin'
+[17.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[18.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[18.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[18.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[18.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[18.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[18.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces' for CMake module files
+[18.006s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces' for CMake config files
+[18.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[18.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[18.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[18.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[18.010s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib'
+[18.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[18.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[18.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[18.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[18.012s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/bin'
+[18.012s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[18.012s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages'
+[18.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[18.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[18.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[18.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[18.015s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/bin'
+[18.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[18.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[18.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[18.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[18.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[18.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[18.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp' with build type 'ament_cmake'
+[18.019s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/lifecycle_cpp'
+[18.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.026s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py' with build type 'ament_python'
+[18.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_py', 'ament_prefix_path')
+[18.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.ps1'
+[18.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.dsv'
+[18.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.sh'
+[18.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.034s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/actions_cpp' with build type 'ament_cmake'
+[18.035s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/actions_cpp'
+[18.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.042s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/actions_py' with build type 'ament_python'
+[18.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_py', 'ament_prefix_path')
+[18.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/ament_prefix_path.ps1'
+[18.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/ament_prefix_path.dsv'
+[18.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/ament_prefix_path.sh'
+[18.045s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.050s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/components_cpp' with build type 'ament_cmake'
+[18.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/components_cpp'
+[18.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.057s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/components_py' with build type 'ament_python'
+[18.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('components_py', 'ament_prefix_path')
+[18.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/ament_prefix_path.ps1'
+[18.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/ament_prefix_path.dsv'
+[18.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/ament_prefix_path.sh'
+[18.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.064s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/executors_cpp' with build type 'ament_cmake'
+[18.065s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/executors_cpp'
+[18.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/executors_py' with build type 'ament_python'
+[18.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('executors_py', 'ament_prefix_path')
+[18.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/ament_prefix_path.ps1'
+[18.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/ament_prefix_path.dsv'
+[18.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/ament_prefix_path.sh'
+[18.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/lifecycle_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/lifecycle_cpp -- -j8 -l8
+[18.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py'
+[18.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/actions_cpp -- -j8 -l8
+[18.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/actions_py'
+[18.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/components_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/components_cpp -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/src/install/components_cpp
+[19.262s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/components_py'
+[19.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/executors_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/executors_cpp -- -j8 -l8
+[19.696s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vincent-pc/ros2_jazzy/src/executors_py'
+[19.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/actions_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/actions_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/actions_py/install.log --single-version-externally-managed install_data
+[22.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/executors_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/executors_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/executors_py/install.log --single-version-externally-managed install_data
+[22.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[23.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/components_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/components_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/components_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/components_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/components_py/install.log --single-version-externally-managed install_data
+[23.592s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py' for CMake module files
+[23.593s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py' for CMake config files
+[23.594s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib'
+[23.594s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py/bin'
+[23.594s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/pkgconfig/actions_py.pc'
+[23.595s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages'
+[23.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_py', 'pythonpath')
+[23.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/pythonpath.ps1'
+[23.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/actions_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/actions_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/actions_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/actions_py/install.log --single-version-externally-managed install_data
+[23.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/pythonpath.dsv'
+[23.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/hook/pythonpath.sh'
+[23.615s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/actions_py/bin'
+[23.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actions_py)
+[23.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/package.ps1'
+[23.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/package.dsv'
+[23.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/package.sh'
+[23.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/package.bash'
+[23.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/actions_py/package.zsh'
+[23.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/actions_py/share/colcon-core/packages/actions_py)
+[23.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/final_project' with build type 'ament_cmake'
+[23.630s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/final_project'
+[23.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/final_project': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/final_project -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/src/install/final_project
+[24.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/components_cpp' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/components_cpp -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/src/install/components_cpp
+[24.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/components_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/components_cpp -- -j8 -l8
+[26.506s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py' for CMake module files
+[26.508s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py' for CMake config files
+[26.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/components_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/components_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/components_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/components_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/components_py/install.log --single-version-externally-managed install_data
+[26.513s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py/lib'
+[26.513s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py/bin'
+[26.514s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/pkgconfig/components_py.pc'
+[26.514s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages'
+[26.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('components_py', 'pythonpath')
+[26.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/pythonpath.ps1'
+[26.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/pythonpath.dsv'
+[26.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/hook/pythonpath.sh'
+[26.526s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/components_py/bin'
+[26.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(components_py)
+[26.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/package.ps1'
+[26.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/package.dsv'
+[26.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/package.sh'
+[26.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/package.bash'
+[26.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py/package.zsh'
+[26.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/components_py/share/colcon-core/packages/components_py)
+[26.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/my_robot_cpp' with build type 'ament_cmake'
+[26.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/my_robot_cpp'
+[26.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/my_robot_cpp -- -j8 -l8
+[26.853s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py' for CMake module files
+[26.855s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py' for CMake config files
+[26.864s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib'
+[26.864s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py/bin'
+[26.865s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/pkgconfig/executors_py.pc'
+[26.865s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages'
+[26.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('executors_py', 'pythonpath')
+[26.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/pythonpath.ps1'
+[26.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/executors_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/executors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/executors_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/executors_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/executors_py/install.log --single-version-externally-managed install_data
+[26.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/pythonpath.dsv'
+[26.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/hook/pythonpath.sh'
+[26.883s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/executors_py/bin'
+[26.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(executors_py)
+[26.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/package.ps1'
+[26.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/package.dsv'
+[26.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/package.sh'
+[26.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/package.bash'
+[26.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/executors_py/package.zsh'
+[26.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/executors_py/share/colcon-core/packages/executors_py)
+[26.910s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vincent-pc/ros2_jazzy/src/robot_cpp' with build type 'ament_cmake'
+[26.910s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vincent-pc/ros2_jazzy/src/robot_cpp'
+[26.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vincent-pc/ros2_jazzy/src/build/robot_cpp': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vincent-pc/ros2_jazzy/src/build/robot_cpp -- -j8 -l8
+[27.869s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py' for CMake module files
+[27.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/lifecycle_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lifecycle_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[27.872s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py' for CMake config files
+[27.873s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib'
+[27.874s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/bin'
+[27.876s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/pkgconfig/lifecycle_py.pc'
+[27.877s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/lib/python3.12/site-packages'
+[27.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_py', 'pythonpath')
+[27.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.ps1'
+[27.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.dsv'
+[27.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.sh'
+[27.885s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/bin'
+[27.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_py)
+[27.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/package.ps1'
+[27.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/package.dsv'
+[27.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/package.sh'
+[27.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/package.bash'
+[27.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/lifecycle_py/package.zsh'
+[27.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/lifecycle_py/share/colcon-core/packages/lifecycle_py)
+[31.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vincent-pc/ros2_jazzy/src/build/final_project' returned '1': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vincent-pc/ros2_jazzy/src/final_project -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_jazzy/src/install/final_project
+[31.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_project)
+[31.476s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project' for CMake module files
+[31.477s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project' for CMake config files
+[31.477s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project/bin'
+[31.478s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project/lib/pkgconfig/final_project.pc'
+[31.484s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project/lib/python3.12/site-packages'
+[31.485s] Level 1:colcon.colcon_core.environment:checking '/home/vincent-pc/ros2_jazzy/src/install/final_project/bin'
+[31.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.ps1'
+[31.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.dsv'
+[31.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.sh'
+[31.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.bash'
+[31.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/vincent-pc/ros2_jazzy/src/install/final_project/share/final_project/package.zsh'
+[31.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vincent-pc/ros2_jazzy/src/install/final_project/share/colcon-core/packages/final_project)
+[67.678s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[67.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[67.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[67.686s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[67.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[67.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[67.739s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[67.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[67.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent-pc/ros2_jazzy/src/install/local_setup.ps1'
+[67.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vincent-pc/ros2_jazzy/src/install/_local_setup_util_ps1.py'
+[67.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent-pc/ros2_jazzy/src/install/setup.ps1'
+[67.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent-pc/ros2_jazzy/src/install/local_setup.sh'
+[67.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vincent-pc/ros2_jazzy/src/install/_local_setup_util_sh.py'
+[67.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent-pc/ros2_jazzy/src/install/setup.sh'
+[67.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent-pc/ros2_jazzy/src/install/local_setup.bash'
+[67.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent-pc/ros2_jazzy/src/install/setup.bash'
+[67.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vincent-pc/ros2_jazzy/src/install/local_setup.zsh'
+[67.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vincent-pc/ros2_jazzy/src/install/setup.zsh'

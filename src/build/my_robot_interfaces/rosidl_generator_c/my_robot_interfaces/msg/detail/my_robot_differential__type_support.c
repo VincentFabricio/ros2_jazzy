@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/msg/detail/my_robot_differential__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/detail/my_robot_differential__type_support.h"
+#include "my_robot_interfaces/msg/detail/my_robot_differential__functions.h"
 #include "my_robot_interfaces/msg/detail/my_robot_differential__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

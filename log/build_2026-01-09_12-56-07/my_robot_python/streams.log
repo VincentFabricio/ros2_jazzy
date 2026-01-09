@@ -1,0 +1,24 @@
+[5.193s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log --single-version-externally-managed install_data
+[5.976s] running egg_info
+[6.039s] writing ../../build/my_robot_python/my_robot_python.egg-info/PKG-INFO
+[6.040s] writing dependency_links to ../../build/my_robot_python/my_robot_python.egg-info/dependency_links.txt
+[6.044s] writing entry points to ../../build/my_robot_python/my_robot_python.egg-info/entry_points.txt
+[6.044s] writing requirements to ../../build/my_robot_python/my_robot_python.egg-info/requires.txt
+[6.045s] writing top-level names to ../../build/my_robot_python/my_robot_python.egg-info/top_level.txt
+[6.180s] reading manifest file '../../build/my_robot_python/my_robot_python.egg-info/SOURCES.txt'
+[6.183s] writing manifest file '../../build/my_robot_python/my_robot_python.egg-info/SOURCES.txt'
+[6.183s] running build
+[6.183s] running build_py
+[6.183s] running install
+[6.201s] running install_lib
+[6.269s] running install_data
+[6.269s] running install_egg_info
+[6.359s] removing '/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python-0.0.0-py3.12.egg-info' (and everything under it)
+[6.363s] Copying ../../build/my_robot_python/my_robot_python.egg-info to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python-0.0.0-py3.12.egg-info
+[6.365s] running install_scripts
+[6.941s] Installing joint0_srv_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[6.945s] Installing joint1_srv_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[6.947s] Installing my_robot_j0_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[6.950s] Installing my_robot_j1_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[6.954s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log'
+[7.040s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log --single-version-externally-managed install_data

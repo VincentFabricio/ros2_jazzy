@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (-) JobUnselected: {'identifier': 'actions_cpp'}
+[0.000441] (-) JobUnselected: {'identifier': 'actions_py'}
+[0.000477] (-) JobUnselected: {'identifier': 'components_cpp'}
+[0.000497] (-) JobUnselected: {'identifier': 'components_py'}
+[0.000514] (-) JobUnselected: {'identifier': 'executors_cpp'}
+[0.000527] (-) JobUnselected: {'identifier': 'executors_py'}
+[0.000540] (-) JobUnselected: {'identifier': 'lifecycle_cpp'}
+[0.000552] (-) JobUnselected: {'identifier': 'lifecycle_py'}
+[0.000564] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000576] (-) JobUnselected: {'identifier': 'my_robot_cpp'}
+[0.000587] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000602] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000615] (-) JobUnselected: {'identifier': 'my_robot_python'}
+[0.000629] (-) JobUnselected: {'identifier': 'robot_cpp'}
+[0.000640] (-) JobUnselected: {'identifier': 'robot_py'}
+[0.000659] (final_project) JobQueued: {'identifier': 'final_project', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces'})}
+[0.001362] (final_project) JobStarted: {'identifier': 'final_project'}
+[0.022667] (final_project) JobProgress: {'identifier': 'final_project', 'progress': 'cmake'}
+[0.023241] (final_project) JobProgress: {'identifier': 'final_project', 'progress': 'build'}
+[0.023945] (final_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent-pc/ros2_jazzy/build/final_project', '--', '-j8', '-l8'], 'cwd': '/home/vincent-pc/ros2_jazzy/build/final_project', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3112-0-vincent-pc-Aspire-A315-57G_TIME36405', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'vincent-pc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib:/home/vincent-pc/ros2_jazzy/install/final_project/lib:/home/vincent-pc/ros2_jazzy/install/components_cpp/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vincent-pc', 'OLDPWD': '/home/vincent-pc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2815', 'SYSTEMD_EXEC_PID': '3112', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4212', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vincent-pc', 'JOURNAL_STREAM': '9:22132', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vincent-pc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vincent-pc-Aspire-A315-57G:@/tmp/.ICE-unix/3069,unix/vincent-pc-Aspire-A315-57G:/tmp/.ICE-unix/3069', 'INVOCATION_ID': '221878168f214268b1b9b58baf325c71', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LT83I3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_py:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7ae93fe1-befe-4fef-aa82-d2f5147dffe8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vincent-pc/ros2_jazzy/build/final_project', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/lifecycle_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/executors_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces:/home/vincent-pc/ros2_jazzy/install/robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_bringup:/home/vincent-pc/ros2_jazzy/install/lifecycle_cpp:/home/vincent-pc/ros2_jazzy/install/final_project:/home/vincent-pc/ros2_jazzy/install/executors_cpp:/home/vincent-pc/ros2_jazzy/install/components_cpp:/home/vincent-pc/ros2_jazzy/install/actions_cpp:/home/vincent-pc/ros2_jazzy/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vincent-pc/ros2_jazzy/install/robot_py:/home/vincent-pc/ros2_jazzy/install/my_robot_python:/home/vincent-pc/ros2_jazzy/install/lifecycle_py:/home/vincent-pc/ros2_jazzy/install/executors_py:/home/vincent-pc/ros2_jazzy/install/components_py:/home/vincent-pc/ros2_jazzy/install/actions_py:/opt/ros/jazzy'}), 'shell': False}
+[0.062833] (final_project) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099808] (-) TimerEvent: {}
+[0.200179] (-) TimerEvent: {}
+[0.300446] (-) TimerEvent: {}
+[0.392975] (final_project) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400580] (-) TimerEvent: {}
+[0.444238] (final_project) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.457270] (final_project) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.477123] (final_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500682] (-) TimerEvent: {}
+[0.503437] (final_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600806] (-) TimerEvent: {}
+[0.605282] (final_project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.608118] (final_project) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700948] (-) TimerEvent: {}
+[0.704237] (final_project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801073] (-) TimerEvent: {}
+[0.803542] (final_project) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[0.880278] (final_project) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.895048] (final_project) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.901312] (-) TimerEvent: {}
+[0.944001] (final_project) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.001539] (-) TimerEvent: {}
+[1.019410] (final_project) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_jazzy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[1.057744] (final_project) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.101852] (-) TimerEvent: {}
+[1.202150] (-) TimerEvent: {}
+[1.253166] (final_project) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.302273] (-) TimerEvent: {}
+[1.303814] (final_project) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.321657] (final_project) StdoutLine: {'line': b'-- Build files have been written to: /home/vincent-pc/ros2_jazzy/build/final_project\n'}
+[1.380344] (final_project) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/move_turtle_client_cpp.dir/src/move_turtle_client.cpp.o\x1b[0m\n'}
+[1.393058] (final_project) StdoutLine: {'line': b'[ 25%] Built target turtle_controller_action_cpp\n'}
+[1.394629] (final_project) StdoutLine: {'line': b'[ 41%] Built target turtle_controller_node_cpp\n'}
+[1.397008] (final_project) StdoutLine: {'line': b'[ 58%] Built target turtle_controller_cpp\n'}
+[1.398364] (final_project) StdoutLine: {'line': b'[ 91%] Built target turtlebot3_controller_component\n'}
+[1.398624] (final_project) StdoutLine: {'line': b'[ 91%] Built target turtle_controller_component\n'}
+[1.402349] (-) TimerEvent: {}
+[1.502626] (-) TimerEvent: {}
+[1.602946] (-) TimerEvent: {}
+[1.703292] (-) TimerEvent: {}
+[1.803645] (-) TimerEvent: {}
+[1.903931] (-) TimerEvent: {}
+[2.004411] (-) TimerEvent: {}
+[2.104723] (-) TimerEvent: {}
+[2.204985] (-) TimerEvent: {}
+[2.305267] (-) TimerEvent: {}
+[2.405587] (-) TimerEvent: {}
+[2.505877] (-) TimerEvent: {}
+[2.606134] (-) TimerEvent: {}
+[2.706361] (-) TimerEvent: {}
+[2.806675] (-) TimerEvent: {}
+[2.906947] (-) TimerEvent: {}
+[3.007225] (-) TimerEvent: {}
+[3.107492] (-) TimerEvent: {}
+[3.207808] (-) TimerEvent: {}
+[3.308107] (-) TimerEvent: {}
+[3.408402] (-) TimerEvent: {}
+[3.508706] (-) TimerEvent: {}
+[3.609332] (-) TimerEvent: {}
+[3.709627] (-) TimerEvent: {}
+[3.809983] (-) TimerEvent: {}
+[3.910360] (-) TimerEvent: {}
+[4.010714] (-) TimerEvent: {}
+[4.110997] (-) TimerEvent: {}
+[4.211340] (-) TimerEvent: {}
+[4.311655] (-) TimerEvent: {}
+[4.411974] (-) TimerEvent: {}
+[4.512260] (-) TimerEvent: {}
+[4.612714] (-) TimerEvent: {}
+[4.713050] (-) TimerEvent: {}
+[4.813436] (-) TimerEvent: {}
+[4.872335] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:7:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing-declaration may not name namespace \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.872724] (final_project) StderrLine: {'line': b'    7 | using std::\x1b[01;31m\x1b[Kplaceholders\x1b[m\x1b[K;\n'}
+[4.872870] (final_project) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.898979] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveTurtleClient::\x1b[01;32m\x1b[Ksend_goal\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.899316] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:34:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.899522] (final_project) StderrLine: {'line': b'   34 |         options.result_callback = std::bind(&MoveTurtleClient::goal_result_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K);\n'}
+[4.899800] (final_project) StderrLine: {'line': b'      |                                                                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.900019] (final_project) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[4.900217] (final_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19\x1b[m\x1b[K,\n'}
+[4.900443] (final_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[4.900665] (final_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[4.901005] (final_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[4.901488] (final_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:1\x1b[m\x1b[K:\n'}
+[4.901727] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:294:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.902029] (final_project) StderrLine: {'line': b'  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[4.902251] (final_project) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.902665] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:37:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.902975] (final_project) StderrLine: {'line': b'   37 |         move_turtle_client_->\x1b[01;31m\x1b[Kasync_send_goal_\x1b[m\x1b[K(goal, options);\n'}
+[4.903228] (final_project) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.903519] (final_project) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kasync_send_goal\x1b[m\x1b[K\n'}
+[4.903783] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:45:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.904125] (final_project) StderrLine: {'line': b'   45 |         move_turtle_client_->\x1b[01;31m\x1b[Kasync_send_goal_\x1b[m\x1b[K(goal, options);\n'}
+[4.904382] (final_project) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.904628] (final_project) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kasync_send_goal\x1b[m\x1b[K\n'}
+[4.905177] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:53:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.905534] (final_project) StderrLine: {'line': b'   53 |         move_turtle_client_->\x1b[01;31m\x1b[Kasync_send_goal_\x1b[m\x1b[K(goal, options);\n'}
+[4.905795] (final_project) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.906047] (final_project) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kasync_send_goal\x1b[m\x1b[K\n'}
+[4.906300] (final_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vincent-pc/ros2_jazzy/src/final_project/src/move_turtle_client.cpp:61:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<my_robot_interfaces::action::MoveTurtle>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kasync_send_goal\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.906556] (final_project) StderrLine: {'line': b'   61 |         move_turtle_client_->\x1b[01;31m\x1b[Kasync_send_goal_\x1b[m\x1b[K(goal, options);\n'}
+[4.906798] (final_project) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.907044] (final_project) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kasync_send_goal\x1b[m\x1b[K\n'}
+[4.913560] (-) TimerEvent: {}
+[5.013952] (-) TimerEvent: {}
+[5.114269] (-) TimerEvent: {}
+[5.214566] (-) TimerEvent: {}
+[5.314847] (-) TimerEvent: {}
+[5.415120] (-) TimerEvent: {}
+[5.515339] (-) TimerEvent: {}
+[5.615589] (-) TimerEvent: {}
+[5.715872] (-) TimerEvent: {}
+[5.816158] (-) TimerEvent: {}
+[5.916421] (-) TimerEvent: {}
+[6.016674] (-) TimerEvent: {}
+[6.103851] (final_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_turtle_client_cpp.dir/build.make:76: CMakeFiles/move_turtle_client_cpp.dir/src/move_turtle_client.cpp.o] Error 1\n'}
+[6.104407] (final_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/move_turtle_client_cpp.dir/all] Error 2\n'}
+[6.104625] (final_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.107214] (final_project) CommandEnded: {'returncode': 2}
+[6.117162] (-) TimerEvent: {}
+[6.123717] (final_project) JobEnded: {'identifier': 'final_project', 'rc': 2}
+[6.134723] (-) EventReactorShutdown: {}

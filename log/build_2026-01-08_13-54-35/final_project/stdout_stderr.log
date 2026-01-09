@@ -1,0 +1,13 @@
+[ 33%] Built target turtle_controller_node_cpp
+[ 66%] Built target turtle_controller_action_cpp
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o[0m
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::[01;32m[Kkill_turtle[m[K()[m[K’:
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:246:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<turtlesim::srv::Kill_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+  246 |         request->[01;31m[Kx[m[K = 5.0;
+      |                  [01;31m[K^[m[K
+[01m[K/home/vincent-pc/ros2_jazzy/src/final_project/src/turtlesim_controller.cpp:247:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<turtlesim::srv::Kill_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+  247 |         request->[01;31m[Ky[m[K = 5.0;
+      |                  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtle_controller_cpp.dir/build.make:76: CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/turtle_controller_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o"
-  "CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller.cpp.o.d"
+  "CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller_step3.cpp.o"
+  "CMakeFiles/turtle_controller_cpp.dir/src/turtlesim_controller_step3.cpp.o.d"
   "turtle_controller_cpp"
   "turtle_controller_cpp.pdb"
 )

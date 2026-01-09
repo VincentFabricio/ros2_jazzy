@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/robot_py/robot_py.egg-info
+writing ../../build/robot_py/robot_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_py/robot_py.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_py/robot_py.egg-info/entry_points.txt
+writing requirements to ../../build/robot_py/robot_py.egg-info/requires.txt
+writing top-level names to ../../build/robot_py/robot_py.egg-info/top_level.txt
+writing manifest file '../../build/robot_py/robot_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_py/robot_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_py/robot_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vincent-pc/ros2_jazzy/build/robot_py/build
+creating /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib
+creating /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/Template.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot_joint1.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot_joint1_srv.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/__init__.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot_master_action.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot_joint0.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+copying robot_py/my_robot_joint0_srv.py -> /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py
+running install
+running install_lib
+creating /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/Template.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot_joint1.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot_joint1_srv.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/__init__.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot_master_action.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot_joint0.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+copying /home/vincent-pc/ros2_jazzy/build/robot_py/build/lib/robot_py/my_robot_joint0_srv.py -> /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/Template.py to Template.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot_joint1.py to my_robot_joint1.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot_joint1_srv.py to my_robot_joint1_srv.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot.py to my_robot.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot_master_action.py to my_robot_master_action.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot_joint0.py to my_robot_joint0.cpython-312.pyc
+byte-compiling /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py/my_robot_joint0_srv.py to my_robot_joint0_srv.cpython-312.pyc
+running install_data
+creating /home/vincent-pc/ros2_jazzy/install/robot_py/share/ament_index
+creating /home/vincent-pc/ros2_jazzy/install/robot_py/share/ament_index/resource_index
+creating /home/vincent-pc/ros2_jazzy/install/robot_py/share/ament_index/resource_index/packages
+copying resource/robot_py -> /home/vincent-pc/ros2_jazzy/install/robot_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/vincent-pc/ros2_jazzy/install/robot_py/share/robot_py
+running install_egg_info
+Copying ../../build/robot_py/robot_py.egg-info to /home/vincent-pc/ros2_jazzy/install/robot_py/lib/python3.12/site-packages/robot_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joint0_srv_py script to /home/vincent-pc/ros2_jazzy/install/robot_py/lib/robot_py
+Installing joint1_srv_py script to /home/vincent-pc/ros2_jazzy/install/robot_py/lib/robot_py
+Installing my_robot_j0_py script to /home/vincent-pc/ros2_jazzy/install/robot_py/lib/robot_py
+Installing my_robot_j1_py script to /home/vincent-pc/ros2_jazzy/install/robot_py/lib/robot_py
+writing list of installed files to '/home/vincent-pc/ros2_jazzy/build/robot_py/install.log'

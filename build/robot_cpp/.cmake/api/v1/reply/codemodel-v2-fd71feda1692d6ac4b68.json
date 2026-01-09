@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1729fd1583f54df38071.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_cpp-aae6eb3d2b4ea0809cb5.json",
+					"name" : "battery_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "differential_node_srv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-differential_node_srv-0c0183adb74f38d9f601.json",
+					"name" : "differential_node_srv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "led_panel_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_panel_cpp-063f478688e0f4eb8ba4.json",
+					"name" : "led_panel_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "master_srv_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-master_srv_cpp-909fe8df9cbbd4d7137c.json",
+					"name" : "master_srv_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_differential_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_differential_cpp-614120e25a254db57e2f.json",
+					"name" : "my_robot_differential_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_master_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_master_cpp-9d9db2ad19b4f5c3cb2f.json",
+					"name" : "my_robot_master_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_cpp_uninstall-7426ae03ee216fad5f4e.json",
+					"name" : "robot_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8cbe6d2381dd9f3f23a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_jazzy/build/robot_cpp",
+		"source" : "/home/vincent-pc/ros2_jazzy/src/robot_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,43 @@
+[5.189s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/components_py': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/components_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/components_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/components_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/components_py/install.log --single-version-externally-managed install_data
+[6.461s] running egg_info
+[6.461s] creating ../build/components_py/components_py.egg-info
+[6.535s] writing ../build/components_py/components_py.egg-info/PKG-INFO
+[6.536s] writing dependency_links to ../build/components_py/components_py.egg-info/dependency_links.txt
+[6.536s] writing entry points to ../build/components_py/components_py.egg-info/entry_points.txt
+[6.536s] writing requirements to ../build/components_py/components_py.egg-info/requires.txt
+[6.536s] writing top-level names to ../build/components_py/components_py.egg-info/top_level.txt
+[6.536s] writing manifest file '../build/components_py/components_py.egg-info/SOURCES.txt'
+[6.723s] reading manifest file '../build/components_py/components_py.egg-info/SOURCES.txt'
+[6.725s] writing manifest file '../build/components_py/components_py.egg-info/SOURCES.txt'
+[6.725s] running build
+[6.725s] running build_py
+[6.728s] creating /home/vincent-pc/ros2_jazzy/src/build/components_py/build
+[6.728s] creating /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib
+[6.728s] creating /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py
+[6.729s] copying components_py/node1.py -> /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py
+[6.729s] copying components_py/manual_composition.py -> /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py
+[6.729s] copying components_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py
+[6.729s] copying components_py/node2.py -> /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py
+[6.733s] running install
+[6.769s] running install_lib
+[6.879s] creating /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py
+[6.879s] copying /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py/node1.py -> /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py
+[6.879s] copying /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py/manual_composition.py -> /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py
+[6.880s] copying /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py/__init__.py -> /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py
+[6.880s] copying /home/vincent-pc/ros2_jazzy/src/build/components_py/build/lib/components_py/node2.py -> /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py
+[6.888s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py/node1.py to node1.cpython-312.pyc
+[6.888s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py/manual_composition.py to manual_composition.cpython-312.pyc
+[6.895s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py/__init__.py to __init__.cpython-312.pyc
+[6.895s] byte-compiling /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py/node2.py to node2.cpython-312.pyc
+[6.896s] running install_data
+[6.897s] creating /home/vincent-pc/ros2_jazzy/src/install/components_py/share/ament_index
+[6.897s] creating /home/vincent-pc/ros2_jazzy/src/install/components_py/share/ament_index/resource_index
+[6.898s] creating /home/vincent-pc/ros2_jazzy/src/install/components_py/share/ament_index/resource_index/packages
+[6.903s] copying resource/components_py -> /home/vincent-pc/ros2_jazzy/src/install/components_py/share/ament_index/resource_index/packages
+[6.903s] copying package.xml -> /home/vincent-pc/ros2_jazzy/src/install/components_py/share/components_py
+[6.907s] running install_egg_info
+[7.084s] Copying ../build/components_py/components_py.egg-info to /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages/components_py-0.0.0-py3.12.egg-info
+[7.103s] running install_scripts
+[8.209s] Installing manual_composition script to /home/vincent-pc/ros2_jazzy/src/install/components_py/lib/components_py
+[8.213s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/src/build/components_py/install.log'
+[8.452s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/components_py' returned '0': AMENT_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vincent-pc/ros2_jazzy/src/build/components_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/src/install/components_py/lib/python3.12/site-packages:/home/vincent-pc/ros2_jazzy/src/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/components_py build --build-base /home/vincent-pc/ros2_jazzy/src/build/components_py/build install --record /home/vincent-pc/ros2_jazzy/src/build/components_py/install.log --single-version-externally-managed install_data

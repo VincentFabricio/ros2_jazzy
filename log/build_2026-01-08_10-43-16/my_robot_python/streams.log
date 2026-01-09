@@ -1,0 +1,58 @@
+[1.538s] Invoking command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log --single-version-externally-managed install_data
+[1.857s] running egg_info
+[1.857s] creating ../../build/my_robot_python/my_robot_python.egg-info
+[1.880s] writing ../../build/my_robot_python/my_robot_python.egg-info/PKG-INFO
+[1.881s] writing dependency_links to ../../build/my_robot_python/my_robot_python.egg-info/dependency_links.txt
+[1.881s] writing entry points to ../../build/my_robot_python/my_robot_python.egg-info/entry_points.txt
+[1.881s] writing requirements to ../../build/my_robot_python/my_robot_python.egg-info/requires.txt
+[1.881s] writing top-level names to ../../build/my_robot_python/my_robot_python.egg-info/top_level.txt
+[1.881s] writing manifest file '../../build/my_robot_python/my_robot_python.egg-info/SOURCES.txt'
+[1.931s] reading manifest file '../../build/my_robot_python/my_robot_python.egg-info/SOURCES.txt'
+[1.932s] writing manifest file '../../build/my_robot_python/my_robot_python.egg-info/SOURCES.txt'
+[1.932s] running build
+[1.932s] running build_py
+[1.932s] creating /home/vincent-pc/ros2_jazzy/build/my_robot_python/build
+[1.932s] creating /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib
+[1.932s] creating /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.932s] copying my_robot_python/Template.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.933s] copying my_robot_python/my_robot_joint1.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.933s] copying my_robot_python/my_robot_joint1_srv.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.934s] copying my_robot_python/my_robot.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.934s] copying my_robot_python/__init__.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.934s] copying my_robot_python/my_robot_master_action.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.935s] copying my_robot_python/my_robot_joint0.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.935s] copying my_robot_python/my_robot_joint0_srv.py -> /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python
+[1.936s] running install
+[1.944s] running install_lib
+[1.968s] creating /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.968s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/Template.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.968s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot_joint1.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot_joint1_srv.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/__init__.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot_master_action.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot_joint0.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.969s] copying /home/vincent-pc/ros2_jazzy/build/my_robot_python/build/lib/my_robot_python/my_robot_joint0_srv.py -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python
+[1.970s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/Template.py to Template.cpython-312.pyc
+[1.970s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot_joint1.py to my_robot_joint1.cpython-312.pyc
+[1.971s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot_joint1_srv.py to my_robot_joint1_srv.cpython-312.pyc
+[1.972s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot.py to my_robot.cpython-312.pyc
+[1.973s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/__init__.py to __init__.cpython-312.pyc
+[1.974s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot_master_action.py to my_robot_master_action.cpython-312.pyc
+[1.974s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot_joint0.py to my_robot_joint0.cpython-312.pyc
+[1.975s] byte-compiling /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python/my_robot_joint0_srv.py to my_robot_joint0_srv.cpython-312.pyc
+[1.977s] running install_data
+[1.977s] creating /home/vincent-pc/ros2_jazzy/install/my_robot_python/share/ament_index
+[1.977s] creating /home/vincent-pc/ros2_jazzy/install/my_robot_python/share/ament_index/resource_index
+[1.977s] creating /home/vincent-pc/ros2_jazzy/install/my_robot_python/share/ament_index/resource_index/packages
+[1.977s] copying resource/my_robot_python -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/share/ament_index/resource_index/packages
+[1.977s] copying package.xml -> /home/vincent-pc/ros2_jazzy/install/my_robot_python/share/my_robot_python
+[1.978s] running install_egg_info
+[2.003s] Copying ../../build/my_robot_python/my_robot_python.egg-info to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages/my_robot_python-0.0.0-py3.12.egg-info
+[2.004s] running install_scripts
+[2.161s] Installing joint0_srv_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[2.161s] Installing joint1_srv_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[2.161s] Installing my_robot_j0_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[2.162s] Installing my_robot_j1_py script to /home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/my_robot_python
+[2.162s] writing list of installed files to '/home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log'
+[2.216s] Invoked command in '/home/vincent-pc/ros2_jazzy/src/my_robot_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vincent-pc/ros2_jazzy/build/my_robot_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_jazzy/install/my_robot_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_python build --build-base /home/vincent-pc/ros2_jazzy/build/my_robot_python/build install --record /home/vincent-pc/ros2_jazzy/build/my_robot_python/install.log --single-version-externally-managed install_data

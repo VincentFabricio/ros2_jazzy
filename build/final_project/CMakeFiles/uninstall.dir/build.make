@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vincent-pc/ros2_jazzy/final_project
+CMAKE_SOURCE_DIR = /home/vincent-pc/ros2_jazzy/src/final_project
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/vincent-pc/ros2_jazzy/build/final_project
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vincent-pc/ros2_jazzy/build/final_project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vincent-pc/ros2_jazzy/final_project /home/vincent-pc/ros2_jazzy/final_project /home/vincent-pc/ros2_jazzy/build/final_project /home/vincent-pc/ros2_jazzy/build/final_project /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/vincent-pc/ros2_jazzy/build/final_project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vincent-pc/ros2_jazzy/src/final_project /home/vincent-pc/ros2_jazzy/src/final_project /home/vincent-pc/ros2_jazzy/build/final_project /home/vincent-pc/ros2_jazzy/build/final_project /home/vincent-pc/ros2_jazzy/build/final_project/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,1 +1,123 @@
-/home/vincent-pc/ros2_jazzy/src/my_robot_description/urdf/arm.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="arm_base_length" value="0.1" />
+    <xacro:property name="arm_base_width" value="0.1" />
+    <xacro:property name="arm_base_height" value="0.02" />
+    <xacro:property name="gripper_base_length" value="0.05" />
+    <xacro:property name="gripper_base_width" value="0.1" />
+    <xacro:property name="gripper_base_height" value="0.02" />
+    <xacro:property name="arm_radius" value="0.02" />
+    <xacro:property name="arm_length" value="0.3" />
+    <xacro:property name="gripper_radius" value="0.015" />
+    <xacro:property name="gripper_length" value="0.1" />
+
+
+    <link name="arm_base_link">
+        <visual>
+            <geometry>
+                <box size="${arm_base_length} ${arm_base_width} ${arm_base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${arm_base_height / 2.0}" rpy="0 0 0" />
+            <material name="yellow" />
+        </visual>
+        
+        <xacro:box_collition_inertia m="0.5" x="${arm_base_length}" y="${arm_base_width}" z="${arm_base_height}"
+                           o_xyz="0 0 ${arm_base_height / 2.0}" o_rpy="0 0 0" />
+    </link>
+
+    <!-- PRIMER BRAZO -->
+    <xacro:macro name="arm_link" params="prefix color o_xyz">
+        <link name="${prefix}_arm_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="${arm_radius}" length="${arm_length}" />
+                </geometry>
+                <origin xyz="${o_xyz}" rpy="0 0 0" />
+                <material name="${color}" />
+            </visual>
+            
+            <xacro:cylinder2_collition_inertia m="0.3" r="${arm_radius}" l="${arm_length}"
+                                    o_xyz="${o_xyz}" o_rpy="0 0 0" />
+        </link>
+    </xacro:macro>
+    <xacro:arm_link prefix="first" color="purple" o_xyz="0 0 ${arm_length/2}" />
+    <xacro:arm_link prefix="hand" color="red" o_xyz="0 0 ${arm_length/2}" />
+
+    <link name="gripper_base_link">
+        <visual>
+            <geometry>
+                <box size="${gripper_base_length} ${gripper_base_width} ${gripper_base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${gripper_base_height / 2.0}" rpy="0 0 0" />
+            <material name="yellow" />
+        </visual>
+        
+        <xacro:box_collition_inertia m="0.5" x="${gripper_base_length}" y="${gripper_base_width}" z="${gripper_base_height}"
+                           o_xyz="0 0 ${gripper_base_height / 2.0}" o_rpy="0 0 0" />
+    </link>
+
+    <!-- gripper -->
+    <xacro:macro name="gripper_link" params="prefix color o_xyz">
+        <link name="${prefix}_gripper_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="${gripper_radius}" length="${gripper_length}" />
+                </geometry>
+                <origin xyz="${o_xyz}" rpy="0 0 0" />
+                <material name="${color}" />
+            </visual>
+            
+            <xacro:cylinder2_collition_inertia m="0.3" r="${gripper_radius}" l="${gripper_length}"
+                                    o_xyz="${o_xyz}" o_rpy="0 0 0" />
+        </link>
+    </xacro:macro>
+
+    <xacro:gripper_link prefix="left" color="purple" o_xyz="0 0 ${gripper_length/2}" />
+    <xacro:gripper_link prefix="right" color="purple" o_xyz="0 0 ${gripper_length/2}" />
+
+
+    <joint name="first_joint" type="revolute">
+        <parent link="arm_base_link"/>
+        <child link="first_arm_link"/>
+        <origin xyz="0 0 ${arm_base_height}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="${pi/2}" effort="100" velocity="100"/>
+        <dynamics friction="0.3" damping="0.3" />
+    </joint>
+
+
+    <joint name="second_joint" type="revolute">
+        <parent link="first_arm_link" />
+        <child link="hand_arm_link" />
+        <origin xyz="0 0 ${arm_length}" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+        <limit lower="0.0" upper="${pi/2}" effort="100" velocity="100"/>
+        <dynamics friction="0.3" damping="0.3" />
+    </joint>
+
+    <joint name="gripper_base_joint" type="fixed">
+        <parent link="hand_arm_link"/>
+        <child link="gripper_base_link"/>
+        <origin xyz="0.0 0.0 ${arm_length}" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <joint name="gripper_left_joint" type="revolute">
+        <parent link="gripper_base_link"/>
+        <child link="left_gripper_link"/>
+        <origin xyz="0 -0.05 ${gripper_base_height}" rpy="0 0 0"/>
+        <axis xyz="-1 0 0"/>
+        <limit lower="0" upper="${pi/2}" effort="100" velocity="100"/>
+        <dynamics friction="0.3" damping="0.3" />
+    </joint>
+
+    <joint name="gripper_right_joint" type="revolute">
+        <parent link="gripper_base_link"/>
+        <child link="right_gripper_link"/>
+        <origin xyz="0 0.05 ${gripper_base_height}" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit lower="0" upper="${pi/2}" effort="100" velocity="100"/>
+        <dynamics friction="0.3" damping="0.3" />
+    </joint>
+
+</robot>
