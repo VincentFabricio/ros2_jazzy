@@ -146,9 +146,7 @@ private:
         RCLCPP_INFO(this->get_logger(), "Trying to spawn turtle");
         auto result = spawn_turtle_client_->async_send_request(request);
         RCLCPP_INFO(this->get_logger(), "New spawned turtle: %s", result.get()->name.c_str());
-
-        // std::this_thread::sleep_for(std::chrono::seconds(3));
-        // kill_turtle_thread_ = std::thread(std::bind(&TurtleController::kill_turtle, this));
+        
     }
 
     void kill_turtle()

@@ -1,6 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_lifecycle/lifecycle_node.hpp"
-#include "rclcpp_lifecycle/lifecycle_node.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "my_robot_interfaces/action/move_turtle.hpp"
 #include "geometry_msgs/msg/twist_stamped.hpp"

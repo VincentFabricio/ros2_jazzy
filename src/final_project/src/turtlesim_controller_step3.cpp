@@ -1,6 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_lifecycle/lifecycle_node.hpp"
-#include "rclcpp_lifecycle/lifecycle_node.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "turtlesim/srv/kill.hpp"
 #include "turtlesim/srv/spawn.hpp"
@@ -99,7 +98,7 @@ public:
         // Delate turtle
         kill_turtle();
         
-        // Delate clients, publisher and action
+        // Delate clients, pub<lisher and action
         spawn_turtle_client_.reset();
         kill_turtle_client_.reset();
         cmd_vel_publisher_.reset();
