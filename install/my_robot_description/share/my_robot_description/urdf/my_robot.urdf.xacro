@@ -6,7 +6,7 @@
     <xacro:include filename="mobile_base_gz.xacro"/>
     <xacro:include filename="mobile_base.ros2_control.xacro" />
 
-    <xacro:include filename="arm.xacro"/>
+    <!-- <xacro:include filename="arm.xacro"/>
     <xacro:include filename="arm_gazebo.xacro"/>
     <xacro:include filename="camera.xacro" />
     
@@ -14,5 +14,5 @@
         <parent link="base_link"/>
         <child link="arm_base_link"/>
         <origin xyz="${base_length/4} 0.0 ${base_height}" rpy="0.0 0.0 0.0"/>
-    </joint>
+    </joint> -->
 </robot>
